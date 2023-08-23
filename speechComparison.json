@@ -1,7 +1,7 @@
 [
 	{
-		"formula-tex": "\mathbb{R}^2", 
-		"speech-manual": "vector space power of, the real numbers comma 2",
-		"speech-auto":"vector space power of the real numbers 2"
+		"formulaTex": "\\mathbb{R}^2",
+		"speechManual": "vector space power of, the real numbers comma 2",
+		"speechAuto":"vector space power of the real numbers 2"
 	}
 ]
