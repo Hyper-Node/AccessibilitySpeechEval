@@ -17,7 +17,13 @@ try {
     exit();
 }
 
-
+function generateNgrams(input, n) {
+    const ngrams = [];
+    for (let i = 0; i <= input.length - n; i++) {
+        ngrams.push(input.substring(i, i + n));
+    }
+    return ngrams;
+}
 
 function calculateMeasures(formula1, formula2) {
     // Levenshtein distance
@@ -43,6 +49,19 @@ function calculateMeasures(formula1, formula2) {
 
     var jaccardSimilarity2 = jaccard.jaccardSimilarity(formula1, formula2);
     console.log(`Jaccard Similarity2: ${jaccardSimilarity2}`);
+    
+    // Define the n-gram length
+    const n = 3; // Change this to the desired n-gram length
+
+    // Generate n-grams for both formulas
+    const formula1Ngrams = new Set(generateNgrams(formula1, n));
+    const formula2Ngrams = new Set(generateNgrams(formula2, n));
+
+    // Calculate the number of common n-grams
+    const commonNgrams = [...formula1Ngrams].filter(ngram => formula2Ngrams.has(ngram));
+    const commonNgramCount = commonNgrams.length;
+
+    console.log(`Number of common ${n}-grams: ${commonNgramCount}`);
 }
 
 evalSet.forEach((entry) =>{
