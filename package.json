@@ -1,7 +1,9 @@
 {
   "dependencies": {
+    "html-entities": "^2.4.0",
     "jaccard-similarity-sentences": "^1.0.2",
     "natural": "^0.4.0",
+    "node-html-parser": "^6.1.6",
     "string-similarity": "^4.0.4"
   }
 }

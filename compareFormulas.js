@@ -14,7 +14,7 @@ try {
     console.log(evalSet);
 } catch (err) {
     console.error(err);
-    exit();
+    process.exit(1);
 }
 
 function generateNgrams(input, n) {
