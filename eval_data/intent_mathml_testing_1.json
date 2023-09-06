@@ -1,0 +1,714 @@
+[
+  {
+    "Name": "decimal comma",
+    "MathML": "<math display='block'>\n      <mn>1,234</mn>\r\n      <mo>+</mo>\r\n      <mn>1,234</mn>\r\n     </math>",
+    "MathML_default": "<math display='block'>\r\n <mn>1,234</mn>\r\n <mo>+</mo>\r\n <mn>1,234</mn>\r\n</math>",
+    "MathML_explicit": "<math display='block'>\r\n <mn>1,234</mn>\r\n <mo>+</mo>\r\n <mn>1,234</mn>\r\n</math>",
+    "latex": "1,234+1{,}234",
+    "id": "017edc9e4583c9b0fd2ee3169c126446"
+  },
+  {
+    "Name": "grouping comma",
+    "MathML": "<math display='block'>\r\n      <mn>1,234</mn>\r\n      <mo>;</mo>\r\n      <mn>1,234</mn>\r\n      <mo>;</mo>\r\n      <mn>1,234,000</mn>\r\n     </math>",
+    "MathML_default": "<math display='block'>\r\n <mn>1,234</mn>\r\n <mo>;</mo>\r\n <mn>1,234</mn>\r\n <mo>;</mo>\r\n <mn>1,234,000</mn>\r\n</math>",
+    "MathML_explicit": "<math display='block'>\r\n <mn>1,234</mn>\r\n <mo>;</mo>\r\n <mn>1,234</mn>\r\n <mo>;</mo>\r\n <mn>1,234,000</mn>\r\n</math>",
+    "latex": "1,234; 1,234; 1,234,000",
+    "id": "db40da704aa8d8c5c9b2a5d07c1e3b85"
+  },
+  {
+    "Name": "mn -3",
+    "MathML": "<math display='block'>\r\n      <mn>−3</mn>\r\n     </math>",
+    "MathML_default": "<math display='block'>\r\n <mn>−3</mn>\r\n</math>",
+    "MathML_explicit": "<math display='block'>\r\n <mn>−3</mn>\r\n</math>",
+    "latex": "-3",
+    "id": "683ba0a3b399a6196311c3ade0827964"
+  },
+  {
+    "Name": "mrow mo -3",
+    "MathML": "<math display='block'>\r\n      <mrow>\r\n       <mo>−</mo>\r\n       <mn>3</mn>\r\n      </mrow>\r\n     </math>",
+    "MathML_default": "<math display='block'>\r\n <mrow>\r\n  <mo>−</mo>\r\n  <mn>3</mn>\r\n </mrow>\r\n</math>",
+    "MathML_explicit": "<math display='block'>\r\n <mrow>\r\n  <mo>−</mo>\r\n  <mn>3</mn>\r\n </mrow>\r\n</math>",
+    "latex": "-3",
+    "id": "602a20326c8bb860f1f368368ccaacab"
+  },
+  {
+    "Name": "squared",
+    "MathML": "<math display='block'>\r\n      <msup>\r\n       <mi>x</mi>\r\n       <mn>2</mn>\r\n      </msup>\r\n     </math>",
+    "MathML_default": "<math display='block'>\r\n <msup>\r\n  <mi>x</mi>\r\n  <mn>2</mn>\r\n </msup>\r\n</math>",
+    "MathML_explicit": "<math display='block'>\r\n <msup>\r\n  <mi>x</mi>\r\n  <mn>2</mn>\r\n </msup>\r\n</math>",
+    "latex": "x^2",
+    "id": "2907599147d0a81ecd2e18411188ffda"
+  },
+  {
+    "Name": "cubed",
+    "MathML": "<math display='block'>\r\n      <msup>\r\n       <mi>x</mi>\r\n       <mn>3</mn>\r\n      </msup>\r\n     </math>",
+    "MathML_default": "<math display='block'>\r\n <msup>\r\n  <mi>x</mi>\r\n  <mn>3</mn>\r\n </msup>\r\n</math>",
+    "MathML_explicit": "<math display='block'>\r\n <msup>\r\n  <mi>x</mi>\r\n  <mn>3</mn>\r\n </msup>\r\n</math>",
+    "latex": "x^3",
+    "id": "adfc266fea5eee8d882487a3c469d23d"
+  },
+  {
+    "Name": "2nd Cohomology",
+    "MathML": "<math display='block'>\r\n      <msup>\r\n       <mi mathvariant='normal'>H</mi>\r\n       <mn>2</mn>\r\n      </msup>\r\n     </math>",
+    "MathML_default": "<math display='block'>\r\n <msup>\r\n  <mi mathvariant='normal'>H</mi>\r\n  <mn>2</mn>\r\n </msup>\r\n</math>",
+    "MathML_explicit": "<math display='block'>\r\n <msup>\r\n  <mi mathvariant='normal'>H</mi>\r\n  <mn>2</mn>\r\n </msup>\r\n</math>",
+    "latex": "\\mathrm{H}^2",
+    "id": "e6ce43e9b0b6830ba38e7b9ccc26dd4b"
+  },
+  {
+    "Name": "R 2",
+    "MathML": "<math display='block'>\r\n      <msup>\r\n       <mi>&#x211D;</mi>\r\n       <mn>2</mn>\r\n      </msup>\r\n     </math>",
+    "MathML_default": "<math display='block'>\r\n <msup>\r\n  <mi>&#x211D;</mi>\r\n  <mn>2</mn>\r\n </msup>\r\n</math>",
+    "MathML_explicit": "<math display='block'>\r\n <msup>\r\n  <mi>&#x211D;</mi>\r\n  <mn>2</mn>\r\n </msup>\r\n</math>",
+    "latex": "\\mathbb{R}^2",
+    "id": "1048532acb9cbb0f36557eeb3923da3b"
+  },
+  {
+    "Name": "x to nth",
+    "MathML": "<math display='block'>\r\n      <msup>\r\n       <mi>x</mi>\r\n       <mi>n</mi>\r\n      </msup>\r\n     </math>",
+    "MathML_default": "<math display='block'>\r\n <msup>\r\n  <mi>x</mi>\r\n  <mi>n</mi>\r\n </msup>\r\n</math>",
+    "MathML_explicit": "<math display='block'>\r\n <msup>\r\n  <mi>x</mi>\r\n  <mi>n</mi>\r\n </msup>\r\n</math>",
+    "latex": "x^n",
+    "id": "9d0c7001d7d17c1787d876b94f0e0c5c"
+  },
+  {
+    "Name": "dagger",
+    "MathML": "<math display='block'>\r\n      <msup>\r\n       <mi>x</mi>\r\n       <mo>&#x2020;</mo>\r\n      </msup>\r\n     </math>",
+    "MathML_default": "<math display='block'>\r\n <msup>\r\n  <mi>x</mi>\r\n  <mo>&#x2020;<!-- U+2020--></mo>\r\n </msup>\r\n</math>",
+    "MathML_explicit": "<math display='block'>\r\n <msup>\r\n  <mi>x</mi>\r\n  <mo>&#x2020;<!-- U+2020--></mo>\r\n </msup>\r\n</math>",
+    "latex": "x^\\dagger",
+    "id": "bf4860ed94f13787fe5a13567c9b924d"
+  },
+  {
+    "Name": "x transpose",
+    "MathML": "<math display='block'>\r\n      <msup>\r\n       <mi>x</mi>\r\n       <mi mathvariant='normal'>T</mi>\r\n      </msup>\r\n     </math>",
+    "MathML_default": "<math display='block'>\r\n <msup>\r\n  <mi>x</mi>\r\n  <mi mathvariant='normal'>T</mi>\r\n </msup>\r\n</math>",
+    "MathML_explicit": "<math display='block'>\r\n <msup>\r\n  <mi>x</mi>\r\n  <mi mathvariant='normal'>T</mi>\r\n </msup>\r\n</math>",
+    "latex": "x^{\\mathrm{T}}",
+    "id": "f69c0d6dc093dc36c9269a6561038bb5"
+  },
+  {
+    "Name": "x transpose pre-sup",
+    "MathML": "<math display='block'>\r\n      <mmultiscripts>\r\n       <mi>x</mi>\r\n       <mprescripts></mprescripts>\r\n       <mrow></mrow>\r\n       <mi mathvariant='normal'>T</mi>\r\n      </mmultiscripts>\r\n     </math>",
+    "MathML_default": "<math display='block'>\r\n <mmultiscripts>\r\n  <mi>x</mi>\r\n  <mprescripts/>\r\n  <mrow/>\r\n  <mi mathvariant='normal'>T</mi>\r\n </mmultiscripts>\r\n</math>",
+    "MathML_explicit": "<math display='block'>\r\n <mmultiscripts>\r\n  <mi>x</mi>\r\n  <mprescripts/>\r\n  <mrow/>\r\n  <mi mathvariant='normal'>T</mi>\r\n </mmultiscripts>\r\n</math>",
+    "latex": "{}^{\\mathrm{T}}x",
+    "id": "ede527b5e0f611c91277a93e11476a02"
+  },
+  {
+    "Name": "x sub  transpose",
+    "MathML": "<math display='block'>\r\n      <msubsup>\r\n       <mi>x</mi>\r\n       <mrow>\r\n        <mi>i</mi>\r\n        <mi>j</mi>\r\n       </mrow>\r\n       <mi mathvariant='normal'>T</mi>\r\n      </msubsup>\r\n     </math>",
+    "MathML_default": "<math display='block'>\r\n <msubsup>\r\n  <mi>x</mi>\r\n  <mrow>\r\n   <mi>i</mi>\r\n   <mi>j</mi>\r\n  </mrow>\r\n  <mi mathvariant='normal'>T</mi>\r\n </msubsup>\r\n</math>",
+    "MathML_explicit": "<math display='block'>\r\n <msubsup>\r\n  <mi>x</mi>\r\n  <mrow>\r\n   <mi>i</mi>\r\n   <mi>j</mi>\r\n  </mrow>\r\n  <mi mathvariant='normal'>T</mi>\r\n </msubsup>\r\n</math>",
+    "latex": "x_{ij}^{\\mathrm{T}}",
+    "id": "6f08481aad490542112793a2f05fc507"
+  },
+  {
+    "Name": "ordinal 4th",
+    "MathML": "<math display='block'>\r\n      <msup>\r\n       <mn>4</mn>\r\n       <mi>th</mi>\r\n      </msup>\r\n     </math>",
+    "MathML_default": "<math display='block'>\r\n <msup>\r\n  <mn>4</mn>\r\n  <mi>th</mi>\r\n </msup>\r\n</math>",
+    "MathML_explicit": "<math display='block'>\r\n <msup>\r\n  <mn>4</mn>\r\n  <mi>th</mi>\r\n </msup>\r\n</math>",
+    "latex": "4{\\mathrm{th}",
+    "id": "13e8ce1d50a50fb0cf729ecc396e462e"
+  },
+  {
+    "Name": "formal power series",
+    "MathML": "<math display='block'>\r\n      <mrow>\r\n       <mi>A</mi>\r\n       <mo>=</mo>\r\n       <munderover>\r\n        <mo>∑</mo>\r\n        <mrow>\r\n         <mi>n</mi>\r\n         <mo>=</mo>\r\n         <mn>0</mn>\r\n        </mrow>\r\n        <mi>∞</mi>\r\n        </munderover>\r\n        <msub>\r\n         <mi>a</mi>\r\n         <mi>n</mi>\r\n        </msub>\r\n        <msup>\r\n         <mi>X</mi>\r\n         <mi>n</mi>\r\n        </msup>\r\n        <mo>∈</mo>\r\n        <mrow>\r\n         <mi>R</mi>\r\n         <mo>⟦</mo>\r\n         <mi>X</mi>\r\n         <mo>⟧</mo>\r\n        </mrow>\r\n      </mrow>\r\n     </math>",
+    "MathML_default": "<math display='block'>\r\n <mrow>\r\n  <mi>A</mi>\r\n  <mo>=</mo>\r\n  <munderover>\r\n   <mo>∑</mo>\r\n   <mrow>\r\n    <mi>n</mi>\r\n    <mo>=</mo>\r\n    <mn>0</mn>\r\n   </mrow>\r\n   <mi>∞</mi>\r\n   </munderover>\r\n   <msub>\r\n    <mi>a</mi>\r\n    <mi>n</mi>\r\n   </msub>\r\n   <msup>\r\n    <mi>X</mi>\r\n    <mi>n</mi>\r\n   </msup>\r\n   <mo>∈</mo>\r\n   <mrow>\r\n    <mi>R</mi>\r\n    <mo>⟦</mo>\r\n    <mi>X</mi>\r\n    <mo>⟧</mo>\r\n   </mrow>\r\n </mrow>\r\n</math>",
+    "MathML_explicit": "<math display='block'>\r\n <mrow>\r\n  <mi>A</mi>\r\n  <mo>=</mo>\r\n  <munderover>\r\n   <mo>∑</mo>\r\n   <mrow>\r\n    <mi>n</mi>\r\n    <mo>=</mo>\r\n    <mn>0</mn>\r\n   </mrow>\r\n   <mi>∞</mi>\r\n   </munderover>\r\n   <msub>\r\n    <mi>a</mi>\r\n    <mi>n</mi>\r\n   </msub>\r\n   <msup>\r\n    <mi>X</mi>\r\n    <mi>n</mi>\r\n   </msup>\r\n   <mo>∈</mo>\r\n   <mrow>\r\n    <mi>R</mi>\r\n    <mo>⟦</mo>\r\n    <mi>X</mi>\r\n    <mo>⟧</mo>\r\n   </mrow>\r\n </mrow>\r\n</math>",
+    "latex": "A=\\sum_0^\\infty a_n X^n \\in R\\lBrack X \\rBrack",
+    "id": "24d51362b56f6123ce1c1c5a8872ceba"
+  },
+  {
+    "Name": "sin squared plus cos squared",
+    "MathML": "<math display='block'>\r\n      <mrow>\r\n       <msup>\r\n        <mi>sin</mi>\r\n        <mn>2</mn>\r\n       </msup>\r\n       <mo>&#x2061;</mo>\r\n       <mi>𝜃</mi>\r\n      </mrow>\r\n      <mo>+</mo>\r\n      <mrow>\r\n       <msup>\r\n        <mi>cos</mi>\r\n        <mn>2</mn>\r\n       </msup>\r\n       <mo>&#x2061;</mo>\r\n       <mi>𝜃</mi>\r\n      </mrow>\r\n      <mo>=</mo>\r\n      <mn>1</mn>\r\n     </math>",
+    "MathML_default": "<math display='block'>\r\n <mrow>\r\n  <msup>\r\n   <mi>sin</mi>\r\n   <mn>2</mn>\r\n  </msup>\r\n  <mo>&#x2061;</mo>\r\n  <mi>𝜃</mi>\r\n </mrow>\r\n <mo>+</mo>\r\n <mrow>\r\n  <msup>\r\n   <mi>cos</mi>\r\n   <mn>2</mn>\r\n  </msup>\r\n  <mo>&#x2061;</mo>\r\n  <mi>𝜃</mi>\r\n </mrow>\r\n <mo>=</mo>\r\n <mn>1</mn>\r\n</math>",
+    "MathML_explicit": "<math display='block'>\r\n <mrow>\r\n  <msup>\r\n   <mi>sin</mi>\r\n   <mn>2</mn>\r\n  </msup>\r\n  <mo>&#x2061;</mo>\r\n  <mi>𝜃</mi>\r\n </mrow>\r\n <mo>+</mo>\r\n <mrow>\r\n  <msup>\r\n   <mi>cos</mi>\r\n   <mn>2</mn>\r\n  </msup>\r\n  <mo>&#x2061;</mo>\r\n  <mi>𝜃</mi>\r\n </mrow>\r\n <mo>=</mo>\r\n <mn>1</mn>\r\n</math>",
+    "latex": "\\sin^2\\theta + \\cos^2\\theta=1",
+    "id": "152f0c6492f7e179a08bcebe6c63ddca"
+  },
+  {
+    "Name": "binom n k",
+    "MathML": "<math display='block'>\r\n      <mrow>\r\n       <mo>(</mo>\r\n       <mfrac linethickness='0pt'>\r\n        <mi>n</mi>\r\n        <mi>k</mi>\r\n       </mfrac>\r\n       <mo>)</mo>\r\n      </mrow>\r\n     </math>",
+    "MathML_default": "<math display='block'>\r\n <mrow>\r\n  <mo>(</mo>\r\n  <mfrac linethickness='0pt'>\r\n   <mi>n</mi>\r\n   <mi>k</mi>\r\n  </mfrac>\r\n  <mo>)</mo>\r\n </mrow>\r\n</math>",
+    "MathML_explicit": "<math display='block'>\r\n <mrow>\r\n  <mo>(</mo>\r\n  <mfrac linethickness='0pt'>\r\n   <mi>n</mi>\r\n   <mi>k</mi>\r\n  </mfrac>\r\n  <mo>)</mo>\r\n </mrow>\r\n</math>",
+    "latex": "\\binom{n}{k}",
+    "id": "e527352e28a43e6583fbbaa4418e50d1"
+  },
+  {
+    "Name": " binom sup n C sub k",
+    "MathML": "<math display='block'>\r\n      <mmultiscripts>\r\n       <mi>C</mi>\r\n       <mi>k</mi>\r\n       <mrow></mrow>\r\n       <mprescripts></mprescripts>\r\n       <mrow></mrow>\r\n       <mi>n</mi>\r\n      </mmultiscripts>\r\n     </math>",
+    "MathML_default": "<math display='block'>\r\n <mmultiscripts>\r\n  <mi>C</mi>\r\n  <mi>k</mi>\r\n  <mrow/>\r\n  <mprescripts/>\r\n  <mrow/>\r\n  <mi>n</mi>\r\n </mmultiscripts>\r\n</math>",
+    "MathML_explicit": "<math display='block'>\r\n <mmultiscripts>\r\n  <mi>C</mi>\r\n  <mi>k</mi>\r\n  <mrow/>\r\n  <mprescripts/>\r\n  <mrow/>\r\n  <mi>n</mi>\r\n </mmultiscripts>\r\n</math>",
+    "latex": "{}^n C_k",
+    "id": "66ed419d09924ec6e86b6fa6192a5ac5"
+  },
+  {
+    "Name": " binom C sup n sub k",
+    "MathML": "<math display='block'>\r\n      <msubsup>\r\n       <mi>C</mi>\r\n       <mi>k</mi>\r\n       <mi>n</mi>\r\n      </msubsup>\r\n     </math>",
+    "MathML_default": "<math display='block'>\r\n <msubsup>\r\n  <mi>C</mi>\r\n  <mi>k</mi>\r\n  <mi>n</mi>\r\n </msubsup>\r\n</math>",
+    "MathML_explicit": "<math display='block'>\r\n <msubsup>\r\n  <mi>C</mi>\r\n  <mi>k</mi>\r\n  <mi>n</mi>\r\n </msubsup>\r\n</math>",
+    "latex": "C^n_k",
+    "id": "89001a40638a748b95e5885b771d9a57"
+  },
+  {
+    "Name": " binom C n k",
+    "MathML": "<math display='block'>\r\n      <mrow>\r\n       <mi>C</mi>\r\n       <mo>(</mo>\r\n       <mi>n</mi>\r\n       <mo>,</mo>\r\n       <mi>k</mi>\r\n       <mo>)</mo>\r\n      </mrow>\r\n     </math>",
+    "MathML_default": "<math display='block'>\r\n <mrow>\r\n  <mi>C</mi>\r\n  <mo>(</mo>\r\n  <mi>n</mi>\r\n  <mo>,</mo>\r\n  <mi>k</mi>\r\n  <mo>)</mo>\r\n </mrow>\r\n</math>",
+    "MathML_explicit": "<math display='block'>\r\n <mrow>\r\n  <mi>C</mi>\r\n  <mo>(</mo>\r\n  <mi>n</mi>\r\n  <mo>,</mo>\r\n  <mi>k</mi>\r\n  <mo>)</mo>\r\n </mrow>\r\n</math>",
+    "latex": "C(n,k)",
+    "id": "64545c92aa1c6e86dd7e9d8781d51443"
+  },
+  {
+    "Name": " permutations sup n P sub k",
+    "MathML": "<math display='block'>\r\n      <mmultiscripts>\r\n       <mi>P</mi>\r\n       <mi>k</mi>\r\n       <mrow></mrow>\r\n       <mprescripts></mprescripts>\r\n       <mrow></mrow>\r\n       <mi>n</mi>\r\n      </mmultiscripts>\r\n     </math>",
+    "MathML_default": "<math display='block'>\r\n <mmultiscripts>\r\n  <mi>P</mi>\r\n  <mi>k</mi>\r\n  <mrow/>\r\n  <mprescripts/>\r\n  <mrow/>\r\n  <mi>n</mi>\r\n </mmultiscripts>\r\n</math>",
+    "MathML_explicit": "<math display='block'>\r\n <mmultiscripts>\r\n  <mi>P</mi>\r\n  <mi>k</mi>\r\n  <mrow/>\r\n  <mprescripts/>\r\n  <mrow/>\r\n  <mi>n</mi>\r\n </mmultiscripts>\r\n</math>",
+    "latex": "{}^n P_k",
+    "id": "479195ddf56ff4c6f095b8999439eae0"
+  },
+  {
+    "Name": " permutations P sup n sub k",
+    "MathML": "<math display='block'>\r\n      <msubsup>\r\n       <mi>P</mi>\r\n       <mi>k</mi>\r\n       <mi>n</mi>\r\n      </msubsup>\r\n     </math>",
+    "MathML_default": "<math display='block'>\r\n <msubsup>\r\n  <mi>P</mi>\r\n  <mi>k</mi>\r\n  <mi>n</mi>\r\n </msubsup>\r\n</math>",
+    "MathML_explicit": "<math display='block'>\r\n <msubsup>\r\n  <mi>P</mi>\r\n  <mi>k</mi>\r\n  <mi>n</mi>\r\n </msubsup>\r\n</math>",
+    "latex": "P^n_k",
+    "id": "700e9e1c59044c764b0d3b6fcaff446d"
+  },
+  {
+    "Name": " permutations P n k",
+    "MathML": "<math display='block'>\r\n      <mrow>\r\n       <mi>P</mi>\r\n       <mo>(</mo>\r\n       <mi>n</mi>\r\n       <mo>,</mo>\r\n       <mi>k</mi>\r\n       <mo>)</mo>\r\n      </mrow>\r\n     </math>",
+    "MathML_default": "<math display='block'>\r\n <mrow>\r\n  <mi>P</mi>\r\n  <mo>(</mo>\r\n  <mi>n</mi>\r\n  <mo>,</mo>\r\n  <mi>k</mi>\r\n  <mo>)</mo>\r\n </mrow>\r\n</math>",
+    "MathML_explicit": "<math display='block'>\r\n <mrow>\r\n  <mi>P</mi>\r\n  <mo>(</mo>\r\n  <mi>n</mi>\r\n  <mo>,</mo>\r\n  <mi>k</mi>\r\n  <mo>)</mo>\r\n </mrow>\r\n</math>",
+    "latex": "P(n,k)",
+    "id": "293789944389185c3b756bef34978108"
+  },
+  {
+    "Name": "subset",
+    "MathML": "<math display='block'>\r\n      <mrow>\r\n       <mi>x</mi>\r\n       <mo>&#x2282;</mo>\r\n       <mi>y</mi>\r\n      </mrow>\r\n     </math>",
+    "MathML_default": "<math display='block'>\r\n <mrow>\r\n  <mi>x</mi>\r\n  <mo>&#x2282;</mo>\r\n  <mi>y</mi>\r\n </mrow>\r\n</math>",
+    "MathML_explicit": "<math display='block'>\r\n <mrow>\r\n  <mi>x</mi>\r\n  <mo>&#x2282;</mo>\r\n  <mi>y</mi>\r\n </mrow>\r\n</math>",
+    "latex": "x \\subset y",
+    "id": "a3c7ec1076255080060573e304ad19fa"
+  },
+  {
+    "Name": " parallel ",
+    "MathML": "<math display='block'>\r\n      <mrow>\r\n       <mi>x</mi>\r\n       <mo intent='parallel'>‖</mo>\r\n       <mi>y</mi>\r\n      </mrow>\r\n     </math>",
+    "MathML_default": "<math display='block'>\r\n <mrow>\r\n  <mi>x</mi>\r\n  <mo intent='parallel'>‖</mo>\r\n  <mi>y</mi>\r\n </mrow>\r\n</math>",
+    "MathML_explicit": "<math display='block'>\r\n <mrow>\r\n  <mi>x</mi>\r\n  <mo intent='parallel'>‖</mo>\r\n  <mi>y</mi>\r\n </mrow>\r\n</math>",
+    "latex": "x \\parallel y",
+    "id": "28cc9ebf3685b177e68ed192a529baad"
+  },
+  {
+    "Name": "Ackerman or A",
+    "MathML": "<math display='block'>\r\n      <mrow>\r\n       <mi>A</mi>\r\n       <mo>&#x2061;</mo>\r\n       <mrow>\r\n        <mo>(</mo>\r\n        <mi>n</mi>\r\n        <mo>,</mo>\r\n        <mi>m</mi>\r\n        <mo>)</mo>\r\n       </mrow>\r\n      </mrow>\r\n     </math>",
+    "MathML_default": "<math display='block'>\r\n <mrow>\r\n  <mi>A</mi>\r\n  <mo>&#x2061;</mo>\r\n  <mrow>\r\n   <mo>(</mo>\r\n   <mi>n</mi>\r\n   <mo>,</mo>\r\n   <mi>m</mi>\r\n   <mo>)</mo>\r\n  </mrow>\r\n </mrow>\r\n</math>",
+    "MathML_explicit": "<math display='block'>\r\n <mrow>\r\n  <mi>A</mi>\r\n  <mo>&#x2061;</mo>\r\n  <mrow>\r\n   <mo>(</mo>\r\n   <mi>n</mi>\r\n   <mo>,</mo>\r\n   <mi>m</mi>\r\n   <mo>)</mo>\r\n  </mrow>\r\n </mrow>\r\n</math>",
+    "latex": "A(m,n)",
+    "id": "e1c0d92825fe91e6496ba18632787fc7"
+  },
+  {
+    "Name": "low (g∘h)′(x)",
+    "MathML": "<math display='block'>\r\n      <mrow>\r\n       <msup>\r\n        <mrow>\r\n         <mo>(</mo>\r\n         <mi>g</mi>\r\n         <mo>∘</mo>\r\n         <mi>h</mi>\r\n         <mo>)</mo>\r\n        </mrow>\r\n        <mo>′</mo>\r\n       </msup>\r\n       <mo>(</mo>\r\n       <mi>x</mi>\r\n       <mo>)</mo>\r\n      </mrow>\r\n     </math>",
+    "MathML_default": "<math display='block'>\r\n <mrow>\r\n  <msup>\r\n   <mrow>\r\n    <mo>(</mo>\r\n    <mi>g</mi>\r\n    <mo>∘</mo>\r\n    <mi>h</mi>\r\n    <mo>)</mo>\r\n   </mrow>\r\n   <mo>′</mo>\r\n  </msup>\r\n  <mo>(</mo>\r\n  <mi>x</mi>\r\n  <mo>)</mo>\r\n </mrow>\r\n</math>",
+    "MathML_explicit": "<math display='block'>\r\n <mrow>\r\n  <msup>\r\n   <mrow>\r\n    <mo>(</mo>\r\n    <mi>g</mi>\r\n    <mo>∘</mo>\r\n    <mi>h</mi>\r\n    <mo>)</mo>\r\n   </mrow>\r\n   <mo>′</mo>\r\n  </msup>\r\n  <mo>(</mo>\r\n  <mi>x</mi>\r\n  <mo>)</mo>\r\n </mrow>\r\n</math>",
+    "latex": "(g∘h)′(x)",
+    "id": "fb69a6813c7d5db626fe030aa4a285d0"
+  },
+  {
+    "Name": "high (g∘h)′(x)",
+    "MathML": "<math display='block'>\r\n      <mrow>\r\n       <mo>(</mo>\r\n       <mi>g</mi>\r\n       <mo>∘</mo>\r\n       <mi>h</mi>\r\n       <mo>)</mo>\r\n       <mo>′</mo>\r\n       <mo>(</mo>\r\n       <mi>x</mi>\r\n       <mo>)</mo>\r\n      </mrow>\r\n     </math>",
+    "MathML_default": "<math display='block'>\r\n <mrow>\r\n  <mo>(</mo>\r\n  <mi>g</mi>\r\n  <mo>∘</mo>\r\n  <mi>h</mi>\r\n  <mo>)</mo>\r\n  <mo>′</mo>\r\n  <mo>(</mo>\r\n  <mi>x</mi>\r\n  <mo>)</mo>\r\n </mrow>\r\n</math>",
+    "MathML_explicit": "<math display='block'>\r\n <mrow>\r\n  <mo>(</mo>\r\n  <mi>g</mi>\r\n  <mo>∘</mo>\r\n  <mi>h</mi>\r\n  <mo>)</mo>\r\n  <mo>′</mo>\r\n  <mo>(</mo>\r\n  <mi>x</mi>\r\n  <mo>)</mo>\r\n </mrow>\r\n</math>",
+    "latex": "(g∘h)′(x)",
+    "id": "dcfe1db97432ea0244c32bf4052e12f7"
+  },
+  {
+    "Name": "apply (g∘h)′(x)",
+    "MathML": "<math display='block'>\r\n      <mrow>\r\n       <msup>\r\n        <mrow>\r\n         <mo>(</mo>\r\n         <mi>g</mi>\r\n         <mo>∘</mo>\r\n         <mi>h</mi>\r\n         <mo>)</mo>\r\n        </mrow>\r\n        <mo>′</mo>\r\n       </msup>\r\n       <mo>(</mo>\r\n       <mi>x</mi>\r\n       <mo>)</mo>\r\n      </mrow>\r\n     </math>",
+    "MathML_default": "<math display='block'>\r\n <mrow>\r\n  <msup>\r\n   <mrow>\r\n    <mo>(</mo>\r\n    <mi>g</mi>\r\n    <mo>∘</mo>\r\n    <mi>h</mi>\r\n    <mo>)</mo>\r\n   </mrow>\r\n   <mo>′</mo>\r\n  </msup>\r\n  <mo>(</mo>\r\n  <mi>x</mi>\r\n  <mo>)</mo>\r\n </mrow>\r\n</math>",
+    "MathML_explicit": "<math display='block'>\r\n <mrow>\r\n  <msup>\r\n   <mrow>\r\n    <mo>(</mo>\r\n    <mi>g</mi>\r\n    <mo>∘</mo>\r\n    <mi>h</mi>\r\n    <mo>)</mo>\r\n   </mrow>\r\n   <mo>′</mo>\r\n  </msup>\r\n  <mo>(</mo>\r\n  <mi>x</mi>\r\n  <mo>)</mo>\r\n </mrow>\r\n</math>",
+    "latex": "(g∘h)′(x)",
+    "id": "99c071dbf49e1ca438434dc4b82aac35"
+  },
+  {
+    "Name": "leaf (g∘h)′(x)",
+    "MathML": "<math display='block'>\r\n      <mrow>\r\n       <msup>\r\n        <mrow>\r\n         <mo>(</mo>\r\n         <mi>g</mi>\r\n         <mo>∘</mo>\r\n         <mi>h</mi>\r\n         <mo>)</mo>\r\n        </mrow>\r\n        <mo>′</mo>\r\n       </msup>\r\n       <mo>&#x2061;</mo>\r\n       <mo>(</mo>\r\n       <mi>x</mi>\r\n       <mo>)</mo>\r\n      </mrow>\r\n     </math>",
+    "MathML_default": "<math display='block'>\r\n <mrow>\r\n  <msup>\r\n   <mrow>\r\n    <mo>(</mo>\r\n    <mi>g</mi>\r\n    <mo>∘</mo>\r\n    <mi>h</mi>\r\n    <mo>)</mo>\r\n   </mrow>\r\n   <mo>′</mo>\r\n  </msup>\r\n  <mo>&#x2061;</mo>\r\n  <mo>(</mo>\r\n  <mi>x</mi>\r\n  <mo>)</mo>\r\n </mrow>\r\n</math>",
+    "MathML_explicit": "<math display='block'>\r\n <mrow>\r\n  <msup>\r\n   <mrow>\r\n    <mo>(</mo>\r\n    <mi>g</mi>\r\n    <mo>∘</mo>\r\n    <mi>h</mi>\r\n    <mo>)</mo>\r\n   </mrow>\r\n   <mo>′</mo>\r\n  </msup>\r\n  <mo>&#x2061;</mo>\r\n  <mo>(</mo>\r\n  <mi>x</mi>\r\n  <mo>)</mo>\r\n </mrow>\r\n</math>",
+    "latex": "(g∘h)′(x)",
+    "id": "c3e77c30ccf21d4eaec512ba6db42579"
+  },
+  {
+    "Name": "hof convex conjugate",
+    "MathML": "<math display='block'>\r\n      <mrow>\r\n       <msup>\r\n        <mi>f</mi>\r\n        <mo>*</mo>\r\n       </msup>\r\n       <mo>&#x2061;</mo>\r\n       <mrow>\r\n        <mo>(</mo>\r\n        <mi>p</mi>\r\n        <mo>)</mo>\r\n       </mrow>\r\n      </mrow>\r\n     </math>",
+    "MathML_default": "<math display='block'>\r\n <mrow>\r\n  <msup>\r\n   <mi>f</mi>\r\n   <mo>*</mo>\r\n  </msup>\r\n  <mo>&#x2061;</mo>\r\n  <mrow>\r\n   <mo>(</mo>\r\n   <mi>p</mi>\r\n   <mo>)</mo>\r\n  </mrow>\r\n </mrow>\r\n</math>",
+    "MathML_explicit": "<math display='block'>\r\n <mrow>\r\n  <msup>\r\n   <mi>f</mi>\r\n   <mo>*</mo>\r\n  </msup>\r\n  <mo>&#x2061;</mo>\r\n  <mrow>\r\n   <mo>(</mo>\r\n   <mi>p</mi>\r\n   <mo>)</mo>\r\n  </mrow>\r\n </mrow>\r\n</math>",
+    "latex": "f^*(p)",
+    "id": "fb3f57e2f442a3674fda7159a3b92229"
+  },
+  {
+    "Name": "intent on prefix mo",
+    "MathML": "<math display='block'>\r\n      <mrow>\r\n       <mo>&#x1F407;</mo>\r\n       <mi>X</mi>\r\n      </mrow>\r\n     </math>",
+    "MathML_default": "<math display='block'>\r\n <mrow>\r\n  <mo>&#x1F407;</mo>\r\n  <mi>X</mi>\r\n </mrow>\r\n</math>",
+    "MathML_explicit": "<math display='block'>\r\n <mrow>\r\n  <mo>&#x1F407;</mo>\r\n  <mi>X</mi>\r\n </mrow>\r\n</math>",
+    "latex": "&#x1F407;  X",
+    "id": "a44c0d69dd03eec9ca3b2ad816893e9d"
+  },
+  {
+    "Name": "intent on mrow of prefix mo",
+    "MathML": "<math display='block'>\r\n      <mrow>\r\n       <mo>&#x1F407;</mo>\r\n       <mi>X</mi>\r\n      </mrow>\r\n     </math>",
+    "MathML_default": "<math display='block'>\r\n <mrow>\r\n  <mo>&#x1F407;</mo>\r\n  <mi>X</mi>\r\n </mrow>\r\n</math>",
+    "MathML_explicit": "<math display='block'>\r\n <mrow>\r\n  <mo>&#x1F407;</mo>\r\n  <mi>X</mi>\r\n </mrow>\r\n</math>",
+    "latex": "&#x1F407;  X",
+    "id": "000ef44ac98c1bf35301c50ef7580af7"
+  },
+  {
+    "Name": "vectimes hints",
+    "MathML": "<math display='block'>\r\n      <mrow>\r\n       <mi>x</mi>\r\n       <mo>⨯</mo>\r\n       <mi>y</mi>\r\n      </mrow>\r\n     </math>",
+    "MathML_default": "<math display='block'>\r\n <mrow>\r\n  <mi>x</mi>\r\n  <mo>⨯</mo>\r\n  <mi>y</mi>\r\n </mrow>\r\n</math>",
+    "MathML_explicit": "<math display='block'>\r\n <mrow>\r\n  <mi>x</mi>\r\n  <mo>⨯</mo>\r\n  <mi>y</mi>\r\n </mrow>\r\n</math>",
+    "latex": "x \\vectimes y",
+    "id": "0fc48295fd811e6b1488687b21c650f2"
+  },
+  {
+    "Name": "x  foo/boxplus y",
+    "MathML": "<math display='block'>\r\n      <mrow>\r\n       <mi>x</mi>\r\n       <mo>&#x229e;</mo>\r\n       <mi>y</mi>\r\n      </mrow>\r\n     </math>",
+    "MathML_default": "<math display='block'>\r\n <mrow>\r\n  <mi>x</mi>\r\n  <mo>&#x229e;</mo>\r\n  <mi>y</mi>\r\n </mrow>\r\n</math>",
+    "MathML_explicit": "<math display='block'>\r\n <mrow>\r\n  <mi>x</mi>\r\n  <mo>&#x229e;</mo>\r\n  <mi>y</mi>\r\n </mrow>\r\n</math>",
+    "latex": "x \\boxplus y",
+    "id": "847441a4fb59f830796a988837647e4c"
+  },
+  {
+    "Name": "vert x abs",
+    "MathML": "<math display='block'>\r\n      <mrow>\r\n       <mo>|</mo>\r\n       <mi>x</mi>\r\n       <mo>|</mo>\r\n      </mrow>\r\n     </math>",
+    "MathML_default": "<math display='block'>\r\n <mrow>\r\n  <mo>|</mo>\r\n  <mi>x</mi>\r\n  <mo>|</mo>\r\n </mrow>\r\n</math>",
+    "MathML_explicit": "<math display='block'>\r\n <mrow>\r\n  <mo>|</mo>\r\n  <mi>x</mi>\r\n  <mo>|</mo>\r\n </mrow>\r\n</math>",
+    "latex": "\\lvert x\\rvert",
+    "id": "6cb782e8d1dc1ff1670af488b5f565f1"
+  },
+  {
+    "Name": "l2 norm x",
+    "MathML": "<math display='block'>\r\n      <msub>\r\n       <mrow>\r\n        <mo>|</mo>\r\n        <mi>x</mi>\r\n        <mo>|</mo>\r\n       </mrow>\r\n       <mn>2</mn>\r\n      </msub>\r\n     </math>",
+    "MathML_default": "<math display='block'>\r\n <msub>\r\n  <mrow>\r\n   <mo>|</mo>\r\n   <mi>x</mi>\r\n   <mo>|</mo>\r\n  </mrow>\r\n  <mn>2</mn>\r\n </msub>\r\n</math>",
+    "MathML_explicit": "<math display='block'>\r\n <msub>\r\n  <mrow>\r\n   <mo>|</mo>\r\n   <mi>x</mi>\r\n   <mo>|</mo>\r\n  </mrow>\r\n  <mn>2</mn>\r\n </msub>\r\n</math>",
+    "latex": "\\lvert x\\rvert_2",
+    "id": "7e6435549105d86d5843fd7daa24ac07"
+  },
+  {
+    "Name": "vert M determinant",
+    "MathML": "<math display='block'>\r\n      <mrow>\r\n       <mo>|</mo>\r\n       <mi>M</mi>\r\n       <mo>|</mo>\r\n      </mrow>\r\n     </math>",
+    "MathML_default": "<math display='block'>\r\n <mrow>\r\n  <mo>|</mo>\r\n  <mi>M</mi>\r\n  <mo>|</mo>\r\n </mrow>\r\n</math>",
+    "MathML_explicit": "<math display='block'>\r\n <mrow>\r\n  <mo>|</mo>\r\n  <mi>M</mi>\r\n  <mo>|</mo>\r\n </mrow>\r\n</math>",
+    "latex": "\\lvert M\\rvert",
+    "id": "46be8bdf7945165451836ec6f9ae82ab"
+  },
+  {
+    "Name": "vert abcd determinant",
+    "MathML": "<math display='block'>\r\n      <mrow>\r\n       <mo>|</mo>\r\n       <mtable>\r\n        <mtr>\r\n         <mtd><mi>a</mi></mtd>\r\n         <mtd><mi>b</mi></mtd>\r\n        </mtr>\r\n        <mtr>\r\n         <mtd><mi>c</mi></mtd>\r\n         <mtd><mi>d</mi></mtd>\r\n        </mtr>\r\n       </mtable>\r\n       <mo>|</mo>\r\n      </mrow>\r\n     </math>",
+    "MathML_default": "<math display='block'>\r\n <mrow>\r\n  <mo>|</mo>\r\n  <mtable>\r\n   <mtr>\r\n    <mtd><mi>a</mi></mtd>\r\n    <mtd><mi>b</mi></mtd>\r\n   </mtr>\r\n   <mtr>\r\n    <mtd><mi>c</mi></mtd>\r\n    <mtd><mi>d</mi></mtd>\r\n   </mtr>\r\n  </mtable>\r\n  <mo>|</mo>\r\n </mrow>\r\n</math>",
+    "MathML_explicit": "<math display='block'>\r\n <mrow>\r\n  <mo>|</mo>\r\n  <mtable>\r\n   <mtr>\r\n    <mtd><mi>a</mi></mtd>\r\n    <mtd><mi>b</mi></mtd>\r\n   </mtr>\r\n   <mtr>\r\n    <mtd><mi>c</mi></mtd>\r\n    <mtd><mi>d</mi></mtd>\r\n   </mtr>\r\n  </mtable>\r\n  <mo>|</mo>\r\n </mrow>\r\n</math>",
+    "latex": "\\begin{vmatrix}a&amp;b\\\\c&amp;d\\end{vmatrix}",
+    "id": "06dfe7acbde9b5efd540d5b311ece76f"
+  },
+  {
+    "Name": "Vert x magnitude",
+    "MathML": "<math display='block'>\r\n      <mrow>\r\n       <mo>‖</mo>\r\n       <mi>x</mi>\r\n       <mo>‖</mo>\r\n      </mrow>\r\n     </math>",
+    "MathML_default": "<math display='block'>\r\n <mrow>\r\n  <mo>‖</mo>\r\n  <mi>x</mi>\r\n  <mo>‖</mo>\r\n </mrow>\r\n</math>",
+    "MathML_explicit": "<math display='block'>\r\n <mrow>\r\n  <mo>‖</mo>\r\n  <mi>x</mi>\r\n  <mo>‖</mo>\r\n </mrow>\r\n</math>",
+    "latex": "\\lVert x\\rVert",
+    "id": "92513434f7bc7fe4c9ae0c82c88c96e1"
+  },
+  {
+    "Name": "open-open inverted bracket",
+    "MathML": "<math display='block'>\r\n      <mrow>\r\n       <mo>]</mo>\r\n       <mi>x</mi>\r\n       <mo>,</mo>\r\n       <mi>y</mi>\r\n       <mo>[</mo>\r\n      </mrow>\r\n     </math>",
+    "MathML_default": "<math display='block'>\r\n <mrow>\r\n  <mo>]</mo>\r\n  <mi>x</mi>\r\n  <mo>,</mo>\r\n  <mi>y</mi>\r\n  <mo>[</mo>\r\n </mrow>\r\n</math>",
+    "MathML_explicit": "<math display='block'>\r\n <mrow>\r\n  <mo>]</mo>\r\n  <mi>x</mi>\r\n  <mo>,</mo>\r\n  <mi>y</mi>\r\n  <mo>[</mo>\r\n </mrow>\r\n</math>",
+    "latex": "\\mathopen] x,y\\mathclose[\\rVert",
+    "id": "b14792603f091e1cf28e3dd132815f4a"
+  },
+  {
+    "Name": "open-open",
+    "MathML": "<math display='block'>\r\n      <mrow>\r\n       <mo>(</mo>\r\n       <mi>x</mi>\r\n       <mo>,</mo>\r\n       <mi>y</mi>\r\n       <mo>)</mo>\r\n      </mrow>\r\n     </math>",
+    "MathML_default": "<math display='block'>\r\n <mrow>\r\n  <mo>(</mo>\r\n  <mi>x</mi>\r\n  <mo>,</mo>\r\n  <mi>y</mi>\r\n  <mo>)</mo>\r\n </mrow>\r\n</math>",
+    "MathML_explicit": "<math display='block'>\r\n <mrow>\r\n  <mo>(</mo>\r\n  <mi>x</mi>\r\n  <mo>,</mo>\r\n  <mi>y</mi>\r\n  <mo>)</mo>\r\n </mrow>\r\n</math>",
+    "latex": "(x,y)",
+    "id": "27bfe4359a3cb1b137874cb6f177f82d"
+  },
+  {
+    "Name": "open-closed",
+    "MathML": "<math display='block'>\r\n      <mrow>\r\n       <mo>(</mo>\r\n       <mi>x</mi>\r\n       <mo>,</mo>\r\n       <mi>y</mi>\r\n       <mo>]</mo>\r\n      </mrow>\r\n     </math>",
+    "MathML_default": "<math display='block'>\r\n <mrow>\r\n  <mo>(</mo>\r\n  <mi>x</mi>\r\n  <mo>,</mo>\r\n  <mi>y</mi>\r\n  <mo>]</mo>\r\n </mrow>\r\n</math>",
+    "MathML_explicit": "<math display='block'>\r\n <mrow>\r\n  <mo>(</mo>\r\n  <mi>x</mi>\r\n  <mo>,</mo>\r\n  <mi>y</mi>\r\n  <mo>]</mo>\r\n </mrow>\r\n</math>",
+    "latex": "(x,y]",
+    "id": "c0f15cfea235dae42494b5a6136b03e3"
+  },
+  {
+    "Name": "closed-open",
+    "MathML": "<math display='block'>\r\n      <mrow>\r\n       <mo>[</mo>\r\n       <mi>x</mi>\r\n       <mo>,</mo>\r\n       <mi>y</mi>\r\n       <mo>)</mo>\r\n      </mrow>\r\n     </math>",
+    "MathML_default": "<math display='block'>\r\n <mrow>\r\n  <mo>[</mo>\r\n  <mi>x</mi>\r\n  <mo>,</mo>\r\n  <mi>y</mi>\r\n  <mo>)</mo>\r\n </mrow>\r\n</math>",
+    "MathML_explicit": "<math display='block'>\r\n <mrow>\r\n  <mo>[</mo>\r\n  <mi>x</mi>\r\n  <mo>,</mo>\r\n  <mi>y</mi>\r\n  <mo>)</mo>\r\n </mrow>\r\n</math>",
+    "latex": "[x,y)",
+    "id": "89c82842a6c245fbe4771146a19b0583"
+  },
+  {
+    "Name": "closed-closed",
+    "MathML": "<math display='block'>\r\n      <mrow>\r\n       <mo>[</mo>\r\n       <mi>x</mi>\r\n       <mo>,</mo>\r\n       <mi>y</mi>\r\n       <mo>]</mo>\r\n      </mrow>\r\n     </math>",
+    "MathML_default": "<math display='block'>\r\n <mrow>\r\n  <mo>[</mo>\r\n  <mi>x</mi>\r\n  <mo>,</mo>\r\n  <mi>y</mi>\r\n  <mo>]</mo>\r\n </mrow>\r\n</math>",
+    "MathML_explicit": "<math display='block'>\r\n <mrow>\r\n  <mo>[</mo>\r\n  <mi>x</mi>\r\n  <mo>,</mo>\r\n  <mi>y</mi>\r\n  <mo>]</mo>\r\n </mrow>\r\n</math>",
+    "latex": "[x,y]",
+    "id": "f857e87ac030876a5f7afe6d29adc52c"
+  },
+  {
+    "Name": "cycle thin space",
+    "MathML": "<math display='block'>\r\n      <mrow>\r\n       <mo>(</mo>\r\n       <mi>x</mi>\r\n       <mo>&#x2009;</mo>\r\n       <mi>y</mi>\r\n       <mo>&#x2009;</mo>\r\n       <mi>c</mi>\r\n       <mo>&#x2009;</mo>\r\n       <mi>d</mi>\r\n       <mo>)</mo>\r\n      </mrow>\r\n     </math>",
+    "MathML_default": "<math display='block'>\r\n <mrow>\r\n  <mo>(</mo>\r\n  <mi>x</mi>\r\n  <mo>&#x2009;</mo>\r\n  <mi>y</mi>\r\n  <mo>&#x2009;</mo>\r\n  <mi>c</mi>\r\n  <mo>&#x2009;</mo>\r\n  <mi>d</mi>\r\n  <mo>)</mo>\r\n </mrow>\r\n</math>",
+    "MathML_explicit": "<math display='block'>\r\n <mrow>\r\n  <mo>(</mo>\r\n  <mi>x</mi>\r\n  <mo>&#x2009;</mo>\r\n  <mi>y</mi>\r\n  <mo>&#x2009;</mo>\r\n  <mi>c</mi>\r\n  <mo>&#x2009;</mo>\r\n  <mi>d</mi>\r\n  <mo>)</mo>\r\n </mrow>\r\n</math>",
+    "latex": "(a\\,b\\,c\\,d)",
+    "id": "d0a5d6a1ff64a1c04fe4646297736087"
+  },
+  {
+    "Name": "bmatrix",
+    "MathML": "<math display='block'>\r\n      <mrow>\r\n       <mo>[</mo>\r\n       <mtable>\r\n        <mtr>\r\n         <mtd><mi>a</mi></mtd>\r\n         <mtd><mi>b</mi></mtd>\r\n        </mtr>\r\n        <mtr>\r\n         <mtd><mi>x</mi></mtd>\r\n         <mtd><mi>y</mi></mtd>\r\n        </mtr>\r\n       </mtable>\r\n       <mo>]</mo>\r\n      </mrow>\r\n     </math>",
+    "MathML_default": "<math display='block'>\r\n <mrow>\r\n  <mo>[</mo>\r\n  <mtable>\r\n   <mtr>\r\n    <mtd><mi>a</mi></mtd>\r\n    <mtd><mi>b</mi></mtd>\r\n   </mtr>\r\n   <mtr>\r\n    <mtd><mi>x</mi></mtd>\r\n    <mtd><mi>y</mi></mtd>\r\n   </mtr>\r\n  </mtable>\r\n  <mo>]</mo>\r\n </mrow>\r\n</math>",
+    "MathML_explicit": "<math display='block'>\r\n <mrow>\r\n  <mo>[</mo>\r\n  <mtable>\r\n   <mtr>\r\n    <mtd><mi>a</mi></mtd>\r\n    <mtd><mi>b</mi></mtd>\r\n   </mtr>\r\n   <mtr>\r\n    <mtd><mi>x</mi></mtd>\r\n    <mtd><mi>y</mi></mtd>\r\n   </mtr>\r\n  </mtable>\r\n  <mo>]</mo>\r\n </mrow>\r\n</math>",
+    "latex": "\\begin{bmatrix} a&amp;b\\\\ x&amp;y \\end{bmatrix}",
+    "id": "40b8ecf2d091af0e003b076d2eed9a39"
+  },
+  {
+    "Name": "pmatrix",
+    "MathML": "<math display='block'>\r\n      <mrow>\r\n       <mo>(</mo>\r\n       <mtable>\r\n        <mtr>\r\n         <mtd><mi>a</mi></mtd>\r\n         <mtd><mi>b</mi></mtd>\r\n        </mtr>\r\n        <mtr>\r\n         <mtd><mi>x</mi></mtd>\r\n         <mtd><mi>y</mi></mtd>\r\n        </mtr>\r\n       </mtable>\r\n       <mo>)</mo>\r\n      </mrow>\r\n     </math>",
+    "MathML_default": "<math display='block'>\r\n <mrow>\r\n  <mo>(</mo>\r\n  <mtable>\r\n   <mtr>\r\n    <mtd><mi>a</mi></mtd>\r\n    <mtd><mi>b</mi></mtd>\r\n   </mtr>\r\n   <mtr>\r\n    <mtd><mi>x</mi></mtd>\r\n    <mtd><mi>y</mi></mtd>\r\n   </mtr>\r\n  </mtable>\r\n  <mo>)</mo>\r\n </mrow>\r\n</math>",
+    "MathML_explicit": "<math display='block'>\r\n <mrow>\r\n  <mo>(</mo>\r\n  <mtable>\r\n   <mtr>\r\n    <mtd><mi>a</mi></mtd>\r\n    <mtd><mi>b</mi></mtd>\r\n   </mtr>\r\n   <mtr>\r\n    <mtd><mi>x</mi></mtd>\r\n    <mtd><mi>y</mi></mtd>\r\n   </mtr>\r\n  </mtable>\r\n  <mo>)</mo>\r\n </mrow>\r\n</math>",
+    "latex": "\\begin{pmatrix} a&amp;b\\\\ x&amp;y \\end{pmatrix}",
+    "id": "b0326ed98970ae5b4d13976dda3bd0b5"
+  },
+  {
+    "Name": "braced system of equations",
+    "MathML": "<math display='block'>\r\n      <mrow>\r\n       <mo>{</mo>\r\n       <mtable>\r\n        <mtr>\r\n         <mtd>\r\n          <mi>x</mi>\r\n          <mo>+</mo>\r\n          <mi>y</mi>\r\n         </mtd>\r\n         <mtd><mo>=</mo></mtd>\r\n         <mtd><mn>2</mn></mtd>\r\n        </mtr>\r\n        <mtr>\r\n         <mtd>\r\n          <mi>x</mi>\r\n          <mo>&#x2212;</mo>\r\n          <mi>y</mi>\r\n         </mtd>\r\n         <mtd><mo>=</mo></mtd>\r\n         <mtd><mn>0</mn></mtd>\r\n        </mtr>\r\n       </mtable>\r\n      </mrow>\r\n     </math>",
+    "MathML_default": "<math display='block'>\r\n <mrow>\r\n  <mo>{</mo>\r\n  <mtable>\r\n   <mtr>\r\n    <mtd>\r\n     <mi>x</mi>\r\n     <mo>+</mo>\r\n     <mi>y</mi>\r\n    </mtd>\r\n    <mtd><mo>=</mo></mtd>\r\n    <mtd><mn>2</mn></mtd>\r\n   </mtr>\r\n   <mtr>\r\n    <mtd>\r\n     <mi>x</mi>\r\n     <mo>&#x2212;</mo>\r\n     <mi>y</mi>\r\n    </mtd>\r\n    <mtd><mo>=</mo></mtd>\r\n    <mtd><mn>0</mn></mtd>\r\n   </mtr>\r\n  </mtable>\r\n </mrow>\r\n</math>",
+    "MathML_explicit": "<math display='block'>\r\n <mrow>\r\n  <mo>{</mo>\r\n  <mtable>\r\n   <mtr>\r\n    <mtd>\r\n     <mi>x</mi>\r\n     <mo>+</mo>\r\n     <mi>y</mi>\r\n    </mtd>\r\n    <mtd><mo>=</mo></mtd>\r\n    <mtd><mn>2</mn></mtd>\r\n   </mtr>\r\n   <mtr>\r\n    <mtd>\r\n     <mi>x</mi>\r\n     <mo>&#x2212;</mo>\r\n     <mi>y</mi>\r\n    </mtd>\r\n    <mtd><mo>=</mo></mtd>\r\n    <mtd><mn>0</mn></mtd>\r\n   </mtr>\r\n  </mtable>\r\n </mrow>\r\n</math>",
+    "latex": "\\left\\{\\begin{aligned} x+y &amp;= 2 \\\\ x-y &amp;=0 \\end{aligned}\\right.",
+    "id": "7aa03d6dec1bce2ead484a65161df1cd"
+  },
+  {
+    "Name": "align 1",
+    "MathML": "<math display='block'>\r\n      <mtable>\r\n       <mtr>\r\n        <mtd columnalign='right'>\r\n         <mn>2</mn>\r\n         <mo>&#x2062;</mo>\r\n         <mi>x</mi>\r\n        </mtd>\r\n        <mtd columnalign='center'>\r\n         <mo>=</mo>\r\n        </mtd>\r\n        <mtd columnalign='left'>\r\n         <mn>1</mn>\r\n        </mtd>\r\n       </mtr>\r\n       <mtr>\r\n        <mtd columnalign='right'>\r\n         <mi>y</mi>\r\n        </mtd>\r\n        <mtd columnalign='center'>\r\n         <mo>></mo>\r\n        </mtd>\r\n        <mtd columnalign='left'>\r\n         <mi>x</mi>\r\n         <mo>&#x2212;</mo>\r\n         <mn>3</mn>\r\n        </mtd>\r\n       </mtr>\r\n      </mtable>\r\n     </math>",
+    "MathML_default": "<math display='block'>\r\n <mtable>\r\n  <mtr>\r\n   <mtd columnalign='right'>\r\n    <mn>2</mn>\r\n    <mo>&#x2062;<!--InvisibleTimes--></mo>\r\n    <mi>x</mi>\r\n   </mtd>\r\n   <mtd columnalign='center'>\r\n    <mo>=</mo>\r\n   </mtd>\r\n   <mtd columnalign='left'>\r\n    <mn>1</mn>\r\n   </mtd>\r\n  </mtr>\r\n  <mtr>\r\n   <mtd columnalign='right'>\r\n    <mi>y</mi>\r\n   </mtd>\r\n   <mtd columnalign='center'>\r\n    <mo>></mo>\r\n   </mtd>\r\n   <mtd columnalign='left'>\r\n    <mi>x</mi>\r\n    <mo>&#x2212;</mo>\r\n    <mn>3</mn>\r\n   </mtd>\r\n  </mtr>\r\n </mtable>\r\n</math>",
+    "MathML_explicit": "<math display='block'>\r\n <mtable>\r\n  <mtr>\r\n   <mtd columnalign='right'>\r\n    <mn>2</mn>\r\n    <mo>&#x2062;<!--InvisibleTimes--></mo>\r\n    <mi>x</mi>\r\n   </mtd>\r\n   <mtd columnalign='center'>\r\n    <mo>=</mo>\r\n   </mtd>\r\n   <mtd columnalign='left'>\r\n    <mn>1</mn>\r\n   </mtd>\r\n  </mtr>\r\n  <mtr>\r\n   <mtd columnalign='right'>\r\n    <mi>y</mi>\r\n   </mtd>\r\n   <mtd columnalign='center'>\r\n    <mo>></mo>\r\n   </mtd>\r\n   <mtd columnalign='left'>\r\n    <mi>x</mi>\r\n    <mo>&#x2212;</mo>\r\n    <mn>3</mn>\r\n   </mtd>\r\n  </mtr>\r\n </mtable>\r\n</math>",
+    "latex": "\\begin{align}...",
+    "id": "8b12da51c6b5482c95bb54ccdc5605fc"
+  },
+  {
+    "Name": " alignment with wrapped line",
+    "MathML": "<math display='block'>\r\n      <mtable>\r\n       <mtr>\r\n        <mtd columnalign='right'>\r\n         <mi>a</mi>\r\n        </mtd>\r\n        <mtd columnalign='center'>\r\n         <mo>=</mo>\r\n        </mtd>\r\n        <mtd columnalign='left'>\r\n         <mi>b</mi>\r\n         <mo>+</mo>\r\n         <mi>c</mi>\r\n         <mo>&#x2212;</mo>\r\n         <mi>d</mi>\r\n        </mtd>\r\n       </mtr>\r\n       <mtr>\r\n        <mtd columnalign='right'></mtd>\r\n        <mtd columnalign='center'></mtd>\r\n        <mtd columnalign='left'>\r\n         <mo form='infix'>+</mo>\r\n         <mi>e</mi>\r\n         <mo>&#x2212;</mo>\r\n         <mi>f</mi>\r\n        </mtd>\r\n       </mtr>\r\n      </mtable>\r\n     </math>",
+    "MathML_default": "<math display='block'>\r\n <mtable>\r\n  <mtr>\r\n   <mtd columnalign='right'>\r\n    <mi>a</mi>\r\n   </mtd>\r\n   <mtd columnalign='center'>\r\n    <mo>=</mo>\r\n   </mtd>\r\n   <mtd columnalign='left'>\r\n    <mi>b</mi>\r\n    <mo>+</mo>\r\n    <mi>c</mi>\r\n    <mo>&#x2212;</mo>\r\n    <mi>d</mi>\r\n   </mtd>\r\n  </mtr>\r\n  <mtr>\r\n   <mtd columnalign='right'></mtd>\r\n   <mtd columnalign='center'></mtd>\r\n   <mtd columnalign='left'>\r\n    <mo form='infix'>+</mo>\r\n    <mi>e</mi>\r\n    <mo>&#x2212;</mo>\r\n    <mi>f</mi>\r\n   </mtd>\r\n  </mtr>\r\n </mtable>\r\n</math>",
+    "MathML_explicit": "<math display='block'>\r\n <mtable>\r\n  <mtr>\r\n   <mtd columnalign='right'>\r\n    <mi>a</mi>\r\n   </mtd>\r\n   <mtd columnalign='center'>\r\n    <mo>=</mo>\r\n   </mtd>\r\n   <mtd columnalign='left'>\r\n    <mi>b</mi>\r\n    <mo>+</mo>\r\n    <mi>c</mi>\r\n    <mo>&#x2212;</mo>\r\n    <mi>d</mi>\r\n   </mtd>\r\n  </mtr>\r\n  <mtr>\r\n   <mtd columnalign='right'></mtd>\r\n   <mtd columnalign='center'></mtd>\r\n   <mtd columnalign='left'>\r\n    <mo form='infix'>+</mo>\r\n    <mi>e</mi>\r\n    <mo>&#x2212;</mo>\r\n    <mi>f</mi>\r\n   </mtd>\r\n  </mtr>\r\n </mtable>\r\n</math>",
+    "latex": "\\begin{aligned}... wrapped",
+    "id": "3a54aa6dad9db715c87af045bfd5fcde"
+  },
+  {
+    "Name": "aligned derivation",
+    "MathML": "<math display='block'>\r\n      <mrow>\r\n       <mtable>\r\n        <mtr>\r\n         <mtd>\r\n          <msup>\r\n           <mrow>\r\n            <mo>(</mo><mi>a</mi><mo>+</mo><mi>b</mi><mo>)</mo>\r\n           </mrow>\r\n           <mn>2</mn>\r\n          </msup>\r\n         </mtd>\r\n         <mtd>\r\n          <mo>=</mo>\r\n         </mtd>\r\n         <mtd>\r\n          <msup><mi>a</mi><mn>2</mn></msup>\r\n          <mo>+</mo>\r\n          <mrow>\r\n           <mn>2</mn>\r\n           <mo>&#x2062;</mo>\r\n           <mi>a</mi>\r\n           <mo>&#x2062;</mo>\r\n           <mi>b</mi>\r\n          </mrow>\r\n          <mo>+</mo>\r\n          <msup><mi>b</mi><mn>2</mn></msup>\r\n         </mtd>\r\n        </mtr>\r\n        <mtr>\r\n         <mtd></mtd>\r\n         <mtd>\r\n          <mo>&#x2a7d;</mo>\r\n         </mtd>\r\n         <mtd>\r\n          <mrow>\r\n           <mn>2</mn>\r\n           <mo>&#x2062;</mo>\r\n           <mi>a</mi>\r\n           <mo>&#x2062;</mo>\r\n           <mi>b</mi>\r\n          </mrow>\r\n          <mo>+</mo>\r\n          <msup><mi>b</mi><mn>2</mn></msup>\r\n         </mtd>\r\n        </mtr>\r\n        <mtr>\r\n         <mtd></mtd>\r\n         <mtd>\r\n          <mo>=</mo>\r\n         </mtd>\r\n         <mtd>\r\n          <mi>b</mi>\r\n          <mo>&#x2062;</mo>\r\n          <mrow>\r\n           <mo>(</mo>\r\n           <mn>2</mn>\r\n           <mo>&#x2062;</mo>\r\n           <mi>a</mi>\r\n           <mo>+</mo>\r\n           <mi>b</mi>\r\n           <mo>)</mo>\r\n          </mrow>\r\n         </mtd>\r\n        </mtr>\r\n       </mtable>\r\n      </mrow>\r\n     </math>",
+    "MathML_default": "<math display='block'>\r\n <mrow>\r\n  <mtable>\r\n   <mtr>\r\n    <mtd>\r\n     <msup>\r\n      <mrow>\r\n       <mo>(</mo><mi>a</mi><mo>+</mo><mi>b</mi><mo>)</mo>\r\n      </mrow>\r\n      <mn>2</mn>\r\n     </msup>\r\n    </mtd>\r\n    <mtd>\r\n     <mo>=</mo>\r\n    </mtd>\r\n    <mtd>\r\n     <msup><mi>a</mi><mn>2</mn></msup>\r\n     <mo>+</mo>\r\n     <mrow>\r\n      <mn>2</mn>\r\n      <mo>&#x2062;<!--InvisibleTimes--></mo>\r\n      <mi>a</mi>\r\n      <mo>&#x2062;<!--InvisibleTimes--></mo>\r\n      <mi>b</mi>\r\n     </mrow>\r\n     <mo>+</mo>\r\n     <msup><mi>b</mi><mn>2</mn></msup>\r\n    </mtd>\r\n   </mtr>\r\n   <mtr>\r\n    <mtd></mtd>\r\n    <mtd>\r\n     <mo>&#x2a7d;</mo>\r\n    </mtd>\r\n    <mtd>\r\n     <mrow>\r\n      <mn>2</mn>\r\n      <mo>&#x2062;<!--InvisibleTimes--></mo>\r\n      <mi>a</mi>\r\n      <mo>&#x2062;<!--InvisibleTimes--></mo>\r\n      <mi>b</mi>\r\n     </mrow>\r\n     <mo>+</mo>\r\n     <msup><mi>b</mi><mn>2</mn></msup>\r\n    </mtd>\r\n   </mtr>\r\n   <mtr>\r\n    <mtd></mtd>\r\n    <mtd>\r\n     <mo>=</mo>\r\n    </mtd>\r\n    <mtd>\r\n     <mi>b</mi>\r\n     <mo>&#x2062;<!--InvisibleTimes--></mo>\r\n     <mrow>\r\n      <mo>(</mo>\r\n      <mn>2</mn>\r\n      <mo>&#x2062;<!--InvisibleTimes--></mo>\r\n      <mi>a</mi>\r\n      <mo>+</mo>\r\n      <mi>b</mi>\r\n      <mo>)</mo>\r\n     </mrow>\r\n    </mtd>\r\n   </mtr>\r\n  </mtable>\r\n </mrow>\r\n</math>",
+    "MathML_explicit": "<math display='block'>\r\n <mrow>\r\n  <mtable>\r\n   <mtr>\r\n    <mtd>\r\n     <msup>\r\n      <mrow>\r\n       <mo>(</mo><mi>a</mi><mo>+</mo><mi>b</mi><mo>)</mo>\r\n      </mrow>\r\n      <mn>2</mn>\r\n     </msup>\r\n    </mtd>\r\n    <mtd>\r\n     <mo>=</mo>\r\n    </mtd>\r\n    <mtd>\r\n     <msup><mi>a</mi><mn>2</mn></msup>\r\n     <mo>+</mo>\r\n     <mrow>\r\n      <mn>2</mn>\r\n      <mo>&#x2062;<!--InvisibleTimes--></mo>\r\n      <mi>a</mi>\r\n      <mo>&#x2062;<!--InvisibleTimes--></mo>\r\n      <mi>b</mi>\r\n     </mrow>\r\n     <mo>+</mo>\r\n     <msup><mi>b</mi><mn>2</mn></msup>\r\n    </mtd>\r\n   </mtr>\r\n   <mtr>\r\n    <mtd></mtd>\r\n    <mtd>\r\n     <mo>&#x2a7d;</mo>\r\n    </mtd>\r\n    <mtd>\r\n     <mrow>\r\n      <mn>2</mn>\r\n      <mo>&#x2062;<!--InvisibleTimes--></mo>\r\n      <mi>a</mi>\r\n      <mo>&#x2062;<!--InvisibleTimes--></mo>\r\n      <mi>b</mi>\r\n     </mrow>\r\n     <mo>+</mo>\r\n     <msup><mi>b</mi><mn>2</mn></msup>\r\n    </mtd>\r\n   </mtr>\r\n   <mtr>\r\n    <mtd></mtd>\r\n    <mtd>\r\n     <mo>=</mo>\r\n    </mtd>\r\n    <mtd>\r\n     <mi>b</mi>\r\n     <mo>&#x2062;<!--InvisibleTimes--></mo>\r\n     <mrow>\r\n      <mo>(</mo>\r\n      <mn>2</mn>\r\n      <mo>&#x2062;<!--InvisibleTimes--></mo>\r\n      <mi>a</mi>\r\n      <mo>+</mo>\r\n      <mi>b</mi>\r\n      <mo>)</mo>\r\n     </mrow>\r\n    </mtd>\r\n   </mtr>\r\n  </mtable>\r\n </mrow>\r\n</math>",
+    "latex": "\\begin{align}...",
+    "id": "6f65c4b23ee07e2568a04a53b30c795f"
+  },
+  {
+    "Name": "dot x",
+    "MathML": "<math display='block'>\r\n      <mover>\r\n       <mi>x</mi>\r\n       <mo>&#x02D9;</mo>\r\n      </mover>\r\n     </math>",
+    "MathML_default": "<math display='block'>\r\n <mover>\r\n  <mi>x</mi>\r\n  <mo>&#x02D9;</mo>\r\n </mover>\r\n</math>",
+    "MathML_explicit": "<math display='block'>\r\n <mover>\r\n  <mi>x</mi>\r\n  <mo>&#x02D9;</mo>\r\n </mover>\r\n</math>",
+    "latex": "\\dot{x}",
+    "id": "c25f1dbedb5de810c420d5fd07dcfd86"
+  },
+  {
+    "Name": "ddot x",
+    "MathML": "<math display='block'>\r\n      <mover>\r\n       <mi>x</mi>\r\n       <mo>&#x00A8;</mo>\r\n      </mover>\r\n     </math>",
+    "MathML_default": "<math display='block'>\r\n <mover>\r\n  <mi>x</mi>\r\n  <mo>&#x00A8;</mo>\r\n </mover>\r\n</math>",
+    "MathML_explicit": "<math display='block'>\r\n <mover>\r\n  <mi>x</mi>\r\n  <mo>&#x00A8;</mo>\r\n </mover>\r\n</math>",
+    "latex": "\\ddot{x}",
+    "id": "450e30edd13ef3fa12569bf48dfa30be"
+  },
+  {
+    "Name": "dx by dt",
+    "MathML": "<math display='block'>\r\n      <mfrac>\r\n       <mrow><mi>d</mi><mi>x</mi></mrow>\r\n       <mrow><mi>d</mi><mi>t</mi></mrow>\r\n      </mfrac>\r\n     </math>",
+    "MathML_default": "<math display='block'>\r\n <mfrac>\r\n  <mrow><mi>d</mi><mi>x</mi></mrow>\r\n  <mrow><mi>d</mi><mi>t</mi></mrow>\r\n </mfrac>\r\n</math>",
+    "MathML_explicit": "<math display='block'>\r\n <mfrac>\r\n  <mrow><mi>d</mi><mi>x</mi></mrow>\r\n  <mrow><mi>d</mi><mi>t</mi></mrow>\r\n </mfrac>\r\n</math>",
+    "latex": "\\frac{dx}{dt}",
+    "id": "54afe7628ceac40ee391f52e48b2bac8"
+  },
+  {
+    "Name": "d by dt f of t",
+    "MathML": "<math display='block'>\r\n      <mrow>\r\n       <mfrac>\r\n        <mrow><mi>d</mi></mrow>\r\n        <mrow><mi>d</mi><mi>t</mi></mrow>\r\n       </mfrac>\r\n       <mrow>\r\n        <mi>f</mi>\r\n        <mo>&#x2061;</mo>\r\n        <mo>(</mo>\r\n        <mi>t</mi>\r\n        <mo>)</mo>\r\n       </mrow>\r\n      </mrow>\r\n     </math>",
+    "MathML_default": "<math display='block'>\r\n <mrow>\r\n  <mfrac>\r\n   <mrow><mi>d</mi></mrow>\r\n   <mrow><mi>d</mi><mi>t</mi></mrow>\r\n  </mfrac>\r\n  <mrow>\r\n   <mi>f</mi>\r\n   <mo>&#x2061;</mo>\r\n   <mo>(</mo>\r\n   <mi>t</mi>\r\n   <mo>)</mo>\r\n  </mrow>\r\n </mrow>\r\n</math>",
+    "MathML_explicit": "<math display='block'>\r\n <mrow>\r\n  <mfrac>\r\n   <mrow><mi>d</mi></mrow>\r\n   <mrow><mi>d</mi><mi>t</mi></mrow>\r\n  </mfrac>\r\n  <mrow>\r\n   <mi>f</mi>\r\n   <mo>&#x2061;</mo>\r\n   <mo>(</mo>\r\n   <mi>t</mi>\r\n   <mo>)</mo>\r\n  </mrow>\r\n </mrow>\r\n</math>",
+    "latex": "\\frac{d}{dt}f(t)",
+    "id": "165432696535dbe9f054fd44b9bd6309"
+  },
+  {
+    "Name": "dx2 by dt2",
+    "MathML": "<math display='block'>\r\n      <mfrac>\r\n       <mrow>\r\n        <msup>\r\n         <mi>d</mi><mn>2</mn>\r\n        </msup>\r\n        <mi>x</mi>\r\n       </mrow>\r\n       <mrow>\r\n        <mi>d</mi>\r\n        <msup>\r\n         <mi>t</mi>\r\n         <mn>2</mn>\r\n        </msup>\r\n       </mrow>\r\n      </mfrac>\r\n     </math>",
+    "MathML_default": "<math display='block'>\r\n <mfrac>\r\n  <mrow>\r\n   <msup>\r\n    <mi>d</mi><mn>2</mn>\r\n   </msup>\r\n   <mi>x</mi>\r\n  </mrow>\r\n  <mrow>\r\n   <mi>d</mi>\r\n   <msup>\r\n    <mi>t</mi>\r\n    <mn>2</mn>\r\n   </msup>\r\n  </mrow>\r\n </mfrac>\r\n</math>",
+    "MathML_explicit": "<math display='block'>\r\n <mfrac>\r\n  <mrow>\r\n   <msup>\r\n    <mi>d</mi><mn>2</mn>\r\n   </msup>\r\n   <mi>x</mi>\r\n  </mrow>\r\n  <mrow>\r\n   <mi>d</mi>\r\n   <msup>\r\n    <mi>t</mi>\r\n    <mn>2</mn>\r\n   </msup>\r\n  </mrow>\r\n </mfrac>\r\n</math>",
+    "latex": "\\frac{d^2x}{dt^2}",
+    "id": "c0bd9c7ca999bd5978e605557ce21b51"
+  },
+  {
+    "Name": "partial df by dx dy",
+    "MathML": "<math display='block'>\r\n      <mfrac>\r\n       <mrow>\r\n        <msup>\r\n         <mo>&#x2202;</mo><mn>2</mn>\r\n        </msup>\r\n        <mi>f</mi>\r\n       </mrow>\r\n       <mrow>\r\n        <mrow>\r\n         <mo>&#x2202;</mo>\r\n         <mi>x</mi>\r\n        </mrow>\r\n        <mrow>\r\n         <mo>&#x2202;</mo>\r\n         <mi>y</mi>\r\n        </mrow>\r\n       </mrow>\r\n      </mfrac>\r\n     </math>",
+    "MathML_default": "<math display='block'>\r\n <mfrac>\r\n  <mrow>\r\n   <msup>\r\n    <mo>&#x2202;</mo><mn>2</mn>\r\n   </msup>\r\n   <mi>f</mi>\r\n  </mrow>\r\n  <mrow>\r\n   <mrow>\r\n    <mo>&#x2202;</mo>\r\n    <mi>x</mi>\r\n   </mrow>\r\n   <mrow>\r\n    <mo>&#x2202;</mo>\r\n    <mi>y</mi>\r\n   </mrow>\r\n  </mrow>\r\n </mfrac>\r\n</math>",
+    "MathML_explicit": "<math display='block'>\r\n <mfrac>\r\n  <mrow>\r\n   <msup>\r\n    <mo>&#x2202;</mo><mn>2</mn>\r\n   </msup>\r\n   <mi>f</mi>\r\n  </mrow>\r\n  <mrow>\r\n   <mrow>\r\n    <mo>&#x2202;</mo>\r\n    <mi>x</mi>\r\n   </mrow>\r\n   <mrow>\r\n    <mo>&#x2202;</mo>\r\n    <mi>y</mi>\r\n   </mrow>\r\n  </mrow>\r\n </mfrac>\r\n</math>",
+    "latex": "\\frac{\\partial^2 f}{\\partial x \\partial y}",
+    "id": "0aad0e564c4ec2de1122900012952f11"
+  },
+  {
+    "Name": "int f(x) dx",
+    "MathML": "<math display='block'>\r\n      <mo>&#x222B;</mo>\r\n      <mrow>\r\n       <mi>f</mi>\r\n       <mo>&#x2061;</mo>\r\n       <mo>(</mo>\r\n       <mi>x</mi>\r\n       <mo>)</mo>\r\n      </mrow>\r\n      <mrow>\r\n       <mi>d</mi>\r\n       <mi>x</mi>\r\n      </mrow>\r\n     </math>",
+    "MathML_default": "<math display='block'>\r\n <mo>&#x222B;</mo>\r\n <mrow>\r\n  <mi>f</mi>\r\n  <mo>&#x2061;</mo>\r\n  <mo>(</mo>\r\n  <mi>x</mi>\r\n  <mo>)</mo>\r\n </mrow>\r\n <mrow>\r\n  <mi>d</mi>\r\n  <mi>x</mi>\r\n </mrow>\r\n</math>",
+    "MathML_explicit": "<math display='block'>\r\n <mo>&#x222B;</mo>\r\n <mrow>\r\n  <mi>f</mi>\r\n  <mo>&#x2061;</mo>\r\n  <mo>(</mo>\r\n  <mi>x</mi>\r\n  <mo>)</mo>\r\n </mrow>\r\n <mrow>\r\n  <mi>d</mi>\r\n  <mi>x</mi>\r\n </mrow>\r\n</math>",
+    "latex": "\\int f(x) dx",
+    "id": "b8f7ff33d564efef25b990dd2a6ee6b7"
+  },
+  {
+    "Name": "defint 0 to 1 x squared",
+    "MathML": "<math display='block'>\r\n      <mrow>\r\n       <msubsup>\r\n        <mo>∫</mo>\r\n        <mn>0</mn>\r\n        <mn>1</mn>\r\n       </msubsup>\r\n       <msup><mi>x</mi><mn>2</mn></msup>\r\n       <mi>d</mi>\r\n       <mi>x</mi>\r\n      </mrow>\r\n     </math>",
+    "MathML_default": "<math display='block'>\r\n <mrow>\r\n  <msubsup>\r\n   <mo>∫</mo>\r\n   <mn>0</mn>\r\n   <mn>1</mn>\r\n  </msubsup>\r\n  <msup><mi>x</mi><mn>2</mn></msup>\r\n  <mi>d</mi>\r\n  <mi>x</mi>\r\n </mrow>\r\n</math>",
+    "MathML_explicit": "<math display='block'>\r\n <mrow>\r\n  <msubsup>\r\n   <mo>∫</mo>\r\n   <mn>0</mn>\r\n   <mn>1</mn>\r\n  </msubsup>\r\n  <msup><mi>x</mi><mn>2</mn></msup>\r\n  <mi>d</mi>\r\n  <mi>x</mi>\r\n </mrow>\r\n</math>",
+    "latex": "\\int_0^1 x^2 dx",
+    "id": "301d3c2e7eac784da0300a8b36c1b2a9"
+  },
+  {
+    "Name": "evaluate 2x at 1 and 0 bracket",
+    "MathML": "<math display='block' mathbackground='yellow'>\r\n      <mrow>\r\n       <mo>[</mo>\r\n       <mn>2</mn>\r\n       <mo>&#x2062;</mo>\r\n       <mi>x</mi>\r\n       <msubsup>\r\n        <mo>]</mo>\r\n        <mn>0</mn>\r\n        <mn>1</mn>\r\n       </msubsup>\r\n      </mrow>\r\n     </math>",
+    "MathML_default": "<math display='block' mathbackground='yellow'>\r\n <mrow>\r\n  <mo>[</mo>\r\n  <mn>2</mn>\r\n  <mo>&#x2062;</mo>\r\n  <mi>x</mi>\r\n  <msubsup>\r\n   <mo>]</mo>\r\n   <mn>0</mn>\r\n   <mn>1</mn>\r\n  </msubsup>\r\n </mrow>\r\n</math>",
+    "MathML_explicit": "<math display='block' mathbackground='yellow'>\r\n <mrow>\r\n  <mo>[</mo>\r\n  <mn>2</mn>\r\n  <mo>&#x2062;</mo>\r\n  <mi>x</mi>\r\n  <msubsup>\r\n   <mo>]</mo>\r\n   <mn>0</mn>\r\n   <mn>1</mn>\r\n  </msubsup>\r\n </mrow>\r\n</math>",
+    "latex": "[2x]_0^1",
+    "id": "c9e745d476ab9bfc8e2d4f044179afb7"
+  },
+  {
+    "Name": "evaluate 2x at 1 and 0 bracket expression in base ",
+    "MathML": "<math display='block' mathbackground='yellow'>\r\n      <msubsup>\r\n       <mrow>\r\n        <mo>[</mo>\r\n        <mn>2</mn>\r\n        <mo>&#x2062;</mo>\r\n        <mi>x</mi>\r\n        <mo>]</mo>\r\n       </mrow>\r\n       <mn>0</mn>\r\n       <mn>1</mn>\r\n      </msubsup>\r\n     </math>",
+    "MathML_default": "<math display='block' mathbackground='yellow'>\r\n <msubsup>\r\n  <mrow>\r\n   <mo>[</mo>\r\n   <mn>2</mn>\r\n   <mo>&#x2062;</mo>\r\n   <mi>x</mi>\r\n   <mo>]</mo>\r\n  </mrow>\r\n  <mn>0</mn>\r\n  <mn>1</mn>\r\n </msubsup>\r\n</math>",
+    "MathML_explicit": "<math display='block' mathbackground='yellow'>\r\n <msubsup>\r\n  <mrow>\r\n   <mo>[</mo>\r\n   <mn>2</mn>\r\n   <mo>&#x2062;</mo>\r\n   <mi>x</mi>\r\n   <mo>]</mo>\r\n  </mrow>\r\n  <mn>0</mn>\r\n  <mn>1</mn>\r\n </msubsup>\r\n</math>",
+    "latex": "[2x]_0^1",
+    "id": "43692ab32dcbb00415649ba18d231c32"
+  },
+  {
+    "Name": "evaluate 2x at 1 and 0 vertical bar",
+    "MathML": "<math display='block' mathbackground='yellow'>\r\n      <mrow>\r\n       <mn>2</mn>\r\n       <mo>&#x2062;</mo>\r\n       <mi>x</mi>\r\n       <msubsup>\r\n        <mo>|</mo>\r\n        <mn>0</mn>\r\n        <mn>1</mn>\r\n       </msubsup>\r\n      </mrow>\r\n     </math>",
+    "MathML_default": "<math display='block' mathbackground='yellow'>\r\n <mrow>\r\n  <mn>2</mn>\r\n  <mo>&#x2062;</mo>\r\n  <mi>x</mi>\r\n  <msubsup>\r\n   <mo>|</mo>\r\n   <mn>0</mn>\r\n   <mn>1</mn>\r\n  </msubsup>\r\n </mrow>\r\n</math>",
+    "MathML_explicit": "<math display='block' mathbackground='yellow'>\r\n <mrow>\r\n  <mn>2</mn>\r\n  <mo>&#x2062;</mo>\r\n  <mi>x</mi>\r\n  <msubsup>\r\n   <mo>|</mo>\r\n   <mn>0</mn>\r\n   <mn>1</mn>\r\n  </msubsup>\r\n </mrow>\r\n</math>",
+    "latex": "2x|_0^1",
+    "id": "0c63769fb597b4cbd7924e9cba937ca3"
+  },
+  {
+    "Name": "evaluate 2x at 1 and 0 vertical bar expression in base",
+    "MathML": "<math display='block' mathbackground='yellow'>\r\n      <msubsup>\r\n       <mrow>\r\n        <mn>2</mn>\r\n        <mo>&#x2062;</mo>\r\n        <mi>x</mi>\r\n        <mo>|</mo>\r\n       </mrow>\r\n       <mn>0</mn>\r\n       <mn>1</mn>\r\n      </msubsup>\r\n     </math>",
+    "MathML_default": "<math display='block' mathbackground='yellow'>\r\n <msubsup>\r\n  <mrow>\r\n   <mn>2</mn>\r\n   <mo>&#x2062;</mo>\r\n   <mi>x</mi>\r\n   <mo>|</mo>\r\n  </mrow>\r\n  <mn>0</mn>\r\n  <mn>1</mn>\r\n </msubsup>\r\n</math>",
+    "MathML_explicit": "<math display='block' mathbackground='yellow'>\r\n <msubsup>\r\n  <mrow>\r\n   <mn>2</mn>\r\n   <mo>&#x2062;</mo>\r\n   <mi>x</mi>\r\n   <mo>|</mo>\r\n  </mrow>\r\n  <mn>0</mn>\r\n  <mn>1</mn>\r\n </msubsup>\r\n</math>",
+    "latex": "2x|_0^1",
+    "id": "074437988ce3e238298e9b105d6ecfbe"
+  },
+  {
+    "Name": "oint 1 over z dz",
+    "MathML": "<math display='block'>\r\n      <msub>\r\n       <mo>&#x222E;</mo>\r\n       <mi>C</mi>\r\n      </msub>\r\n      <mfrac>\r\n       <mn>1</mn>\r\n       <mi>z</mi>\r\n      </mfrac>\r\n      <mrow>\r\n       <mi>d</mi>\r\n       <mi>z</mi>\r\n      </mrow>\r\n     </math>",
+    "MathML_default": "<math display='block'>\r\n <msub>\r\n  <mo>&#x222E;</mo>\r\n  <mi>C</mi>\r\n </msub>\r\n <mfrac>\r\n  <mn>1</mn>\r\n  <mi>z</mi>\r\n </mfrac>\r\n <mrow>\r\n  <mi>d</mi>\r\n  <mi>z</mi>\r\n </mrow>\r\n</math>",
+    "MathML_explicit": "<math display='block'>\r\n <msub>\r\n  <mo>&#x222E;</mo>\r\n  <mi>C</mi>\r\n </msub>\r\n <mfrac>\r\n  <mn>1</mn>\r\n  <mi>z</mi>\r\n </mfrac>\r\n <mrow>\r\n  <mi>d</mi>\r\n  <mi>z</mi>\r\n </mrow>\r\n</math>",
+    "latex": "\\oint \\frac{1}{z} dz",
+    "id": "8dbb651bc0d2382993192f6310305db9"
+  },
+  {
+    "Name": " NFC v dot and w dot",
+    "MathML": "<math display='block'>\r\n      <mrow>\r\n       <mrow>\r\n        <mover>\r\n         <mi>v</mi>\r\n         <mo>&#x02d9;</mo>\r\n        </mover>\r\n        <mo>**</mo>\r\n        <mn>2</mn>\r\n       </mrow>\r\n       <mo>+</mo>\r\n       <mrow>\r\n        <mover>\r\n         <mi>w</mi>\r\n         <mo>&#x02d9;</mo>\r\n        </mover>\r\n        <mo>**</mo>\r\n        <mn>2</mn>\r\n       </mrow>\r\n      </mrow>\r\n     </math>",
+    "MathML_default": "<math display='block'>\r\n <mrow>\r\n  <mrow>\r\n   <mover>\r\n    <mi>v</mi>\r\n    <mo>&#x02d9;</mo>\r\n   </mover>\r\n   <mo>**</mo>\r\n   <mn>2</mn>\r\n  </mrow>\r\n  <mo>+</mo>\r\n  <mrow>\r\n   <mover>\r\n    <mi>w</mi>\r\n    <mo>&#x02d9;</mo>\r\n   </mover>\r\n   <mo>**</mo>\r\n   <mn>2</mn>\r\n  </mrow>\r\n </mrow>\r\n</math>",
+    "MathML_explicit": "<math display='block'>\r\n <mrow>\r\n  <mrow>\r\n   <mover>\r\n    <mi>v</mi>\r\n    <mo>&#x02d9;</mo>\r\n   </mover>\r\n   <mo>**</mo>\r\n   <mn>2</mn>\r\n  </mrow>\r\n  <mo>+</mo>\r\n  <mrow>\r\n   <mover>\r\n    <mi>w</mi>\r\n    <mo>&#x02d9;</mo>\r\n   </mover>\r\n   <mo>**</mo>\r\n   <mn>2</mn>\r\n  </mrow>\r\n </mrow>\r\n</math>",
+    "latex": "\\dot{v}**2+\\dot{w}**2",
+    "id": "8a1ff742386c9d95be2bfe85af9c98b3"
+  },
+  {
+    "Name": "x with string",
+    "MathML": "<math display='block'>\r\n      <mi>x</mi>\r\n     </math>",
+    "MathML_default": "<math display='block'>\r\n <mi>x</mi>\r\n</math>",
+    "MathML_explicit": "<math display='block'>\r\n <mi>x</mi>\r\n</math>",
+    "latex": "x",
+    "id": "c91d1449db85d1186fcce402dbfae26b"
+  },
+  {
+    "Name": "a plus b factorial unary plus intent",
+    "MathML": "<math display='block'>\r\n      <mrow>\r\n       <mi>a</mi>\r\n       <mo>+</mo>\r\n       <mi>b</mi>\r\n       <mo>!</mo>\r\n      </mrow>\r\n     </math>",
+    "MathML_default": "<math display='block'>\r\n <mrow>\r\n  <mi>a</mi>\r\n  <mo>+</mo>\r\n  <mi>b</mi>\r\n  <mo>!</mo>\r\n </mrow>\r\n</math>",
+    "MathML_explicit": "<math display='block'>\r\n <mrow>\r\n  <mi>a</mi>\r\n  <mo>+</mo>\r\n  <mi>b</mi>\r\n  <mo>!</mo>\r\n </mrow>\r\n</math>",
+    "latex": "a+b!",
+    "id": "6b99f97897a5b53ddce315859d526f45"
+  },
+  {
+    "Name": "Properties on argref",
+    "MathML": "<math display='block'>\r\n      <mrow>\r\n       <mi>a</mi>\r\n       <mo>+</mo>\r\n       <mi>b</mi>\r\n      </mrow>\r\n     </math>",
+    "MathML_default": "<math display='block'>\r\n <mrow>\r\n  <mi>a</mi>\r\n  <mo>+</mo>\r\n  <mi>b</mi>\r\n </mrow>\r\n</math>",
+    "MathML_explicit": "<math display='block'>\r\n <mrow>\r\n  <mi>a</mi>\r\n  <mo>+</mo>\r\n  <mi>b</mi>\r\n </mrow>\r\n</math>",
+    "latex": "a+b",
+    "id": "5b3972811b305dc6b5d742bd7e5e0288"
+  },
+  {
+    "Name": "free r-algebra on x",
+    "MathML": "<math display='block'>\r\n      <mrow>\r\n       <mi>R</mi>\r\n       <mo>&#x27e8;</mo>\r\n       <mi>X</mi>\r\n       <mo>&#x27e9;</mo>\r\n      </mrow>\r\n     </math>",
+    "MathML_default": "<math display='block'>\r\n <mrow>\r\n  <mi>R</mi>\r\n  <mo>&#x27e8;</mo>\r\n  <mi>X</mi>\r\n  <mo>&#x27e9;</mo>\r\n </mrow>\r\n</math>",
+    "MathML_explicit": "<math display='block'>\r\n <mrow>\r\n  <mi>R</mi>\r\n  <mo>&#x27e8;</mo>\r\n  <mi>X</mi>\r\n  <mo>&#x27e9;</mo>\r\n </mrow>\r\n</math>",
+    "latex": "R\\langle X\\rangle",
+    "id": "dc9d1a5f6cdc19647066e7237b22c2d2"
+  },
+  {
+    "Name": "x plus 2 times the absolute-value of y minus z",
+    "MathML": "<math display='block'>\r\n      <mrow>\r\n       <mi>x</mi>\r\n       <mo>+</mo>\r\n       <mn>2</mn>\r\n       <mo>|</mo>\r\n       <mi>y</mi>\r\n       <mo>-</mo>\r\n       <mi>z</mi>\r\n       <mo>|</mo>\r\n      </mrow>\r\n     </math>",
+    "MathML_default": "<math display='block'>\r\n <mrow>\r\n  <mi>x</mi>\r\n  <mo>+</mo>\r\n  <mn>2</mn>\r\n  <mo>|</mo>\r\n  <mi>y</mi>\r\n  <mo>-</mo>\r\n  <mi>z</mi>\r\n  <mo>|</mo>\r\n </mrow>\r\n</math>",
+    "MathML_explicit": "<math display='block'>\r\n <mrow>\r\n  <mi>x</mi>\r\n  <mo>+</mo>\r\n  <mn>2</mn>\r\n  <mo>|</mo>\r\n  <mi>y</mi>\r\n  <mo>-</mo>\r\n  <mi>z</mi>\r\n  <mo>|</mo>\r\n </mrow>\r\n</math>",
+    "latex": "x+2\\lvert y-z\\rvert",
+    "id": "8f3e17276b76efbac0ac1e647b220eb1"
+  },
+  {
+    "Name": "NCR x28 and x24",
+    "MathML": "<math display='block'>\r\n      <mrow>\r\n       <mi>log</mi>\r\n       <mi>X</mi>\r\n      </mrow>\r\n     </math>",
+    "MathML_default": "<math display='block'>\r\n <mrow>\r\n  <mi>log</mi>\r\n  <mi>X</mi>\r\n </mrow>\r\n</math>",
+    "MathML_explicit": "<math display='block'>\r\n <mrow>\r\n  <mi>log</mi>\r\n  <mi>X</mi>\r\n </mrow>\r\n</math>",
+    "latex": "\\log x",
+    "id": "b8b11e21469bd78e360b91de46fc7c4c"
+  },
+  {
+    "Name": "nested html b",
+    "MathML": "<math display='block'>\r\n      <mi>x</mi>\r\n      <mo>+</mo>\r\n      <mtext>a <b>bold</b> word</mtext>\r\n     </math>",
+    "MathML_default": "<math display='block'>\r\n <mi>x</mi>\r\n <mo>+</mo>\r\n <mtext>a <b>bold</b> word</mtext>\r\n</math>",
+    "MathML_explicit": "<math display='block'>\r\n <mi>x</mi>\r\n <mo>+</mo>\r\n <mtext>a <b>bold</b> word</mtext>\r\n</math>",
+    "latex": "x+\\text{a \\textbf{bold} word",
+    "id": "099561ee187976f9a2786b9f2f343664"
+  },
+  {
+    "Name": "H20",
+    "MathML": "<math display='block'>\r\n      <mrow>\r\n          <mmultiscripts>\r\n            <mi mathvariant='normal'>H</mi>\r\n            <mn>2</mn>\r\n            <mrow></mrow>\r\n          </mmultiscripts>\r\n          <mi mathvariant='normal'>O</mi>\r\n        </mrow>\r\n     </math>",
+    "MathML_default": "<math display='block'>\r\n <mrow>\r\n     <mmultiscripts>\r\n       <mi mathvariant='normal'>H</mi>\r\n       <mn>2</mn>\r\n       <mrow/>\r\n     </mmultiscripts>\r\n     <mi mathvariant='normal'>O</mi>\r\n   </mrow>\r\n</math>",
+    "MathML_explicit": "<math display='block'>\r\n <mrow>\r\n     <mmultiscripts>\r\n       <mi mathvariant='normal'>H</mi>\r\n       <mn>2</mn>\r\n       <mrow/>\r\n     </mmultiscripts>\r\n     <mi mathvariant='normal'>O</mi>\r\n   </mrow>\r\n</math>",
+    "latex": "\\ce{H20}",
+    "id": "eafded0189cc86f7e73ddbb61fb80645"
+  },
+  {
+    "Name": "2 H2O → 2 H2 + O",
+    "MathML": "<math display='block'>\r\n      <mrow>\r\n       <mrow>\r\n        <mn>2</mn>\r\n        <mo>&#x2062;</mo>\r\n        <mrow>\r\n         <mmultiscripts>\r\n          <mi mathvariant='normal'>H</mi>\r\n          <mn>2</mn>\r\n          <mrow></mrow>\r\n         </mmultiscripts>\r\n         <mo>&#x2063;</mo>\r\n         <mi mathvariant='normal'>O</mi>\r\n        </mrow>\r\n       </mrow>\r\n       <mo>⟶</mo>\r\n       <mrow>\r\n        <mrow>\r\n         <mn>2</mn>\r\n         <mo>&#x2062;</mo>\r\n         <mmultiscripts>\r\n          <mi mathvariant='normal'>H</mi>\r\n          <mn>2</mn>\r\n          <mrow></mrow>\r\n         </mmultiscripts>\r\n        </mrow>\r\n        <mo>+</mo>\r\n        <mmultiscripts>\r\n         <mi mathvariant='normal'>O</mi>\r\n         <mn>2</mn>\r\n         <mrow></mrow>\r\n        </mmultiscripts>\r\n       </mrow>\r\n      </mrow>\r\n     </math>",
+    "MathML_default": "<math display='block'>\r\n <mrow>\r\n  <mrow>\r\n   <mn>2</mn>\r\n   <mo>&#x2062;</mo>\r\n   <mrow>\r\n    <mmultiscripts>\r\n     <mi mathvariant='normal'>H</mi>\r\n     <mn>2</mn>\r\n     <mrow/>\r\n    </mmultiscripts>\r\n    <mo>&#x2063;</mo>\r\n    <mi mathvariant='normal'>O</mi>\r\n   </mrow>\r\n  </mrow>\r\n  <mo>⟶</mo>\r\n  <mrow>\r\n   <mrow>\r\n    <mn>2</mn>\r\n    <mo>&#x2062;</mo>\r\n    <mmultiscripts>\r\n     <mi mathvariant='normal'>H</mi>\r\n     <mn>2</mn>\r\n     <mrow/>\r\n    </mmultiscripts>\r\n   </mrow>\r\n   <mo>+</mo>\r\n   <mmultiscripts>\r\n    <mi mathvariant='normal'>O</mi>\r\n    <mn>2</mn>\r\n    <mrow/>\r\n   </mmultiscripts>\r\n  </mrow>\r\n </mrow>\r\n</math>",
+    "MathML_explicit": "<math display='block'>\r\n <mrow>\r\n  <mrow>\r\n   <mn>2</mn>\r\n   <mo>&#x2062;</mo>\r\n   <mrow>\r\n    <mmultiscripts>\r\n     <mi mathvariant='normal'>H</mi>\r\n     <mn>2</mn>\r\n     <mrow/>\r\n    </mmultiscripts>\r\n    <mo>&#x2063;</mo>\r\n    <mi mathvariant='normal'>O</mi>\r\n   </mrow>\r\n  </mrow>\r\n  <mo>⟶</mo>\r\n  <mrow>\r\n   <mrow>\r\n    <mn>2</mn>\r\n    <mo>&#x2062;</mo>\r\n    <mmultiscripts>\r\n     <mi mathvariant='normal'>H</mi>\r\n     <mn>2</mn>\r\n     <mrow/>\r\n    </mmultiscripts>\r\n   </mrow>\r\n   <mo>+</mo>\r\n   <mmultiscripts>\r\n    <mi mathvariant='normal'>O</mi>\r\n    <mn>2</mn>\r\n    <mrow/>\r\n   </mmultiscripts>\r\n  </mrow>\r\n </mrow>\r\n</math>",
+    "latex": "\\ce{2 H2O → 2 H2 + O2}",
+    "id": "aa6dda9e5698b378c6c6ae6e945f7d2d"
+  },
+  {
+    "Name": "0-ary divides",
+    "MathML": "<math display='block'>\r\n      <mfrac>\r\n       <mi>x</mi>\r\n       <mi>y</mi>\r\n      </mfrac>\r\n     </math>",
+    "MathML_default": "<math display='block'>\r\n <mfrac>\r\n  <mi>x</mi>\r\n  <mi>y</mi>\r\n </mfrac>\r\n</math>",
+    "MathML_explicit": "<math display='block'>\r\n <mfrac>\r\n  <mi>x</mi>\r\n  <mi>y</mi>\r\n </mfrac>\r\n</math>",
+    "latex": " - ",
+    "id": "6d0253b60611a4d376e6ac673a58c157"
+  },
+  {
+    "Name": "1-ary divides",
+    "MathML": "<math display='block'>\r\n      <mfrac>\r\n       <mi>x</mi>\r\n       <mi>y</mi>\r\n      </mfrac>\r\n     </math>",
+    "MathML_default": "<math display='block'>\r\n <mfrac>\r\n  <mi>x</mi>\r\n  <mi>y</mi>\r\n </mfrac>\r\n</math>",
+    "MathML_explicit": "<math display='block'>\r\n <mfrac>\r\n  <mi>x</mi>\r\n  <mi>y</mi>\r\n </mfrac>\r\n</math>",
+    "latex": " - ",
+    "id": "e3e958b5e0acaf9e6bf2269b03696d99"
+  },
+  {
+    "Name": "3-ary divides",
+    "MathML": "<math display='block'>\r\n      <mfrac>\r\n       <mi>x</mi>\r\n       <mi>y</mi>\r\n      </mfrac>\r\n     </math>",
+    "MathML_default": "<math display='block'>\r\n <mfrac>\r\n  <mi>x</mi>\r\n  <mi>y</mi>\r\n </mfrac>\r\n</math>",
+    "MathML_explicit": "<math display='block'>\r\n <mfrac>\r\n  <mi>x</mi>\r\n  <mi>y</mi>\r\n </mfrac>\r\n</math>",
+    "latex": " - ",
+    "id": "772c48cd62a4c9959232305fd0340551"
+  },
+  {
+    "Name": "1-ary ray",
+    "MathML": "<math display='block'>\r\n      <mover>\r\n       <mi>X</mi>\r\n       <mo>→</mo>\r\n      </mover>\r\n     </math>",
+    "MathML_default": "<math display='block'>\r\n <mover>\r\n  <mi>X</mi>\r\n  <mo>→</mo>\r\n </mover>\r\n</math>",
+    "MathML_explicit": "<math display='block'>\r\n <mover>\r\n  <mi>X</mi>\r\n  <mo>→</mo>\r\n </mover>\r\n</math>",
+    "latex": " - ",
+    "id": "c3d4d52ea59ec3b3cbece1627193d227"
+  },
+  {
+    "Name": "content mathml sin x",
+    "MathML": "<math display='block'>\r\n      <apply>\r\n       <sin></sin>\r\n       <ci>x</ci>\r\n      </apply>\r\n     </math>",
+    "MathML_default": "<math display='block'>\r\n <apply>\r\n  <sin/>\r\n  <ci>x</ci>\r\n </apply>\r\n</math>",
+    "MathML_explicit": "<math display='block'>\r\n <apply>\r\n  <sin/>\r\n  <ci>x</ci>\r\n </apply>\r\n</math>",
+    "latex": "\\sin x",
+    "id": "7414316c7cc37d6bc58aeb42eb638ca9"
+  },
+  {
+    "Name": "bad intent paren",
+    "MathML": "<math display='block'>\r\n      <mfrac>\r\n       <mi>x</mi>\r\n       <mi>y</mi>\r\n      </mfrac>\r\n     </math>",
+    "MathML_default": "<math display='block'>\r\n <mfrac>\r\n  <mi>x</mi>\r\n  <mi>y</mi>\r\n </mfrac>\r\n</math>",
+    "MathML_explicit": "<math display='block'>\r\n <mfrac>\r\n  <mi>x</mi>\r\n  <mi>y</mi>\r\n </mfrac>\r\n</math>",
+    "latex": " - ",
+    "id": "75ac73906d50d6469149b617243b7228"
+  },
+  {
+    "Name": "bad intent argref",
+    "MathML": "<math display='block'>\r\n      <mrow>\r\n       <mn>1.234</mn>\r\n       <mo>+</mo>\r\n       <mi>x</mi>\r\n      </mrow>\r\n     </math>",
+    "MathML_default": "<math display='block'>\r\n <mrow>\r\n  <mn>1.234</mn>\r\n  <mo>+</mo>\r\n  <mi>x</mi>\r\n </mrow>\r\n</math>",
+    "MathML_explicit": "<math display='block'>\r\n <mrow>\r\n  <mn>1.234</mn>\r\n  <mo>+</mo>\r\n  <mi>x</mi>\r\n </mrow>\r\n</math>",
+    "latex": " - ",
+    "id": "6a2d39eea4ff1322559cc1afb8171bb1"
+  },
+  {
+    "Name": "bad intent arg names",
+    "MathML": "<math display='block'>\r\n      <mrow>\r\n       <mn>1.234</mn>\r\n       <mo>+</mo>\r\n       <mi>x</mi>\r\n      </mrow>\r\n     </math>",
+    "MathML_default": "<math display='block'>\r\n <mrow>\r\n  <mn>1.234</mn>\r\n  <mo>+</mo>\r\n  <mi>x</mi>\r\n </mrow>\r\n</math>",
+    "MathML_explicit": "<math display='block'>\r\n <mrow>\r\n  <mn>1.234</mn>\r\n  <mo>+</mo>\r\n  <mi>x</mi>\r\n </mrow>\r\n</math>",
+    "latex": " - ",
+    "id": "2cd5988f19d5c8b2a81e6430f07706c5"
+  },
+  {
+    "Name": "multiple identifiers",
+    "MathML": "<math display='block'>\r\n      <mi>x</mi>\r\n     </math>",
+    "MathML_default": "<math display='block'>\r\n <mi>x</mi>\r\n</math>",
+    "MathML_explicit": "<math display='block'>\r\n <mi>x</mi>\r\n</math>",
+    "latex": " - ",
+    "id": "1e0c633b76e9a128d2b6f36f9daa4a97"
+  },
+  {
+    "Name": "bad number",
+    "MathML": "<math display='block'>\r\n      <mn>12</mn>\r\n     </math>",
+    "MathML_default": "<math display='block'>\r\n <mn>12</mn>\r\n</math>",
+    "MathML_explicit": "<math display='block'>\r\n <mn>12</mn>\r\n</math>",
+    "latex": " - ",
+    "id": "b07028f8b3ae58a97256a8fd2f155955"
+  },
+  {
+    "Name": "bad intent subexpression",
+    "MathML": "<math display='block'>\r\n      <mover>\r\n       <mi>X</mi>\r\n       <mo>&#x203e;</mo>\r\n      </mover>\r\n      <mo>+</mo>\r\n      <mover>\r\n       <mi>Y</mi>\r\n       <mo>&#x203e;</mo>\r\n      </mover>\r\n     </math>",
+    "MathML_default": "<math display='block'>\r\n <mover>\r\n  <mi>X</mi>\r\n  <mo>&#x203e;</mo>\r\n </mover>\r\n <mo>+</mo>\r\n <mover>\r\n  <mi>Y</mi>\r\n  <mo>&#x203e;</mo>\r\n </mover>\r\n</math>",
+    "MathML_explicit": "<math display='block'>\r\n <mover>\r\n  <mi>X</mi>\r\n  <mo>&#x203e;</mo>\r\n </mover>\r\n <mo>+</mo>\r\n <mover>\r\n  <mi>Y</mi>\r\n  <mo>&#x203e;</mo>\r\n </mover>\r\n</math>",
+    "latex": " - ",
+    "id": "61548e17b2ce0e75fb1a9561a78fb1ea"
+  },
+  {
+    "Name": "Free text just say this",
+    "MathML": "<math display='block'>\r\n      <mi>x</mi>\r\n     </math>",
+    "MathML_default": "<math display='block'>\r\n <mi>x</mi>\r\n</math>",
+    "MathML_explicit": "<math display='block'>\r\n <mi>x</mi>\r\n</math>",
+    "latex": "x",
+    "id": "a5c7258818eeb3d4b1a0894eaae79731"
+  },
+  {
+    "Name": "Free text with argref",
+    "MathML": "<math display='block'>\r\n      <mrow>\r\n       <mi>x</mi>\r\n      </mrow>\r\n     </math>",
+    "MathML_default": "<math display='block'>\r\n <mrow>\r\n  <mi>x</mi>\r\n </mrow>\r\n</math>",
+    "MathML_explicit": "<math display='block'>\r\n <mrow>\r\n  <mi>x</mi>\r\n </mrow>\r\n</math>",
+    "latex": "x",
+    "id": "5061d310d6113d9e83d296469b8b8518"
+  },
+  {
+    "Name": "intent 🐇",
+    "MathML": "<math display='block'>\r\n      <mrow>\r\n       <mo>&#x1F407;</mo>\r\n       <mi>X</mi>\r\n      </mrow>\r\n     </math>",
+    "MathML_default": "<math display='block'>\r\n <mrow>\r\n  <mo>&#x1F407;</mo>\r\n  <mi>X</mi>\r\n </mrow>\r\n</math>",
+    "MathML_explicit": "<math display='block'>\r\n <mrow>\r\n  <mo>&#x1F407;</mo>\r\n  <mi>X</mi>\r\n </mrow>\r\n</math>",
+    "latex": "🐇 X",
+    "id": "2756c5ae3e9e284d3369e4818c818553"
+  }
+]

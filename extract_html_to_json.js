@@ -24,24 +24,63 @@ var rows = root.querySelectorAll("body > table > tr");
 for(var i=1;i<rows.length;i++){
     var row = rows[i];
     // var el0 = row.querySelectorAll("td:nth-child(0)");
-    var mathML = row.querySelectorAll("td:nth-child(1) > math  ");
+    var mathML = row.querySelectorAll("td:nth-child(1) > math  ").toString();
     var mathMLDefault = row.querySelectorAll("td:nth-child(2)  > pre ");
+    var mathMLDefaultZero = removeBold(decodePreString(mathMLDefault, 0));
     var mathMLExplicit = row.querySelectorAll("td:nth-child(3)  > pre ");
-    var laTeX =decodeLaTeXColumn( row.querySelectorAll("td:nth-child(4) "));
+    var mathMLExplicitZero = removeBold(decodePreString(mathMLExplicit, 0));
+    var latex =decodeLaTeXColumn( row.querySelectorAll("td:nth-child(4) "));
     var comment = decodeCommentColumn(row.querySelectorAll("td:nth-child(5)  > a  "));
-    var hashData = comment + laTeX;
+    var hashData = comment + latex;
     var hash = crypto.createHash('md5').update(hashData).digest('hex');
 
     if(!mathML){
         continue;
     }
-    console.log("MathML: \t" + mathML.toString());
-    console.log("MathMLDefault(0): \t" + removeBold(decodePreString(mathMLDefault, 0)));
-    console.log("MathMLExplicit(0): \t" + removeBold(decodePreString(mathMLExplicit, 0)));
-    console.log("LaTeX(0): \t" + laTeX);
+    console.log("MathML: \t" + mathML);
+    console.log("MathMLDefault(0): \t" + mathMLDefaultZero);
+    console.log("MathMLExplicit(0): \t" + mathMLExplicitZero);
+    console.log("LaTeX(0): \t" + latex);
     console.log("Name: \t" + comment);
     console.log("UniqueID(md5): \t" + hash);
+
+    var currentEntry = {
+        "Name": comment,
+        "MathML": mathML,
+        "MathML_default": mathMLDefaultZero,
+        "MathML_explicit": mathMLDefaultZero,
+        "latex":latex,
+        "id":hash
+    }
+    finalJSON.push(currentEntry);
 }
+
+function cleanString(inputString){
+    if(inputString){
+        return inputString.replace('\\r', '');
+    }
+    return inputString;
+}
+
+
+function saveToFile(jsonArray){
+    // The `null, 2` arguments are for formatting (optional).
+    const jsonString = JSON.stringify(jsonArray, null, 2);
+    const jsonStringCleaned = cleanString(jsonString);
+    // Define the file path where you want to save the JSON data
+    const filePath = './eval_data/intent_mathml_testing_1.json';
+
+    try {
+        // Write the JSON string to the file synchronously
+        fs.writeFileSync(filePath, jsonStringCleaned);
+
+        console.log('JSON data has been saved to', filePath);
+    } catch (err) {
+        console.error('Error writing to file:', err);
+    }
+}
+
+
 
 function removeBold(contentWithBold){
     if(contentWithBold){
@@ -84,3 +123,4 @@ function decodePreString(contOuter,index){
     return matches[0];
 }
 
+saveToFile(finalJSON);
