@@ -5,6 +5,8 @@
     "mathML_default": "<math display='block'>\r\n <mn>1,234</mn>\r\n <mo>+</mo>\r\n <mn>1,234</mn>\r\n</math>",
     "mathML_explicit": "<math display='block'>\r\n <mn intent='1.234:decimal-comma'>1,234</mn>\r\n <mo>+</mo>\r\n <mn intent='1.234:decimal-comma'>1,234</mn>\r\n</math>",
     "latex": "1,234+1{,}234",
+    "latexi": "...",
+    "skipped": true,
     "id": "017edc9e4583c9b0fd2ee3169c126446"
   },
   {
@@ -13,6 +15,7 @@
     "mathML_default": "<math display='block'>\r\n <mn>1,234</mn>\r\n <mo>;</mo>\r\n <mn>1,234</mn>\r\n <mo>;</mo>\r\n <mn>1,234,000</mn>\r\n</math>",
     "mathML_explicit": "<math display='block' mathbackground='yellow'>\r\n <mn intent='1234:thousands-comma'>1,234</mn>\r\n <mo>;</mo>\r\n <mn intent='1234:thousands-comma'>1,234</mn>\r\n <mo>;</mo>\r\n <mn intent='1234000:thousands-comma'>1,234,000</mn>\r\n</math>",
     "latex": "1,234; 1,234; 1,234,000",
+    "skipped": true,
     "id": "db40da704aa8d8c5c9b2a5d07c1e3b85"
   },
   {
@@ -76,6 +79,7 @@
     "mathML_explicit": "<math display='block'>\r\n <msup>\r\n  <mi>x</mi>\r\n  <mi>n</mi>\r\n </msup>\r\n</math>",
     "latex": "x^n",
     "latexi": "x^n",
+    "skipped": true,
     "id": "9d0c7001d7d17c1787d876b94f0e0c5c"
   },
   {
@@ -119,7 +123,8 @@
     "mathML": "<math display='block'>\r\n      <msup>\r\n       <mn>4</mn>\r\n       <mi>th</mi>\r\n      </msup>\r\n     </math>",
     "mathML_default": "<math display='block'>\r\n <msup>\r\n  <mn>4</mn>\r\n  <mi>th</mi>\r\n </msup>\r\n</math>",
     "mathML_explicit": "<math display='block'>\r\n <msup>\r\n  <mn>4</mn>\r\n  <mi intent='ordinal-mark'>th</mi>\r\n </msup>\r\n</math>",
-    "latex": "4{\\mathrm{\\intent{th}{intent='ordinal-mark'}",
+    "latex": "4 \\mathrm{th}",
+    "latexi": "4{\\mathrm{\\intent{th}{intent='ordinal-mark'}",
     "id": "13e8ce1d50a50fb0cf729ecc396e462e"
   },
   {
@@ -262,6 +267,7 @@
     "mathML": "<math display='block'>\r\n      <mrow>\r\n       <msup>\r\n        <mrow>\r\n         <mo>(</mo>\r\n         <mi>g</mi>\r\n         <mo>∘</mo>\r\n         <mi>h</mi>\r\n         <mo>)</mo>\r\n        </mrow>\r\n        <mo>′</mo>\r\n       </msup>\r\n       <mo>&#x2061;</mo>\r\n       <mo>(</mo>\r\n       <mi>x</mi>\r\n       <mo>)</mo>\r\n      </mrow>\r\n     </math>",
     "mathML_default": "<math display='block'>\r\n <mrow>\r\n  <msup>\r\n   <mrow>\r\n    <mo>(</mo>\r\n    <mi>g</mi>\r\n    <mo>∘</mo>\r\n    <mi>h</mi>\r\n    <mo>)</mo>\r\n   </mrow>\r\n   <mo>′</mo>\r\n  </msup>\r\n  <mo>&#x2061;</mo>\r\n  <mo>(</mo>\r\n  <mi>x</mi>\r\n  <mo>)</mo>\r\n </mrow>\r\n</math>",
     "mathML_explicit": "<math display='block'>\r\n <mrow>\r\n  <msup intent='first-derivative($composed)'>\r\n   <mrow arg='composed'>\r\n    <mo>(</mo>\r\n    <mi>g</mi>\r\n    <mo intent='composed-with'>∘</mo>\r\n    <mi>h</mi>\r\n    <mo>)</mo>\r\n   </mrow>\r\n   <mo>′</mo>\r\n  </msup>\r\n  <mo>&#x2061;</mo> <!-- apply function -->\r\n  <mo>(</mo>\r\n  <mi>x</mi>\r\n  <mo>)</mo>\r\n </mrow>\r\n</math>",
+    "latex": "(g∘h)′(x)",
     "latexi": "\\intent{\\intent{(g\\intent{∘}{intent='composed-with'}h)}{arg='composed'}}{intent='first-derivative($composed)'}′(x)",
     "id": "c3e77c30ccf21d4eaec512ba6db42579"
   },
@@ -279,6 +285,7 @@
     "mathML": "<math display='block'>\r\n      <mrow>\r\n       <mo>&#x1F407;</mo>\r\n       <mi>X</mi>\r\n      </mrow>\r\n     </math>",
     "mathML_default": "<math display='block'>\r\n <mrow>\r\n  <mo>&#x1F407;</mo>\r\n  <mi>X</mi>\r\n </mrow>\r\n</math>",
     "mathML_explicit": "<math display='block'>\r\n <mrow>\r\n  <mo intent='my-function'>&#x1F407;</mo>\r\n  <mi>X</mi>\r\n </mrow>\r\n</math>",
+    "latex": "&#x1F407; X",
     "latexi": "\\intent{&#x1F407;}{intent='my-function($X)'} X",
     "id": "a44c0d69dd03eec9ca3b2ad816893e9d"
   },
@@ -748,7 +755,8 @@
     "mathML": "<math display='block'>\r\n      <mrow>\r\n       <mn>1.234</mn>\r\n       <mo>+</mo>\r\n       <mi>x</mi>\r\n      </mrow>\r\n     </math>",
     "mathML_default": "<math display='block'>\r\n <mrow>\r\n  <mn>1.234</mn>\r\n  <mo>+</mo>\r\n  <mi>x</mi>\r\n </mrow>\r\n</math>",
     "mathML_explicit": "<math display='block'>\r\n <mrow intent='sum($1.234,$:x:)'>\r\n  <mn arg='1.234'>1.234</mn>\r\n  <mo>+</mo>\r\n  <mi arg=':x:'>x</mi>\r\n </mrow>\r\n</math>",
-    "latex": "\\intent{ 1.234 + \\intent{x}{arg=':x:'} }{ intent='sum($1.234,$:x:)}",
+    "latex": "1.234 + x",
+    "latexi": "\\intent{ 1.234 + \\intent{x}{arg=':x:'} }{ intent='sum($1.234,$:x:)}",
     "id": "2cd5988f19d5c8b2a81e6430f07706c5"
   },
   {
@@ -756,7 +764,8 @@
     "mathML": "<math display='block'>\r\n      <mi>x</mi>\r\n     </math>",
     "mathML_default": "<math display='block'>\r\n <mi>x</mi>\r\n</math>",
     "mathML_explicit": "<math display='block'>\r\n <mi intent='one two'>x</mi>\r\n</math>",
-    "latex": "\\intent{x}{intent='one two'}",
+    "latex": "x",
+    "latexi": "\\intent{x}{intent='one two'}",
     "id": "1e0c633b76e9a128d2b6f36f9daa4a97"
   },
   {
@@ -764,7 +773,8 @@
     "mathML": "<math display='block'>\r\n      <mn>12</mn>\r\n     </math>",
     "mathML_default": "<math display='block'>\r\n <mn>12</mn>\r\n</math>",
     "mathML_explicit": "<math display='block'>\r\n <mn intent='1.2e1'>12</mn>\r\n</math>",
-    "latex": "\\intent{12}{intent='1.2e1'}",
+    "latex": "12",,
+    "latexi": "\\intent{12}{intent='1.2e1'}",
     "id": "b07028f8b3ae58a97256a8fd2f155955"
   },
   {
