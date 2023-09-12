@@ -45,10 +45,10 @@ for(var i=1;i<rows.length;i++){
     console.log("UniqueID(md5): \t" + hash);
 
     var currentEntry = {
-        "Name": comment,
-        "MathML": mathML,
-        "MathML_default": mathMLDefaultZero,
-        "MathML_explicit": mathMLDefaultZero,
+        "name": comment,
+        "mathML": mathML,
+        "mathML_default": mathMLDefaultZero,
+        "mathML_explicit": mathMLExplicitZero,
         "latex":latex,
         "id":hash
     }

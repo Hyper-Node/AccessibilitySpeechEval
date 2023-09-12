@@ -21,6 +21,7 @@
     "mathML_default": "<math display='block'>\r\n <mn>−3</mn>\r\n</math>",
     "mathML_explicit": "<math display='block'>\r\n <mn intent='-3'>−3</mn>\r\n</math>",
     "latex": "-3",
+    "latexi": "\\intent{-3}{intent='-3'}",
     "id": "683ba0a3b399a6196311c3ade0827964"
   },
   {
@@ -29,6 +30,7 @@
     "mathML_default": "<math display='block'>\r\n <mrow>\r\n  <mo>−</mo>\r\n  <mn>3</mn>\r\n </mrow>\r\n</math>",
     "mathML_explicit": "<math display='block'>\r\n <mrow intent='-3'>\r\n  <mo>−</mo>\r\n  <mn>3</mn>\r\n </mrow>\r\n</math>",
     "latex": "-3",
+    "latexi": "\\intent{-3}{intent=-3}",
     "id": "602a20326c8bb860f1f368368ccaacab"
   },
   {
@@ -37,6 +39,7 @@
     "mathML_default": "<math display='block'>\r\n <msup>\r\n  <mi>x</mi>\r\n  <mn>2</mn>\r\n </msup>\r\n</math>",
     "mathML_explicit": "<math display='block'>\r\n <msup>\r\n  <mi>x</mi>\r\n  <mn>2</mn>\r\n </msup>\r\n</math>",
     "latex": "x^2",
+    "latexi": "\\intent{x^2}{intent='square'}",
     "id": "2907599147d0a81ecd2e18411188ffda"
   },
   {
@@ -45,6 +48,7 @@
     "mathML_default": "<math display='block'>\r\n <msup>\r\n  <mi>x</mi>\r\n  <mn>3</mn>\r\n </msup>\r\n</math>",
     "mathML_explicit": "<math display='block'>\r\n <msup>\r\n  <mi>x</mi>\r\n  <mn>3</mn>\r\n </msup>\r\n</math>",
     "latex": "x^3",
+    "latexi": "\\intent{x^3}{intent='cube'}",
     "id": "adfc266fea5eee8d882487a3c469d23d"
   },
   {
@@ -53,6 +57,7 @@
     "mathML_default": "<math display='block'>\r\n <msup>\r\n  <mi mathvariant='normal'>H</mi>\r\n  <mn>2</mn>\r\n </msup>\r\n</math>",
     "mathML_explicit": "<math display='block'>\r\n <msup intent='index($H,$n)'>\r\n  <mi arg='H' mathvariant='normal'>H</mi>\r\n  <mn arg='n'>2</mn>\r\n </msup>\r\n</math>",
     "latex": "\\mathrm{H}^2",
+    "latexi": "\\intent{\mathrm{H}^\\intent{2}{arg='n'}}{intent='index:silent(\\$H,\\$n)'}",
     "id": "e6ce43e9b0b6830ba38e7b9ccc26dd4b"
   },
   {
@@ -61,6 +66,7 @@
     "mathML_default": "<math display='block'>\r\n <msup>\r\n  <mi>&#x211D;</mi>\r\n  <mn>2</mn>\r\n </msup>\r\n</math>",
     "mathML_explicit": "<math display='block'>\r\n <msup intent='vector-space-power($R,$n)'>\r\n  <mi arg='R'>&#x211D;</mi>\r\n  <mn arg='n'>2</mn>\r\n </msup>\r\n</math>",
     "latex": "\\mathbb{R}^2",
+    "latexi": "\\intent{\\mathbb{R}^\\intent{2}{arg='n'}}{intent='vector-space-power($R,$n)'}",
     "id": "1048532acb9cbb0f36557eeb3923da3b"
   },
   {
@@ -69,6 +75,7 @@
     "mathML_default": "<math display='block'>\r\n <msup>\r\n  <mi>x</mi>\r\n  <mi>n</mi>\r\n </msup>\r\n</math>",
     "mathML_explicit": "<math display='block'>\r\n <msup>\r\n  <mi>x</mi>\r\n  <mi>n</mi>\r\n </msup>\r\n</math>",
     "latex": "x^n",
+    "latexi": "x^n",
     "id": "9d0c7001d7d17c1787d876b94f0e0c5c"
   },
   {
@@ -77,6 +84,7 @@
     "mathML_default": "<math display='block'>\r\n <msup>\r\n  <mi>x</mi>\r\n  <mo>&#x2020;<!-- U+2020--></mo>\r\n </msup>\r\n</math>",
     "mathML_explicit": "<math display='block'>\r\n <msup intent='x-dagger'>\r\n  <mi>x</mi>\r\n  <mo>&#x2020;<!-- U+2020--></mo>\r\n </msup>\r\n</math>",
     "latex": "x^\\dagger",
+    "latexi": "x^\\intent{\\dagger}{intent='x-dagger'}",
     "id": "bf4860ed94f13787fe5a13567c9b924d"
   },
   {
@@ -85,6 +93,7 @@
     "mathML_default": "<math display='block'>\r\n <msup>\r\n  <mi>x</mi>\r\n  <mi mathvariant='normal'>T</mi>\r\n </msup>\r\n</math>",
     "mathML_explicit": "<math display='block'>\r\n <msup intent='$op($arg)'>\r\n  <mi arg='arg'>x</mi>\r\n  <mi arg='op'\r\n      intent='transpose'\r\n      mathvariant='normal'>T</mi>\r\n </msup>\r\n</math>",
     "latex": "x^{\\mathrm{T}}",
+    "latexi": "\\intent{\\intent{x}{arg='arg'}^{\\mathrm{\\intent{T}{arg='op' intent='transpose'}}}}}{intent='$op($arg)'}",
     "id": "f69c0d6dc093dc36c9269a6561038bb5"
   },
   {
@@ -93,6 +102,7 @@
     "mathML_default": "<math display='block'>\r\n <mmultiscripts>\r\n  <mi>x</mi>\r\n  <mprescripts/>\r\n  <mrow/>\r\n  <mi mathvariant='normal'>T</mi>\r\n </mmultiscripts>\r\n</math>",
     "mathML_explicit": "<math display='block'>\r\n <mmultiscripts intent='$op($arg)'>\r\n  <mi arg='arg'>x</mi>\r\n  <mprescripts/>\r\n  <mrow/>\r\n  <mi arg='op'\r\n      intent='transpose'\r\n      mathvariant='normal'>T</mi>\r\n </mmultiscripts>\r\n</math>",
     "latex": "{}^{\\mathrm{T}}x",
+    "latexi": "\\intent{{}^{\\mathrm{\\intent{T}{arg='op' intent='transpose'}}}x}{intent='$op($arg)'}",
     "id": "ede527b5e0f611c91277a93e11476a02"
   },
   {
@@ -101,6 +111,7 @@
     "mathML_default": "<math display='block'>\r\n <msubsup>\r\n  <mi>x</mi>\r\n  <mrow>\r\n   <mi>i</mi>\r\n   <mi>j</mi>\r\n  </mrow>\r\n  <mi mathvariant='normal'>T</mi>\r\n </msubsup>\r\n</math>",
     "mathML_explicit": "<math display='block'>\r\n <msubsup intent='transpose(index:silent($x,$sub))'>\r\n  <mi arg='x'>x</mi>\r\n  <mrow arg='sub' intent=':index'>\r\n   <mi>i</mi>\r\n   <mi>j</mi>\r\n  </mrow>\r\n  <mi mathvariant='normal'>T</mi>\r\n </msubsup>\r\n</math>",
     "latex": "x_{ij}^{\\mathrm{T}}",
+    "latexi": "\\intent{x_{\\intent{ij}{arg='sub' intent='index'}}^{\\mathrm{\\intent{T}{intent='transpose:postfix'}}}{intent='transpose(index:silent($x,$sub))'}",
     "id": "6f08481aad490542112793a2f05fc507"
   },
   {
