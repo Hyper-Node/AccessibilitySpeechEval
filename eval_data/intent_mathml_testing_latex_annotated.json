@@ -526,7 +526,8 @@
     "name": "bad number",
     "latex": "12",
     "latexi": "\\intent{12}{intent='1.2e1'}",
-    "id": "b07028f8b3ae58a97256a8fd2f155955"
+    "id": "b07028f8b3ae58a97256a8fd2f155955",
+    "shouldfail": true
   },
   {
     "name": "bad intent subexpression",
@@ -544,7 +545,8 @@
     "name": "Free text with argref",
     "latex": "x",
     "latexi": "\\intent{x}{intent='just say this about $x'}",
-    "id": "5061d310d6113d9e83d296469b8b8518"
+    "id": "5061d310d6113d9e83d296469b8b8518",
+    "shouldfail": true
   },
   {
     "name": "intent 🐇",
