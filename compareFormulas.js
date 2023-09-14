@@ -4,12 +4,14 @@ const tokenizer = new natural.WordTokenizer();
 const stringSimilarity = require('string-similarity');
 var jaccard = require ('jaccard-similarity-sentences');
 const fs = require('fs');
-
 var evalSet = null;
+
+const INPUT_FILE = "./eval_data/IntentParserTestLocal-Speech.json";
+const OUTPUT_FILE= "./eval_data/IntentParserTestLocal-Similarity.json";
 
 // in Brill_POS_TAGGER.js replace logger.setLevel with logger.level = 'DEBUG';
 try {
-    const jsonString = fs.readFileSync('./eval/IntentParserTestLocal-Speech.json', 'utf8');
+    const jsonString = fs.readFileSync(INPUT_FILE, 'utf8');
     evalSet = JSON.parse(jsonString);
     console.log(evalSet);
 } catch (err) {
@@ -26,6 +28,7 @@ function generateNgrams(input, n) {
 }
 
 function calculateMeasures(formula1, formula2) {
+    console.log("Comparing: \"" + formula1 +"\" to: \"" + formula2 +"\"");
     // Levenshtein distance
     const levenshteinDistance = natural.LevenshteinDistance(formula1, formula2);
     console.log(`Levenshtein Distance: ${levenshteinDistance}`);
@@ -57,16 +60,38 @@ function calculateMeasures(formula1, formula2) {
     const formula1Ngrams = new Set(generateNgrams(formula1, n));
     const formula2Ngrams = new Set(generateNgrams(formula2, n));
 
+    const lengthNGramsMax = Math.max(formula1Ngrams.size,formula2Ngrams.size);
     // Calculate the number of common n-grams
     const commonNgrams = [...formula1Ngrams].filter(ngram => formula2Ngrams.has(ngram));
     const commonNgramCount = commonNgrams.length;
+    const commonNGramRate =commonNgrams.length / formula1Ngrams.size ;
 
     console.log(`Number of common ${n}-grams: ${commonNgramCount}`);
+
+    var ret = {
+        "cosine-sim": cosineSimilarity,
+        "levenshtein": levenshteinDistance,
+        "jaccard": jaccardSimilarity1,
+        "n-gram": commonNGramRate
+    };
+    return ret;
 }
 
+var finalEntries = [];
 evalSet.forEach((entry) =>{
     console.log("formula-tex: " + entry['latex'] );
-    calculateMeasures(entry["Speech_MathML_texvc"], entry["Speech_MathML_default"]);
-    calculateMeasures(entry["Speech_MathML_explicit"], entry["Speech_MathML_default"]);
+    var ret1 = calculateMeasures(entry["Speech_MathML_texvc"], entry["Speech_MathML_default"]);
+    var ret2 = calculateMeasures(entry["Speech_MathML_explicit"], entry["Speech_MathML_default"]);
+
+    entry["similarity-texvc-default"] = ret1;
+    entry["similarity-explicit-default"] = ret2;
+
+    finalEntries.push(entry);
     console.log("------");
 });
+
+
+var jsonContent = JSON.stringify(finalEntries,null,"\t");
+console.log(jsonContent);
+
+fs.writeFileSync(OUTPUT_FILE, jsonContent);
