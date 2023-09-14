@@ -9,7 +9,7 @@ var evalSet = null;
 
 // in Brill_POS_TAGGER.js replace logger.setLevel with logger.level = 'DEBUG';
 try {
-    const jsonString = fs.readFileSync('./speechComparison.json', 'utf8');
+    const jsonString = fs.readFileSync('./eval/IntentParserTestLocal-Speech.json', 'utf8');
     evalSet = JSON.parse(jsonString);
     console.log(evalSet);
 } catch (err) {
@@ -65,7 +65,8 @@ function calculateMeasures(formula1, formula2) {
 }
 
 evalSet.forEach((entry) =>{
-    console.log("formula-tex: " + entry['formula-tex'] );
-    calculateMeasures(entry.speechManual, entry.speechAuto);
+    console.log("formula-tex: " + entry['latex'] );
+    calculateMeasures(entry["Speech_MathML_texvc"], entry["Speech_MathML_default"]);
+    calculateMeasures(entry["Speech_MathML_explicit"], entry["Speech_MathML_default"]);
     console.log("------");
 });
