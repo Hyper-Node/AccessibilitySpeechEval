@@ -1,3 +1,10 @@
+# Run the evaluation 
+
+1. node extract_html_to_json.js : extract from HTML 
+2. run test which adds annotations in PHP (MediaWiki Math extension), copy results to eval_data
+3. python generateSpeechForMathML.py: obtain speech from MathCat 
+4. node compareFormulas.js : run the speech comparison metrics 
+
 # Accessibility Speech Evaluation
 
 Comparison of speech output for accessibility on Wikipedia paper with text similarity algorithms. 
@@ -26,4 +33,7 @@ TF/IDF Similarity:
 - TF-IDF is useful for capturing word importance relative to a document or set of documents.
 - Consideration: It might not handle short formula texts well, and it doesn't capture semantic or structural relationships
 
-# 
+# MathCatForPython usage 
+Parts of the code for speech generation 'generateSpeechForMathML.py' and the Rules
+as well as libmathcat.pyd are used from MathCATForPython by Neil Soiffer. 
+

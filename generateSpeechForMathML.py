@@ -12,8 +12,8 @@ if os.path.exists("libmathcat_py.pyd"):
 import libmathcat
 import json
  
-JSON_PATH_INPUT = './IntentParserTestLocal-Output.json'
-JSON_PATH_OUTPUT = './IntentParserTestLocal-Speech.json'
+JSON_PATH_INPUT = './eval_data/IntentParserTestLocal-Output.json'
+JSON_PATH_OUTPUT = './eval_data/IntentParserTestLocal-Speech.json'
 
 def loadJSONFile(path):
   f = open(path)

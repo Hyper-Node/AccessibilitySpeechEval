@@ -1,0 +1,88 @@
+Using MathCAT version '0.2.6'
+problem with SetMathML for: <math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mrow intent="$op($arg)">
+    <msup>
+      <mrow data-mjx-texclass="ORD">
+        <mrow data-mjx-texclass="ORD">
+          <mi intent="transpose" arg="op">T</mi>
+        </mrow>
+      </mrow>
+    </msup>
+    <mi>x</mi>
+  </mrow>
+</math>
+
+Exception: msup should have 2 children:
+ <msup>
+  <mrow data-mjx-texclass='ORD'>
+    <mrow data-mjx-texclass='ORD'>
+      <mi arg='op' intent='transpose'>T</mi>
+    </mrow>
+  </mrow>
+ </msup>
+
+
+problem with SetMathML for: <math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mrow intent="binomial($n,$k)">
+    <msup>
+      <mrow data-mjx-texclass="ORD">
+        <mi arg="n">n</mi>
+      </mrow>
+    </msup>
+    <msub>
+      <mi>C</mi>
+      <mrow data-mjx-texclass="ORD">
+        <mi arg="k">k</mi>
+      </mrow>
+    </msub>
+  </mrow>
+</math>
+
+Exception: msup should have 2 children:
+ <msup>
+  <mrow data-mjx-texclass='ORD'>
+    <mi arg='n'>n</mi>
+  </mrow>
+ </msup>
+
+
+problem with SetMathML for: <math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mrow intent="permutation($n,$k)">
+    <msup>
+      <mrow data-mjx-texclass="ORD">
+        <mi arg="n">n</mi>
+      </mrow>
+    </msup>
+    <msub>
+      <mi>P</mi>
+      <mrow data-mjx-texclass="ORD">
+        <mi arg="k">k</mi>
+      </mrow>
+    </msub>
+  </mrow>
+</math>
+
+Exception: msup should have 2 children:
+ <msup>
+  <mrow data-mjx-texclass='ORD'>
+    <mi arg='n'>n</mi>
+  </mrow>
+ </msup>
+
+
+problem with SetMathML for: <math display='block'>
+ <apply>
+  <sin/>
+  <ci>x</ci>
+ </apply>
+</math>
+Exception: 'apply' is not a valid MathML element
+
+problem with SetMathML for: <math display='block'>
+ <apply intent='sin(x)'>
+  <sin/>
+  <ci>x</ci>
+ </apply>
+</math>
+Exception: 'apply' is not a valid MathML element
+
