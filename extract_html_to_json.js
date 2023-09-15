@@ -6,8 +6,11 @@ const crypto = require('crypto');
 
 
 var fileContent;
+
+const INPUT_FILE = './eval_data/w3c_intent_example_index.html';
+const OUTPUT_FILE = './eval_data/intent_mathml_testing_extracted.json';
 try {
-    fileContent = fs.readFileSync('./eval_data/w3c_intent_example_index.html', 'utf8');
+    fileContent = fs.readFileSync(INPUT_FILE, 'utf8');
 } catch (err) {
     console.error(err);
     process.exit(1);
@@ -68,7 +71,7 @@ function saveToFile(jsonArray){
     const jsonString = JSON.stringify(jsonArray, null, 2);
     const jsonStringCleaned = cleanString(jsonString);
     // Define the file path where you want to save the JSON data
-    const filePath = './eval_data/intent_mathml_testing_1.json';
+    const filePath = OUTPUT_FILE;
 
     try {
         // Write the JSON string to the file synchronously

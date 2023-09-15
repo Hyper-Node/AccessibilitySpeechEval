@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/AccessibilitySpeechEval.iml" filepath="$PROJECT_DIR$/.idea/AccessibilitySpeechEval.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Math/.idea/Math.iml" filepath="$PROJECT_DIR$/../Math/.idea/Math.iml" />
     </modules>
   </component>
 </project>

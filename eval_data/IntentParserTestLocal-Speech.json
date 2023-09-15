@@ -26,7 +26,7 @@
     {
         "id": "2907599147d0a81ecd2e18411188ffda",
         "latex": "x^2",
-        "latexi": "\\intent{x^2}{intent='square'}",
+        "latexi": "\\intent{\\intent{arg='x'}{x}^2}{intent='$x squared'}",
         "MathML_texvc": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\">\n  <msup intent=\"square\">\n    <mi>x</mi>\n    <mrow data-mjx-texclass=\"ORD\">\n      <mn>2</mn>\n    </mrow>\n  </msup>\n</math>\n",
         "MathML_default": "<math display='block'>\r\n <msup>\r\n  <mi>x</mi>\r\n  <mn>2</mn>\r\n </msup>\r\n</math>",
         "MathML_explicit": "<math display='block'>\r\n <msup>\r\n  <mi>x</mi>\r\n  <mn>2</mn>\r\n </msup>\r\n</math>",
@@ -38,7 +38,7 @@
     {
         "id": "adfc266fea5eee8d882487a3c469d23d",
         "latex": "x^3",
-        "latexi": "\\intent{x^3}{intent='cube'}",
+        "latexi": "\\intent{x^3}{intent='cubed'}",
         "MathML_texvc": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\">\n  <msup intent=\"cube\">\n    <mi>x</mi>\n    <mrow data-mjx-texclass=\"ORD\">\n      <mn>3</mn>\n    </mrow>\n  </msup>\n</math>\n",
         "MathML_default": "<math display='block'>\r\n <msup>\r\n  <mi>x</mi>\r\n  <mn>3</mn>\r\n </msup>\r\n</math>",
         "MathML_explicit": "<math display='block'>\r\n <msup>\r\n  <mi>x</mi>\r\n  <mn>3</mn>\r\n </msup>\r\n</math>",

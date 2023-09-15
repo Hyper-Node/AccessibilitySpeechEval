@@ -21,19 +21,19 @@
   {
     "name": "mrow mo -3",
     "latex": "-3",
-    "latexi": "\\intent{-3}{intent=-3}",
+    "latexi": "\\intent{-3}{intent='-3'}",
     "id": "602a20326c8bb860f1f368368ccaacab"
   },
   {
     "name": "squared",
     "latex": "x^2",
-    "latexi": "\\intent{x^2}{intent='square'}",
+    "latexi": "\\intent{x^2}{intent='x_squared'}",
     "id": "2907599147d0a81ecd2e18411188ffda"
   },
   {
     "name": "cubed",
     "latex": "x^3",
-    "latexi": "\\intent{x^3}{intent='cube'}",
+    "latexi": "\\intent{x^3}{intent='x_cubed'}",
     "id": "adfc266fea5eee8d882487a3c469d23d"
   },
   {

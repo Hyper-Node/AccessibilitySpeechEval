@@ -80,8 +80,8 @@ function calculateMeasures(formula1, formula2) {
 var finalEntries = [];
 evalSet.forEach((entry) =>{
     console.log("formula-tex: " + entry['latex'] );
-    var ret1 = calculateMeasures(entry["Speech_MathML_texvc"], entry["Speech_MathML_default"]);
-    var ret2 = calculateMeasures(entry["Speech_MathML_explicit"], entry["Speech_MathML_default"]);
+    var ret1 = calculateMeasures(entry["Speech_MathML_texvc"], entry["Speech_MathML_explicit"]);
+    var ret2 = calculateMeasures(entry["Speech_MathML_default"], entry["Speech_MathML_explicit"]);
 
     entry["similarity-texvc-default"] = ret1;
     entry["similarity-explicit-default"] = ret2;

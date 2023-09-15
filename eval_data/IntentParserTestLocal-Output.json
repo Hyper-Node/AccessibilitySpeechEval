@@ -1,33 +1,33 @@
 [
-{
-    "id": "683ba0a3b399a6196311c3ade0827964",
+    {
+        "id": "683ba0a3b399a6196311c3ade0827964",
+        "latex": "-3",
+        "latexi": "\\intent{-3}{intent='-3'}",
+        "MathML_texvc": "<math xmlns=\"http:\/\/www.w3.org\/1998\/Math\/MathML\">\n  <mrow intent=\"-3\">\n    <mo>&#x2212;<\/mo>\n    <mn>3<\/mn>\n  <\/mrow>\n<\/math>\n",
+        "MathML_default": "<math display='block'>\r\n <mn>\u22123<\/mn>\r\n<\/math>",
+        "MathML_explicit": "<math display='block'>\r\n <mn intent='-3'>\u22123<\/mn>\r\n<\/math>",
+        "Name": "mn -3"
+    },{
+    "id": "602a20326c8bb860f1f368368ccaacab",
     "latex": "-3",
     "latexi": "\\intent{-3}{intent='-3'}",
     "MathML_texvc": "<math xmlns=\"http:\/\/www.w3.org\/1998\/Math\/MathML\">\n  <mrow intent=\"-3\">\n    <mo>&#x2212;<\/mo>\n    <mn>3<\/mn>\n  <\/mrow>\n<\/math>\n",
-    "MathML_default": "<math display='block'>\r\n <mn>\u22123<\/mn>\r\n<\/math>",
-    "MathML_explicit": "<math display='block'>\r\n <mn>\u22123<\/mn>\r\n<\/math>",
-    "Name": "mn -3"
-},{
-    "id": "602a20326c8bb860f1f368368ccaacab",
-    "latex": "-3",
-    "latexi": "\\intent{-3}{intent=-3}",
-    "MathML_texvc": "<math xmlns=\"http:\/\/www.w3.org\/1998\/Math\/MathML\">\n  <mrow intent=\"\">\n    <mo>&#x2212;<\/mo>\n    <mn>3<\/mn>\n  <\/mrow>\n<\/math>\n",
     "MathML_default": "<math display='block'>\r\n <mrow>\r\n  <mo>\u2212<\/mo>\r\n  <mn>3<\/mn>\r\n <\/mrow>\r\n<\/math>",
-    "MathML_explicit": "<math display='block'>\r\n <mrow>\r\n  <mo>\u2212<\/mo>\r\n  <mn>3<\/mn>\r\n <\/mrow>\r\n<\/math>",
+    "MathML_explicit": "<math display='block'>\r\n <mrow intent='-3'>\r\n  <mo>\u2212<\/mo>\r\n  <mn>3<\/mn>\r\n <\/mrow>\r\n<\/math>",
     "Name": "mrow mo -3"
 },{
     "id": "2907599147d0a81ecd2e18411188ffda",
     "latex": "x^2",
-    "latexi": "\\intent{x^2}{intent='square'}",
-    "MathML_texvc": "<math xmlns=\"http:\/\/www.w3.org\/1998\/Math\/MathML\">\n  <msup intent=\"square\">\n    <mi>x<\/mi>\n    <mrow data-mjx-texclass=\"ORD\">\n      <mn>2<\/mn>\n    <\/mrow>\n  <\/msup>\n<\/math>\n",
+    "latexi": "\\intent{x^2}{intent='x_squared'}",
+    "MathML_texvc": "<math xmlns=\"http:\/\/www.w3.org\/1998\/Math\/MathML\">\n  <msup intent=\"x_squared\">\n    <mi>x<\/mi>\n    <mrow data-mjx-texclass=\"ORD\">\n      <mn>2<\/mn>\n    <\/mrow>\n  <\/msup>\n<\/math>\n",
     "MathML_default": "<math display='block'>\r\n <msup>\r\n  <mi>x<\/mi>\r\n  <mn>2<\/mn>\r\n <\/msup>\r\n<\/math>",
     "MathML_explicit": "<math display='block'>\r\n <msup>\r\n  <mi>x<\/mi>\r\n  <mn>2<\/mn>\r\n <\/msup>\r\n<\/math>",
     "Name": "squared"
 },{
     "id": "adfc266fea5eee8d882487a3c469d23d",
     "latex": "x^3",
-    "latexi": "\\intent{x^3}{intent='cube'}",
-    "MathML_texvc": "<math xmlns=\"http:\/\/www.w3.org\/1998\/Math\/MathML\">\n  <msup intent=\"cube\">\n    <mi>x<\/mi>\n    <mrow data-mjx-texclass=\"ORD\">\n      <mn>3<\/mn>\n    <\/mrow>\n  <\/msup>\n<\/math>\n",
+    "latexi": "\\intent{x^3}{intent='x_cubed'}",
+    "MathML_texvc": "<math xmlns=\"http:\/\/www.w3.org\/1998\/Math\/MathML\">\n  <msup intent=\"x_cubed\">\n    <mi>x<\/mi>\n    <mrow data-mjx-texclass=\"ORD\">\n      <mn>3<\/mn>\n    <\/mrow>\n  <\/msup>\n<\/math>\n",
     "MathML_default": "<math display='block'>\r\n <msup>\r\n  <mi>x<\/mi>\r\n  <mn>3<\/mn>\r\n <\/msup>\r\n<\/math>",
     "MathML_explicit": "<math display='block'>\r\n <msup>\r\n  <mi>x<\/mi>\r\n  <mn>3<\/mn>\r\n <\/msup>\r\n<\/math>",
     "Name": "cubed"
@@ -37,7 +37,7 @@
     "latexi": "\\intent{\\mathrm{H}^\\intent{2}{arg='n'}}{intent='index:silent(\\$H,\\$n)'}",
     "MathML_texvc": "<math xmlns=\"http:\/\/www.w3.org\/1998\/Math\/MathML\">\n  <msup intent=\"index:silent($H,$n)\">\n    <mrow data-mjx-texclass=\"ORD\">\n      <mi mathvariant=\"normal\" arg=\"H\">H<\/mi>\n    <\/mrow>\n    <mrow data-mjx-texclass=\"ORD\">\n      <mn arg=\"n\">2<\/mn>\n    <\/mrow>\n  <\/msup>\n<\/math>\n",
     "MathML_default": "<math display='block'>\r\n <msup>\r\n  <mi mathvariant='normal'>H<\/mi>\r\n  <mn>2<\/mn>\r\n <\/msup>\r\n<\/math>",
-    "MathML_explicit": "<math display='block'>\r\n <msup>\r\n  <mi mathvariant='normal'>H<\/mi>\r\n  <mn>2<\/mn>\r\n <\/msup>\r\n<\/math>",
+    "MathML_explicit": "<math display='block'>\r\n <msup intent='index($H,$n)'>\r\n  <mi arg='H' mathvariant='normal'>H<\/mi>\r\n  <mn arg='n'>2<\/mn>\r\n <\/msup>\r\n<\/math>",
     "Name": "2nd Cohomology"
 },{
     "id": "1048532acb9cbb0f36557eeb3923da3b",
@@ -45,7 +45,7 @@
     "latexi": "\\intent{\\mathbb{R}^\\intent{2}{arg='n'}}{intent='vector-space-power($R,$n)'}",
     "MathML_texvc": "<math xmlns=\"http:\/\/www.w3.org\/1998\/Math\/MathML\">\n  <msup intent=\"vector-space-power($R,$n)\">\n    <mrow data-mjx-texclass=\"ORD\">\n      <mi mathvariant=\"double-struck\" arg=\"R\">R<\/mi>\n    <\/mrow>\n    <mrow data-mjx-texclass=\"ORD\">\n      <mn arg=\"n\">2<\/mn>\n    <\/mrow>\n  <\/msup>\n<\/math>\n",
     "MathML_default": "<math display='block'>\r\n <msup>\r\n  <mi>&#x211D;<\/mi>\r\n  <mn>2<\/mn>\r\n <\/msup>\r\n<\/math>",
-    "MathML_explicit": "<math display='block'>\r\n <msup>\r\n  <mi>&#x211D;<\/mi>\r\n  <mn>2<\/mn>\r\n <\/msup>\r\n<\/math>",
+    "MathML_explicit": "<math display='block'>\r\n <msup intent='vector-space-power($R,$n)'>\r\n  <mi arg='R'>&#x211D;<\/mi>\r\n  <mn arg='n'>2<\/mn>\r\n <\/msup>\r\n<\/math>",
     "Name": "R 2"
 },{
     "id": "bf4860ed94f13787fe5a13567c9b924d",
@@ -53,7 +53,7 @@
     "latexi": "x^\\intent{\\dagger}{intent='x-dagger'}",
     "MathML_texvc": "<math xmlns=\"http:\/\/www.w3.org\/1998\/Math\/MathML\">\n  <msup>\n    <mi>x<\/mi>\n    <mrow data-mjx-texclass=\"ORD\">\n      <mo intent=\"x-dagger\">&#x2020;<\/mo>\n    <\/mrow>\n  <\/msup>\n<\/math>\n",
     "MathML_default": "<math display='block'>\r\n <msup>\r\n  <mi>x<\/mi>\r\n  <mo>&#x2020;<!-- U+2020--><\/mo>\r\n <\/msup>\r\n<\/math>",
-    "MathML_explicit": "<math display='block'>\r\n <msup>\r\n  <mi>x<\/mi>\r\n  <mo>&#x2020;<!-- U+2020--><\/mo>\r\n <\/msup>\r\n<\/math>",
+    "MathML_explicit": "<math display='block'>\r\n <msup intent='x-dagger'>\r\n  <mi>x<\/mi>\r\n  <mo>&#x2020;<!-- U+2020--><\/mo>\r\n <\/msup>\r\n<\/math>",
     "Name": "dagger"
 },{
     "id": "f69c0d6dc093dc36c9269a6561038bb5",
@@ -61,7 +61,7 @@
     "latexi": "\\intent{\\intent{x}{arg='arg'}^{\\mathrm{\\intent{T}{arg='op' intent='transpose'}}}}{intent='$op($arg)'}",
     "MathML_texvc": "<math xmlns=\"http:\/\/www.w3.org\/1998\/Math\/MathML\">\n  <msup intent=\"$op($arg)\">\n    <mi arg=\"arg\">x<\/mi>\n    <mrow data-mjx-texclass=\"ORD\">\n      <mrow data-mjx-texclass=\"ORD\">\n        <mi intent=\"transpose\" arg=\"op\">T<\/mi>\n      <\/mrow>\n    <\/mrow>\n  <\/msup>\n<\/math>\n",
     "MathML_default": "<math display='block'>\r\n <msup>\r\n  <mi>x<\/mi>\r\n  <mi mathvariant='normal'>T<\/mi>\r\n <\/msup>\r\n<\/math>",
-    "MathML_explicit": "<math display='block'>\r\n <msup>\r\n  <mi>x<\/mi>\r\n  <mi mathvariant='normal'>T<\/mi>\r\n <\/msup>\r\n<\/math>",
+    "MathML_explicit": "<math display='block'>\r\n <msup intent='$op($arg)'>\r\n  <mi arg='arg'>x<\/mi>\r\n  <mi arg='op'\r\n      intent='transpose'\r\n      mathvariant='normal'>T<\/mi>\r\n <\/msup>\r\n<\/math>",
     "Name": "x transpose"
 },{
     "id": "ede527b5e0f611c91277a93e11476a02",
@@ -69,7 +69,7 @@
     "latexi": "\\intent{{}^{\\mathrm{\\intent{T}{arg='op' intent='transpose'}}}x}{intent='$op($arg)'}",
     "MathML_texvc": "<math xmlns=\"http:\/\/www.w3.org\/1998\/Math\/MathML\">\n  <mrow intent=\"$op($arg)\">\n    <msup>\n      <mrow data-mjx-texclass=\"ORD\">\n        <mrow data-mjx-texclass=\"ORD\">\n          <mi intent=\"transpose\" arg=\"op\">T<\/mi>\n        <\/mrow>\n      <\/mrow>\n    <\/msup>\n    <mi>x<\/mi>\n  <\/mrow>\n<\/math>\n",
     "MathML_default": "<math display='block'>\r\n <mmultiscripts>\r\n  <mi>x<\/mi>\r\n  <mprescripts\/>\r\n  <mrow\/>\r\n  <mi mathvariant='normal'>T<\/mi>\r\n <\/mmultiscripts>\r\n<\/math>",
-    "MathML_explicit": "<math display='block'>\r\n <mmultiscripts>\r\n  <mi>x<\/mi>\r\n  <mprescripts\/>\r\n  <mrow\/>\r\n  <mi mathvariant='normal'>T<\/mi>\r\n <\/mmultiscripts>\r\n<\/math>",
+    "MathML_explicit": "<math display='block'>\r\n <mmultiscripts intent='$op($arg)'>\r\n  <mi arg='arg'>x<\/mi>\r\n  <mprescripts\/>\r\n  <mrow\/>\r\n  <mi arg='op'\r\n      intent='transpose'\r\n      mathvariant='normal'>T<\/mi>\r\n <\/mmultiscripts>\r\n<\/math>",
     "Name": "x transpose pre-sup"
 },{
     "id": "6f08481aad490542112793a2f05fc507",
@@ -77,7 +77,7 @@
     "latexi": "\\intent{x_{\\intent{ij}{arg='sub' intent='index'}}^{\\mathrm{\\intent{T}{intent='transpose:postfix'}}}}{intent='transpose(index:silent($x,$sub))'}",
     "MathML_texvc": "<math xmlns=\"http:\/\/www.w3.org\/1998\/Math\/MathML\">\n  <msubsup intent=\"transpose(index:silent($x,$sub))\">\n    <mi arg=\"x\">x<\/mi>\n    <mrow data-mjx-texclass=\"ORD\">\n      <mrow intent=\"index\" arg=\"sub\">\n        <mi>i<\/mi>\n        <mi>j<\/mi>\n      <\/mrow>\n    <\/mrow>\n    <mrow data-mjx-texclass=\"ORD\">\n      <mrow data-mjx-texclass=\"ORD\">\n        <mi intent=\"transpose:postfix\">T<\/mi>\n      <\/mrow>\n    <\/mrow>\n  <\/msubsup>\n<\/math>\n",
     "MathML_default": "<math display='block'>\r\n <msubsup>\r\n  <mi>x<\/mi>\r\n  <mrow>\r\n   <mi>i<\/mi>\r\n   <mi>j<\/mi>\r\n  <\/mrow>\r\n  <mi mathvariant='normal'>T<\/mi>\r\n <\/msubsup>\r\n<\/math>",
-    "MathML_explicit": "<math display='block'>\r\n <msubsup>\r\n  <mi>x<\/mi>\r\n  <mrow>\r\n   <mi>i<\/mi>\r\n   <mi>j<\/mi>\r\n  <\/mrow>\r\n  <mi mathvariant='normal'>T<\/mi>\r\n <\/msubsup>\r\n<\/math>",
+    "MathML_explicit": "<math display='block'>\r\n <msubsup intent='transpose(index:silent($x,$sub))'>\r\n  <mi arg='x'>x<\/mi>\r\n  <mrow arg='sub' intent=':index'>\r\n   <mi>i<\/mi>\r\n   <mi>j<\/mi>\r\n  <\/mrow>\r\n  <mi mathvariant='normal'>T<\/mi>\r\n <\/msubsup>\r\n<\/math>",
     "Name": "x sub  transpose"
 },{
     "id": "13e8ce1d50a50fb0cf729ecc396e462e",
@@ -85,7 +85,7 @@
     "latexi": "4{\\mathrm{\\intent{th}{intent='ordinal-mark'}}}",
     "MathML_texvc": "<math xmlns=\"http:\/\/www.w3.org\/1998\/Math\/MathML\">\n  <mn>4<\/mn>\n  <mrow data-mjx-texclass=\"ORD\">\n    <mrow intent=\"ordinal-mark\">\n      <mi>t<\/mi>\n      <mi>h<\/mi>\n    <\/mrow>\n  <\/mrow>\n<\/math>\n",
     "MathML_default": "<math display='block'>\r\n <msup>\r\n  <mn>4<\/mn>\r\n  <mi>th<\/mi>\r\n <\/msup>\r\n<\/math>",
-    "MathML_explicit": "<math display='block'>\r\n <msup>\r\n  <mn>4<\/mn>\r\n  <mi>th<\/mi>\r\n <\/msup>\r\n<\/math>",
+    "MathML_explicit": "<math display='block'>\r\n <msup>\r\n  <mn>4<\/mn>\r\n  <mi intent='ordinal-mark'>th<\/mi>\r\n <\/msup>\r\n<\/math>",
     "Name": "ordinal 4th"
 },{
     "id": "152f0c6492f7e179a08bcebe6c63ddca",
@@ -93,7 +93,7 @@
     "latexi": "\\sin^2\\intent{\\theta}{intent='theta'} + \\cos^2\\intent{\\theta}{intent='theta'}=1",
     "MathML_texvc": "<math xmlns=\"http:\/\/www.w3.org\/1998\/Math\/MathML\">\n  <msup>\n    <mi>sin<\/mi>\n    <mrow data-mjx-texclass=\"ORD\">\n      <mn>2<\/mn>\n    <\/mrow>\n  <\/msup>\n  <mi intent=\"theta\">&#x3B8;<\/mi>\n  <mo>+<\/mo>\n  <msup>\n    <mi>cos<\/mi>\n    <mrow data-mjx-texclass=\"ORD\">\n      <mn>2<\/mn>\n    <\/mrow>\n  <\/msup>\n  <mi intent=\"theta\">&#x3B8;<\/mi>\n  <mo>=<\/mo>\n  <mn>1<\/mn>\n<\/math>\n",
     "MathML_default": "<math display='block'>\r\n <mrow>\r\n  <msup>\r\n   <mi>sin<\/mi>\r\n   <mn>2<\/mn>\r\n  <\/msup>\r\n  <mo>&#x2061;<\/mo>\r\n  <mi>\ud835\udf03<\/mi>\r\n <\/mrow>\r\n <mo>+<\/mo>\r\n <mrow>\r\n  <msup>\r\n   <mi>cos<\/mi>\r\n   <mn>2<\/mn>\r\n  <\/msup>\r\n  <mo>&#x2061;<\/mo>\r\n  <mi>\ud835\udf03<\/mi>\r\n <\/mrow>\r\n <mo>=<\/mo>\r\n <mn>1<\/mn>\r\n<\/math>",
-    "MathML_explicit": "<math display='block'>\r\n <mrow>\r\n  <msup>\r\n   <mi>sin<\/mi>\r\n   <mn>2<\/mn>\r\n  <\/msup>\r\n  <mo>&#x2061;<\/mo>\r\n  <mi>\ud835\udf03<\/mi>\r\n <\/mrow>\r\n <mo>+<\/mo>\r\n <mrow>\r\n  <msup>\r\n   <mi>cos<\/mi>\r\n   <mn>2<\/mn>\r\n  <\/msup>\r\n  <mo>&#x2061;<\/mo>\r\n  <mi>\ud835\udf03<\/mi>\r\n <\/mrow>\r\n <mo>=<\/mo>\r\n <mn>1<\/mn>\r\n<\/math>",
+    "MathML_explicit": "<math display='block'>\r\n <mrow>\r\n  <msup>\r\n   <mi>sin<\/mi>\r\n   <mn>2<\/mn>\r\n  <\/msup>\r\n  <mo intent='apply:silent'>&#x2061;<\/mo>\r\n  <mi intent='theta'>\ud835\udf03<\/mi>\r\n <\/mrow>\r\n <mo>+<\/mo>\r\n <mrow>\r\n  <msup>\r\n   <mi>cos<\/mi>\r\n   <mn>2<\/mn>\r\n  <\/msup>\r\n  <mo intent='apply:silent'>&#x2061;<\/mo>\r\n  <mi intent='theta'>\ud835\udf03<\/mi>\r\n <\/mrow>\r\n <mo>=<\/mo>\r\n <mn>1<\/mn>\r\n<\/math>",
     "Name": "sin squared plus cos squared"
 },{
     "id": "e527352e28a43e6583fbbaa4418e50d1",
@@ -101,7 +101,7 @@
     "latexi": "\\intent{\\binom{n}{k}}{intent='binomial($n,$k)'}",
     "MathML_texvc": "<math xmlns=\"http:\/\/www.w3.org\/1998\/Math\/MathML\">\n  <mrow data-mjx-texclass=\"ORD\" intent=\"binomial($n,$k)\">\n    <mstyle displaystyle=\"true\" scriptlevel=\"0\">\n      <mrow data-mjx-texclass=\"ORD\">\n        <mrow data-mjx-texclass=\"OPEN\">\n          <mo maxsize=\"2.047em\" minsize=\"2.047em\">(<\/mo>\n        <\/mrow>\n        <mfrac linethickness=\"0\">\n          <mrow data-mjx-texclass=\"ORD\">\n            <mi>n<\/mi>\n          <\/mrow>\n          <mrow data-mjx-texclass=\"ORD\">\n            <mi>k<\/mi>\n          <\/mrow>\n        <\/mfrac>\n        <mrow data-mjx-texclass=\"CLOSE\">\n          <mo maxsize=\"2.047em\" minsize=\"2.047em\">)<\/mo>\n        <\/mrow>\n      <\/mrow>\n    <\/mstyle>\n  <\/mrow>\n<\/math>\n",
     "MathML_default": "<math display='block'>\r\n <mrow>\r\n  <mo>(<\/mo>\r\n  <mfrac linethickness='0pt'>\r\n   <mi>n<\/mi>\r\n   <mi>k<\/mi>\r\n  <\/mfrac>\r\n  <mo>)<\/mo>\r\n <\/mrow>\r\n<\/math>",
-    "MathML_explicit": "<math display='block'>\r\n <mrow>\r\n  <mo>(<\/mo>\r\n  <mfrac linethickness='0pt'>\r\n   <mi>n<\/mi>\r\n   <mi>k<\/mi>\r\n  <\/mfrac>\r\n  <mo>)<\/mo>\r\n <\/mrow>\r\n<\/math>",
+    "MathML_explicit": "<math display='block'>\r\n <mrow intent='binomial($n,$k)'>\r\n  <mo>(<\/mo>\r\n  <mfrac linethickness='0pt'>\r\n   <mi arg='n'>n<\/mi>\r\n   <mi arg='k'>k<\/mi>\r\n  <\/mfrac>\r\n  <mo>)<\/mo>\r\n <\/mrow>\r\n<\/math>",
     "Name": "binom n k"
 },{
     "id": "66ed419d09924ec6e86b6fa6192a5ac5",
@@ -109,7 +109,7 @@
     "latexi": "\\intent{{}^n C_k}{intent='binomial($n,$k)'}",
     "MathML_texvc": "<math xmlns=\"http:\/\/www.w3.org\/1998\/Math\/MathML\">\n  <mrow intent=\"binomial($n,$k)\">\n    <msup>\n      <mrow data-mjx-texclass=\"ORD\">\n        <mi arg=\"n\">n<\/mi>\n      <\/mrow>\n    <\/msup>\n    <msub>\n      <mi>C<\/mi>\n      <mrow data-mjx-texclass=\"ORD\">\n        <mi arg=\"k\">k<\/mi>\n      <\/mrow>\n    <\/msub>\n  <\/mrow>\n<\/math>\n",
     "MathML_default": "<math display='block'>\r\n <mmultiscripts>\r\n  <mi>C<\/mi>\r\n  <mi>k<\/mi>\r\n  <mrow\/>\r\n  <mprescripts\/>\r\n  <mrow\/>\r\n  <mi>n<\/mi>\r\n <\/mmultiscripts>\r\n<\/math>",
-    "MathML_explicit": "<math display='block'>\r\n <mmultiscripts>\r\n  <mi>C<\/mi>\r\n  <mi>k<\/mi>\r\n  <mrow\/>\r\n  <mprescripts\/>\r\n  <mrow\/>\r\n  <mi>n<\/mi>\r\n <\/mmultiscripts>\r\n<\/math>",
+    "MathML_explicit": "<math display='block'>\r\n <mmultiscripts intent='binomial($n,$k)'>\r\n  <mi>C<\/mi>\r\n  <mi arg='k'>k<\/mi>\r\n  <mrow\/>\r\n  <mprescripts\/>\r\n  <mrow\/>\r\n  <mi arg='n'>n<\/mi>\r\n <\/mmultiscripts>\r\n<\/math>",
     "Name": " binom sup n C sub k"
 },{
     "id": "89001a40638a748b95e5885b771d9a57",
@@ -117,7 +117,7 @@
     "latexi": "\\intent{C^n_k}{intent='binomial($n,$k)'}",
     "MathML_texvc": "<math xmlns=\"http:\/\/www.w3.org\/1998\/Math\/MathML\">\n  <msubsup intent=\"binomial($n,$k)\">\n    <mi>C<\/mi>\n    <mrow data-mjx-texclass=\"ORD\">\n      <mi arg=\"k\">k<\/mi>\n    <\/mrow>\n    <mrow data-mjx-texclass=\"ORD\">\n      <mi arg=\"n\">n<\/mi>\n    <\/mrow>\n  <\/msubsup>\n<\/math>\n",
     "MathML_default": "<math display='block'>\r\n <msubsup>\r\n  <mi>C<\/mi>\r\n  <mi>k<\/mi>\r\n  <mi>n<\/mi>\r\n <\/msubsup>\r\n<\/math>",
-    "MathML_explicit": "<math display='block'>\r\n <msubsup>\r\n  <mi>C<\/mi>\r\n  <mi>k<\/mi>\r\n  <mi>n<\/mi>\r\n <\/msubsup>\r\n<\/math>",
+    "MathML_explicit": "<math display='block'>\r\n <msubsup intent='binomial($n,$k)'>\r\n  <mi>C<\/mi>\r\n  <mi arg='k'>k<\/mi>\r\n  <mi arg='n'>n<\/mi>\r\n <\/msubsup>\r\n<\/math>",
     "Name": " binom C sup n sub k"
 },{
     "id": "64545c92aa1c6e86dd7e9d8781d51443",
@@ -125,7 +125,7 @@
     "latexi": "\\intent{C(n,k)}{intent='binomial($n,$k)'}",
     "MathML_texvc": "<math xmlns=\"http:\/\/www.w3.org\/1998\/Math\/MathML\">\n  <mrow intent=\"binomial($n,$k)\">\n    <mi>C<\/mi>\n    <mo stretchy=\"false\">(<\/mo>\n    <mi arg=\"n\">n<\/mi>\n    <mo>,<\/mo>\n    <mi arg=\"k\">k<\/mi>\n    <mo stretchy=\"false\">)<\/mo>\n  <\/mrow>\n<\/math>\n",
     "MathML_default": "<math display='block'>\r\n <mrow>\r\n  <mi>C<\/mi>\r\n  <mo>(<\/mo>\r\n  <mi>n<\/mi>\r\n  <mo>,<\/mo>\r\n  <mi>k<\/mi>\r\n  <mo>)<\/mo>\r\n <\/mrow>\r\n<\/math>",
-    "MathML_explicit": "<math display='block'>\r\n <mrow>\r\n  <mi>C<\/mi>\r\n  <mo>(<\/mo>\r\n  <mi>n<\/mi>\r\n  <mo>,<\/mo>\r\n  <mi>k<\/mi>\r\n  <mo>)<\/mo>\r\n <\/mrow>\r\n<\/math>",
+    "MathML_explicit": "<math display='block'>\r\n <mrow intent='binomial($n,$k)'>\r\n  <mi>C<\/mi>\r\n  <mo>(<\/mo>\r\n  <mi arg='n'>n<\/mi>\r\n  <mo>,<\/mo>\r\n  <mi arg='k'>k<\/mi>\r\n  <mo>)<\/mo>\r\n <\/mrow>\r\n<\/math>",
     "Name": " binom C n k"
 },{
     "id": "479195ddf56ff4c6f095b8999439eae0",
@@ -133,7 +133,7 @@
     "latexi": "\\intent{{}^n P_k}{intent='permutation($n,$k)'}",
     "MathML_texvc": "<math xmlns=\"http:\/\/www.w3.org\/1998\/Math\/MathML\">\n  <mrow intent=\"permutation($n,$k)\">\n    <msup>\n      <mrow data-mjx-texclass=\"ORD\">\n        <mi arg=\"n\">n<\/mi>\n      <\/mrow>\n    <\/msup>\n    <msub>\n      <mi>P<\/mi>\n      <mrow data-mjx-texclass=\"ORD\">\n        <mi arg=\"k\">k<\/mi>\n      <\/mrow>\n    <\/msub>\n  <\/mrow>\n<\/math>\n",
     "MathML_default": "<math display='block'>\r\n <mmultiscripts>\r\n  <mi>P<\/mi>\r\n  <mi>k<\/mi>\r\n  <mrow\/>\r\n  <mprescripts\/>\r\n  <mrow\/>\r\n  <mi>n<\/mi>\r\n <\/mmultiscripts>\r\n<\/math>",
-    "MathML_explicit": "<math display='block'>\r\n <mmultiscripts>\r\n  <mi>P<\/mi>\r\n  <mi>k<\/mi>\r\n  <mrow\/>\r\n  <mprescripts\/>\r\n  <mrow\/>\r\n  <mi>n<\/mi>\r\n <\/mmultiscripts>\r\n<\/math>",
+    "MathML_explicit": "<math display='block'>\r\n <mmultiscripts\r\n     intent='permutation($n,$k)'>\r\n  <mi>P<\/mi>\r\n  <mi arg='k'>k<\/mi>\r\n  <mrow\/>\r\n  <mprescripts\/>\r\n  <mrow\/>\r\n  <mi arg='n'>n<\/mi>\r\n <\/mmultiscripts>\r\n<\/math>",
     "Name": " permutations sup n P sub k"
 },{
     "id": "700e9e1c59044c764b0d3b6fcaff446d",
@@ -141,7 +141,7 @@
     "latexi": "\\intent{P^n_k}{intent='P($n,$k)'}",
     "MathML_texvc": "<math xmlns=\"http:\/\/www.w3.org\/1998\/Math\/MathML\">\n  <msubsup intent=\"P($n,$k)\">\n    <mi>P<\/mi>\n    <mrow data-mjx-texclass=\"ORD\">\n      <mi arg=\"k\">k<\/mi>\n    <\/mrow>\n    <mrow data-mjx-texclass=\"ORD\">\n      <mi arg=\"n\">n<\/mi>\n    <\/mrow>\n  <\/msubsup>\n<\/math>\n",
     "MathML_default": "<math display='block'>\r\n <msubsup>\r\n  <mi>P<\/mi>\r\n  <mi>k<\/mi>\r\n  <mi>n<\/mi>\r\n <\/msubsup>\r\n<\/math>",
-    "MathML_explicit": "<math display='block'>\r\n <msubsup>\r\n  <mi>P<\/mi>\r\n  <mi>k<\/mi>\r\n  <mi>n<\/mi>\r\n <\/msubsup>\r\n<\/math>",
+    "MathML_explicit": "<math display='block'>\r\n <msubsup\r\n     intent='P($n,$k)'>\r\n  <mi>P<\/mi>\r\n  <mi arg='k'>k<\/mi>\r\n  <mi arg='n'>n<\/mi>\r\n <\/msubsup>\r\n<\/math>",
     "Name": " permutations P sup n sub k"
 },{
     "id": "293789944389185c3b756bef34978108",
@@ -149,7 +149,7 @@
     "latexi": "\\intent{P(n,k)}{intent='permutation-symbol($n,$k)'}",
     "MathML_texvc": "<math xmlns=\"http:\/\/www.w3.org\/1998\/Math\/MathML\">\n  <mrow intent=\"permutation-symbol($n,$k)\">\n    <mi>P<\/mi>\n    <mo stretchy=\"false\">(<\/mo>\n    <mi arg=\"n\">n<\/mi>\n    <mo>,<\/mo>\n    <mi arg=\"k\">k<\/mi>\n    <mo stretchy=\"false\">)<\/mo>\n  <\/mrow>\n<\/math>\n",
     "MathML_default": "<math display='block'>\r\n <mrow>\r\n  <mi>P<\/mi>\r\n  <mo>(<\/mo>\r\n  <mi>n<\/mi>\r\n  <mo>,<\/mo>\r\n  <mi>k<\/mi>\r\n  <mo>)<\/mo>\r\n <\/mrow>\r\n<\/math>",
-    "MathML_explicit": "<math display='block'>\r\n <mrow>\r\n  <mi>P<\/mi>\r\n  <mo>(<\/mo>\r\n  <mi>n<\/mi>\r\n  <mo>,<\/mo>\r\n  <mi>k<\/mi>\r\n  <mo>)<\/mo>\r\n <\/mrow>\r\n<\/math>",
+    "MathML_explicit": "<math display='block'>\r\n <mrow\r\n     intent='permutation-symbol($n,$k)'>\r\n  <mi>P<\/mi>\r\n  <mo>(<\/mo>\r\n  <mi arg='n'>n<\/mi>\r\n  <mo>,<\/mo>\r\n  <mi arg='k'>k<\/mi>\r\n  <mo>)<\/mo>\r\n <\/mrow>\r\n<\/math>",
     "Name": " permutations P n k"
 },{
     "id": "a3c7ec1076255080060573e304ad19fa",
@@ -157,7 +157,7 @@
     "latexi": "x \\intent{\\subset}{intent='subset'} y",
     "MathML_texvc": "<math xmlns=\"http:\/\/www.w3.org\/1998\/Math\/MathML\">\n  <mi>x<\/mi>\n  <mo intent=\"subset\">&#x2282;<\/mo>\n  <mi>y<\/mi>\n<\/math>\n",
     "MathML_default": "<math display='block'>\r\n <mrow>\r\n  <mi>x<\/mi>\r\n  <mo>&#x2282;<\/mo>\r\n  <mi>y<\/mi>\r\n <\/mrow>\r\n<\/math>",
-    "MathML_explicit": "<math display='block'>\r\n <mrow>\r\n  <mi>x<\/mi>\r\n  <mo>&#x2282;<\/mo>\r\n  <mi>y<\/mi>\r\n <\/mrow>\r\n<\/math>",
+    "MathML_explicit": "<math display='block'>\r\n <mrow>\r\n  <mi>x<\/mi>\r\n  <mo intent='subset'>&#x2282;<\/mo>\r\n  <mi>y<\/mi>\r\n <\/mrow>\r\n<\/math>",
     "Name": "subset"
 },{
     "id": "28cc9ebf3685b177e68ed192a529baad",
@@ -173,7 +173,7 @@
     "latexi": "\\intent{\\intent{A}{arg='A' intent='Ackerman'}(m,n)}{intent='$A($n,$m)}",
     "MathML_texvc": "<math xmlns=\"http:\/\/www.w3.org\/1998\/Math\/MathML\">\n  <mrow intent=\"\">\n    <mi intent=\"Ackerman\" arg=\"A\">A<\/mi>\n    <mo stretchy=\"false\">(<\/mo>\n    <mi>m<\/mi>\n    <mo>,<\/mo>\n    <mi>n<\/mi>\n    <mo stretchy=\"false\">)<\/mo>\n  <\/mrow>\n<\/math>\n",
     "MathML_default": "<math display='block'>\r\n <mrow>\r\n  <mi>A<\/mi>\r\n  <mo>&#x2061;<\/mo>\r\n  <mrow>\r\n   <mo>(<\/mo>\r\n   <mi>n<\/mi>\r\n   <mo>,<\/mo>\r\n   <mi>m<\/mi>\r\n   <mo>)<\/mo>\r\n  <\/mrow>\r\n <\/mrow>\r\n<\/math>",
-    "MathML_explicit": "<math display='block'>\r\n <mrow>\r\n  <mi>A<\/mi>\r\n  <mo>&#x2061;<\/mo>\r\n  <mrow>\r\n   <mo>(<\/mo>\r\n   <mi>n<\/mi>\r\n   <mo>,<\/mo>\r\n   <mi>m<\/mi>\r\n   <mo>)<\/mo>\r\n  <\/mrow>\r\n <\/mrow>\r\n<\/math>",
+    "MathML_explicit": "<math display='block'>\r\n <mrow intent='$A($n,$m)'>\r\n  <mi arg='A' intent='Ackerman'>A<\/mi>\r\n  <mo>&#x2061;<\/mo>\r\n  <mrow>\r\n   <mo>(<\/mo>\r\n   <mi arg='n'>n<\/mi>\r\n   <mo>,<\/mo>\r\n   <mi arg='m'>m<\/mi>\r\n   <mo>)<\/mo>\r\n  <\/mrow>\r\n <\/mrow>\r\n<\/math>",
     "Name": "Ackerman or A"
 },{
     "id": "fb69a6813c7d5db626fe030aa4a285d0",
@@ -181,7 +181,7 @@
     "latexi": "\\intent{\\intent{(g\\intent{*}{arg='op1' intent='function-composition'}h)}{arg='op3' intent='$op2($composed)'}\\intent{1stder}{arg='op2' intent='first-derivative'}(x)}{intent='$op3($x)'}",
     "MathML_texvc": "<math xmlns=\"http:\/\/www.w3.org\/1998\/Math\/MathML\">\n  <mrow intent=\"$op3($x)\">\n    <mrow intent=\"$op2($composed)\" arg=\"op3\">\n      <mo stretchy=\"false\">(<\/mo>\n      <mi>g<\/mi>\n      <mo intent=\"function-composition\" arg=\"op1\">*<\/mo>\n      <mi>h<\/mi>\n      <mo stretchy=\"false\">)<\/mo>\n    <\/mrow>\n    <mrow intent=\"first-derivative\" arg=\"op2\">\n      <mn>1<\/mn>\n      <mi>s<\/mi>\n      <mi>t<\/mi>\n      <mi>d<\/mi>\n      <mi>e<\/mi>\n      <mi>r<\/mi>\n    <\/mrow>\n    <mo stretchy=\"false\">(<\/mo>\n    <mi arg=\"x\">x<\/mi>\n    <mo stretchy=\"false\">)<\/mo>\n  <\/mrow>\n<\/math>\n",
     "MathML_default": "<math display='block'>\r\n <mrow>\r\n  <msup>\r\n   <mrow>\r\n    <mo>(<\/mo>\r\n    <mi>g<\/mi>\r\n    <mo>\u2218<\/mo>\r\n    <mi>h<\/mi>\r\n    <mo>)<\/mo>\r\n   <\/mrow>\r\n   <mo>\u2032<\/mo>\r\n  <\/msup>\r\n  <mo>(<\/mo>\r\n  <mi>x<\/mi>\r\n  <mo>)<\/mo>\r\n <\/mrow>\r\n<\/math>",
-    "MathML_explicit": "<math display='block'>\r\n <mrow>\r\n  <msup>\r\n   <mrow>\r\n    <mo>(<\/mo>\r\n    <mi>g<\/mi>\r\n    <mo>\u2218<\/mo>\r\n    <mi>h<\/mi>\r\n    <mo>)<\/mo>\r\n   <\/mrow>\r\n   <mo>\u2032<\/mo>\r\n  <\/msup>\r\n  <mo>(<\/mo>\r\n  <mi>x<\/mi>\r\n  <mo>)<\/mo>\r\n <\/mrow>\r\n<\/math>",
+    "MathML_explicit": "<math display='block'>\r\n <mrow intent='$op3($x)'>\r\n  <msup arg='op3' intent='$op2($composed)'>\r\n   <mrow arg='composed' intent='$op1:infix($g,$h)'>\r\n    <mo>(<\/mo>\r\n    <mi arg='g'>g<\/mi>\r\n    <mo arg='op1' intent='function-composition'>\u2218<\/mo>\r\n    <mi arg='h'>h<\/mi>\r\n    <mo>)<\/mo>\r\n   <\/mrow>\r\n   <mo arg='op2' intent='first-derivative'>\u2032<\/mo>\r\n  <\/msup>\r\n  <mo>(<\/mo>\r\n  <mi arg='x'>x<\/mi>\r\n  <mo>)<\/mo>\r\n <\/mrow>\r\n<\/math>",
     "Name": "low (g\u2218h)\u2032(x)"
 },{
     "id": "dcfe1db97432ea0244c32bf4052e12f7",
@@ -189,7 +189,7 @@
     "latexi": "\\intent{(g*h)1stder(x)}{intent='first-derivative(function-composition:infix(g,h))(x)}",
     "MathML_texvc": "<math xmlns=\"http:\/\/www.w3.org\/1998\/Math\/MathML\">\n  <mrow intent=\"\">\n    <mo stretchy=\"false\">(<\/mo>\n    <mi>g<\/mi>\n    <mo>*<\/mo>\n    <mi>h<\/mi>\n    <mo stretchy=\"false\">)<\/mo>\n    <mn>1<\/mn>\n    <mi>s<\/mi>\n    <mi>t<\/mi>\n    <mi>d<\/mi>\n    <mi>e<\/mi>\n    <mi>r<\/mi>\n    <mo stretchy=\"false\">(<\/mo>\n    <mi>x<\/mi>\n    <mo stretchy=\"false\">)<\/mo>\n  <\/mrow>\n<\/math>\n",
     "MathML_default": "<math display='block'>\r\n <mrow>\r\n  <mo>(<\/mo>\r\n  <mi>g<\/mi>\r\n  <mo>\u2218<\/mo>\r\n  <mi>h<\/mi>\r\n  <mo>)<\/mo>\r\n  <mo>\u2032<\/mo>\r\n  <mo>(<\/mo>\r\n  <mi>x<\/mi>\r\n  <mo>)<\/mo>\r\n <\/mrow>\r\n<\/math>",
-    "MathML_explicit": "<math display='block'>\r\n <mrow>\r\n  <mo>(<\/mo>\r\n  <mi>g<\/mi>\r\n  <mo>\u2218<\/mo>\r\n  <mi>h<\/mi>\r\n  <mo>)<\/mo>\r\n  <mo>\u2032<\/mo>\r\n  <mo>(<\/mo>\r\n  <mi>x<\/mi>\r\n  <mo>)<\/mo>\r\n <\/mrow>\r\n<\/math>",
+    "MathML_explicit": "<math display='block'>\r\n <mrow intent='first-derivative(function-composition:infix(g,h))(x)'>\r\n  <mo>(<\/mo>\r\n  <mi>g<\/mi>\r\n  <mo>\u2218<\/mo>\r\n  <mi>h<\/mi>\r\n  <mo>)<\/mo>\r\n  <mo>\u2032<\/mo>\r\n  <mo>(<\/mo>\r\n  <mi>x<\/mi>\r\n  <mo>)<\/mo>\r\n <\/mrow>\r\n<\/math>",
     "Name": "high (g\u2218h)\u2032(x)"
 },{
     "id": "99c071dbf49e1ca438434dc4b82aac35",
@@ -197,7 +197,7 @@
     "latexi": "\\intent{\\intent{\\intent{(g\\intent{*}{arg='op1' intent='function-composition'}h)}{arg='composed' intent='apply:infix($op1,$g,$h)'}}{arg='op3' intent='apply($op2,$composed)}\\intent{1stder}{arg='op2' intent='first-derivative'}(x)}{intent='apply($op3,$x)'}",
     "MathML_texvc": "<math xmlns=\"http:\/\/www.w3.org\/1998\/Math\/MathML\">\n  <mrow intent=\"apply($op3,$x)\">\n    <mrow intent=\"apply:infix($op1,$g,$h)\" arg=\"composed\">\n      <mo stretchy=\"false\">(<\/mo>\n      <mi arg=\"g\">g<\/mi>\n      <mo intent=\"function-composition\" arg=\"op1\">*<\/mo>\n      <mi arg=\"h\">h<\/mi>\n      <mo stretchy=\"false\">)<\/mo>\n    <\/mrow>\n    <mrow intent=\"first-derivative\" arg=\"op2\">\n      <mn>1<\/mn>\n      <mi>s<\/mi>\n      <mi>t<\/mi>\n      <mi>d<\/mi>\n      <mi>e<\/mi>\n      <mi>r<\/mi>\n    <\/mrow>\n    <mo stretchy=\"false\">(<\/mo>\n    <mi arg=\"x\">x<\/mi>\n    <mo stretchy=\"false\">)<\/mo>\n  <\/mrow>\n<\/math>\n",
     "MathML_default": "<math display='block'>\r\n <mrow>\r\n  <msup>\r\n   <mrow>\r\n    <mo>(<\/mo>\r\n    <mi>g<\/mi>\r\n    <mo>\u2218<\/mo>\r\n    <mi>h<\/mi>\r\n    <mo>)<\/mo>\r\n   <\/mrow>\r\n   <mo>\u2032<\/mo>\r\n  <\/msup>\r\n  <mo>(<\/mo>\r\n  <mi>x<\/mi>\r\n  <mo>)<\/mo>\r\n <\/mrow>\r\n<\/math>",
-    "MathML_explicit": "<math display='block'>\r\n <mrow>\r\n  <msup>\r\n   <mrow>\r\n    <mo>(<\/mo>\r\n    <mi>g<\/mi>\r\n    <mo>\u2218<\/mo>\r\n    <mi>h<\/mi>\r\n    <mo>)<\/mo>\r\n   <\/mrow>\r\n   <mo>\u2032<\/mo>\r\n  <\/msup>\r\n  <mo>(<\/mo>\r\n  <mi>x<\/mi>\r\n  <mo>)<\/mo>\r\n <\/mrow>\r\n<\/math>",
+    "MathML_explicit": "<math display='block'>\r\n <mrow intent='apply($op3,$x)'>\r\n  <msup arg='op3' intent='apply($op2,$composed)'>\r\n   <mrow arg='composed' intent='apply:infix($op1,$g,$h)'><!-- ?-->\r\n    <mo>(<\/mo>\r\n    <mi arg='g'>g<\/mi>\r\n    <mo arg='op1' intent='function-composition'>\u2218<\/mo>\r\n    <mi arg='h'>h<\/mi>\r\n    <mo>)<\/mo>\r\n   <\/mrow>\r\n   <mo arg='op2' intent='first-derivative'>\u2032<\/mo>\r\n  <\/msup>\r\n  <mo>(<\/mo>\r\n  <mi arg='x'>x<\/mi>\r\n  <mo>)<\/mo>\r\n <\/mrow>\r\n<\/math>",
     "Name": "apply (g\u2218h)\u2032(x)"
 },{
     "id": "c3e77c30ccf21d4eaec512ba6db42579",
@@ -205,7 +205,7 @@
     "latexi": "\\intent{\\intent{(g\\intent{*}{intent='composed-with'}h)}{arg='composed'}}{intent='first-derivative($composed)'}1stder(x)",
     "MathML_texvc": "<math xmlns=\"http:\/\/www.w3.org\/1998\/Math\/MathML\">\n  <merror>\n    <mtext>Not implemented MEDIAWIKI\\EXTENSION\\MATH\\TEXVC\\NODES\\TEXNODE for \\intent<\/mtext>\n  <\/merror>\n  <mn>1<\/mn>\n  <mi>s<\/mi>\n  <mi>t<\/mi>\n  <mi>d<\/mi>\n  <mi>e<\/mi>\n  <mi>r<\/mi>\n  <mo stretchy=\"false\">(<\/mo>\n  <mi>x<\/mi>\n  <mo stretchy=\"false\">)<\/mo>\n<\/math>\n",
     "MathML_default": "<math display='block'>\r\n <mrow>\r\n  <msup>\r\n   <mrow>\r\n    <mo>(<\/mo>\r\n    <mi>g<\/mi>\r\n    <mo>\u2218<\/mo>\r\n    <mi>h<\/mi>\r\n    <mo>)<\/mo>\r\n   <\/mrow>\r\n   <mo>\u2032<\/mo>\r\n  <\/msup>\r\n  <mo>&#x2061;<\/mo>\r\n  <mo>(<\/mo>\r\n  <mi>x<\/mi>\r\n  <mo>)<\/mo>\r\n <\/mrow>\r\n<\/math>",
-    "MathML_explicit": "<math display='block'>\r\n <mrow>\r\n  <msup>\r\n   <mrow>\r\n    <mo>(<\/mo>\r\n    <mi>g<\/mi>\r\n    <mo>\u2218<\/mo>\r\n    <mi>h<\/mi>\r\n    <mo>)<\/mo>\r\n   <\/mrow>\r\n   <mo>\u2032<\/mo>\r\n  <\/msup>\r\n  <mo>&#x2061;<\/mo>\r\n  <mo>(<\/mo>\r\n  <mi>x<\/mi>\r\n  <mo>)<\/mo>\r\n <\/mrow>\r\n<\/math>",
+    "MathML_explicit": "<math display='block'>\r\n <mrow>\r\n  <msup intent='first-derivative($composed)'>\r\n   <mrow arg='composed'>\r\n    <mo>(<\/mo>\r\n    <mi>g<\/mi>\r\n    <mo intent='composed-with'>\u2218<\/mo>\r\n    <mi>h<\/mi>\r\n    <mo>)<\/mo>\r\n   <\/mrow>\r\n   <mo>\u2032<\/mo>\r\n  <\/msup>\r\n  <mo>&#x2061;<\/mo> <!-- apply function -->\r\n  <mo>(<\/mo>\r\n  <mi>x<\/mi>\r\n  <mo>)<\/mo>\r\n <\/mrow>\r\n<\/math>",
     "Name": "leaf (g\u2218h)\u2032(x)"
 },{
     "id": "fb3f57e2f442a3674fda7159a3b92229",
@@ -213,7 +213,7 @@
     "latexi": "\\intent{f^*(p)}{intent='convex-conjugate(f)(p)'}",
     "MathML_texvc": "<math xmlns=\"http:\/\/www.w3.org\/1998\/Math\/MathML\">\n  <mrow intent=\"convex-conjugate(f)(p)\">\n    <msup>\n      <mi>f<\/mi>\n      <mrow data-mjx-texclass=\"ORD\">\n        <mo>*<\/mo>\n      <\/mrow>\n    <\/msup>\n    <mo stretchy=\"false\">(<\/mo>\n    <mi>p<\/mi>\n    <mo stretchy=\"false\">)<\/mo>\n  <\/mrow>\n<\/math>\n",
     "MathML_default": "<math display='block'>\r\n <mrow>\r\n  <msup>\r\n   <mi>f<\/mi>\r\n   <mo>*<\/mo>\r\n  <\/msup>\r\n  <mo>&#x2061;<\/mo>\r\n  <mrow>\r\n   <mo>(<\/mo>\r\n   <mi>p<\/mi>\r\n   <mo>)<\/mo>\r\n  <\/mrow>\r\n <\/mrow>\r\n<\/math>",
-    "MathML_explicit": "<math display='block'>\r\n <mrow>\r\n  <msup>\r\n   <mi>f<\/mi>\r\n   <mo>*<\/mo>\r\n  <\/msup>\r\n  <mo>&#x2061;<\/mo>\r\n  <mrow>\r\n   <mo>(<\/mo>\r\n   <mi>p<\/mi>\r\n   <mo>)<\/mo>\r\n  <\/mrow>\r\n <\/mrow>\r\n<\/math>",
+    "MathML_explicit": "<math display='block'>\r\n <mrow intent='convex-conjugate(f)(p)'>\r\n  <msup>\r\n   <mi>f<\/mi>\r\n   <mo>*<\/mo>\r\n  <\/msup>\r\n  <mo>&#x2061;<\/mo>\r\n  <mrow>\r\n   <mo>(<\/mo>\r\n   <mi>p<\/mi>\r\n   <mo>)<\/mo>\r\n  <\/mrow>\r\n <\/mrow>\r\n<\/math>",
     "Name": "hof convex conjugate"
 },{
     "id": "a44c0d69dd03eec9ca3b2ad816893e9d",
@@ -221,7 +221,7 @@
     "latexi": "\\intent{r}{intent='my-function'} X",
     "MathML_texvc": "<math xmlns=\"http:\/\/www.w3.org\/1998\/Math\/MathML\">\n  <mi intent=\"my-function\">r<\/mi>\n  <mi>X<\/mi>\n<\/math>\n",
     "MathML_default": "<math display='block'>\r\n <mrow>\r\n  <mo>&#x1F407;<\/mo>\r\n  <mi>X<\/mi>\r\n <\/mrow>\r\n<\/math>",
-    "MathML_explicit": "<math display='block'>\r\n <mrow>\r\n  <mo>&#x1F407;<\/mo>\r\n  <mi>X<\/mi>\r\n <\/mrow>\r\n<\/math>",
+    "MathML_explicit": "<math display='block'>\r\n <mrow>\r\n  <mo intent='my-function'>&#x1F407;<\/mo>\r\n  <mi>X<\/mi>\r\n <\/mrow>\r\n<\/math>",
     "Name": "intent on prefix mo"
 },{
     "id": "000ef44ac98c1bf35301c50ef7580af7",
@@ -229,7 +229,7 @@
     "latexi": "\\intent{r  X}{intent='my-function($X)'}",
     "MathML_texvc": "<math xmlns=\"http:\/\/www.w3.org\/1998\/Math\/MathML\">\n  <mrow intent=\"my-function($X)\">\n    <mi>r<\/mi>\n    <mi arg=\"X\">X<\/mi>\n  <\/mrow>\n<\/math>\n",
     "MathML_default": "<math display='block'>\r\n <mrow>\r\n  <mo>&#x1F407;<\/mo>\r\n  <mi>X<\/mi>\r\n <\/mrow>\r\n<\/math>",
-    "MathML_explicit": "<math display='block'>\r\n <mrow>\r\n  <mo>&#x1F407;<\/mo>\r\n  <mi>X<\/mi>\r\n <\/mrow>\r\n<\/math>",
+    "MathML_explicit": "<math display='block'>\r\n <mrow intent='my-function($X)'>\r\n  <mo>&#x1F407;<\/mo>\r\n  <mi arg='X'>X<\/mi>\r\n <\/mrow>\r\n<\/math>",
     "Name": "intent on mrow of prefix mo"
 },{
     "id": "0fc48295fd811e6b1488687b21c650f2",
@@ -237,7 +237,7 @@
     "latexi": "\\intent{x}{arg='x'} \\intent{\\times}{arg='prod' intent='cross-product'} \\intent{y}{arg='y'}",
     "MathML_texvc": "<math xmlns=\"http:\/\/www.w3.org\/1998\/Math\/MathML\">\n  <mi arg=\"x\">x<\/mi>\n  <mo intent=\"cross-product\" arg=\"prod\">&#xD7;<\/mo>\n  <mi arg=\"y\">y<\/mi>\n<\/math>\n",
     "MathML_default": "<math display='block'>\r\n <mrow>\r\n  <mi>x<\/mi>\r\n  <mo>\u2a2f<\/mo>\r\n  <mi>y<\/mi>\r\n <\/mrow>\r\n<\/math>",
-    "MathML_explicit": "<math display='block'>\r\n <mrow>\r\n  <mi>x<\/mi>\r\n  <mo>\u2a2f<\/mo>\r\n  <mi>y<\/mi>\r\n <\/mrow>\r\n<\/math>",
+    "MathML_explicit": "<math display='block'>\r\n <mrow>\r\n  <mi arg='x'>x<\/mi>\r\n  <mo arg='prod'\r\n      intent='cross-product'>\u2a2f<\/mo>\r\n  <mi arg='y'>y<\/mi>\r\n <\/mrow>\r\n<\/math>",
     "Name": "vectimes hints"
 },{
     "id": "847441a4fb59f830796a988837647e4c",
@@ -245,7 +245,7 @@
     "latexi": "\\intent{x \\boxplus y}{intent='foo:infix($x,$y)'}",
     "MathML_texvc": "<math xmlns=\"http:\/\/www.w3.org\/1998\/Math\/MathML\">\n  <mrow intent=\"foo:infix($x,$y)\">\n    <mi arg=\"x\">x<\/mi>\n    <mo>&#x229E;<\/mo>\n    <mi arg=\"y\">y<\/mi>\n  <\/mrow>\n<\/math>\n",
     "MathML_default": "<math display='block'>\r\n <mrow>\r\n  <mi>x<\/mi>\r\n  <mo>&#x229e;<\/mo>\r\n  <mi>y<\/mi>\r\n <\/mrow>\r\n<\/math>",
-    "MathML_explicit": "<math display='block'>\r\n <mrow>\r\n  <mi>x<\/mi>\r\n  <mo>&#x229e;<\/mo>\r\n  <mi>y<\/mi>\r\n <\/mrow>\r\n<\/math>",
+    "MathML_explicit": "<math display='block'>\r\n <mrow intent='foo:infix($x,$y)'>\r\n  <mi arg='x'>x<\/mi>\r\n  <mo>&#x229e;<\/mo>\r\n  <mi arg='y'>y<\/mi>\r\n <\/mrow>\r\n<\/math>",
     "Name": "x  foo\/boxplus y"
 },{
     "id": "6cb782e8d1dc1ff1670af488b5f565f1",
@@ -253,7 +253,7 @@
     "latexi": "\\intent{\\lVert x\\rVert}{intent='absolute-value($x)'}",
     "MathML_texvc": "<math xmlns=\"http:\/\/www.w3.org\/1998\/Math\/MathML\">\n  <mrow intent=\"absolute-value($x)\">\n    <mo texClass=\"OPEN\">&#x2016;<\/mo>\n    <mi arg=\"x\">x<\/mi>\n    <mo texClass=\"CLOSE\">&#x2016;<\/mo>\n  <\/mrow>\n<\/math>\n",
     "MathML_default": "<math display='block'>\r\n <mrow>\r\n  <mo>|<\/mo>\r\n  <mi>x<\/mi>\r\n  <mo>|<\/mo>\r\n <\/mrow>\r\n<\/math>",
-    "MathML_explicit": "<math display='block'>\r\n <mrow>\r\n  <mo>|<\/mo>\r\n  <mi>x<\/mi>\r\n  <mo>|<\/mo>\r\n <\/mrow>\r\n<\/math>",
+    "MathML_explicit": "<math display='block'>\r\n <mrow intent='absolute-value($x)'>\r\n  <mo>|<\/mo>\r\n  <mi arg='x'>x<\/mi>\r\n  <mo>|<\/mo>\r\n <\/mrow>\r\n<\/math>",
     "Name": "vert x abs"
 },{
     "id": "7e6435549105d86d5843fd7daa24ac07",
@@ -261,7 +261,7 @@
     "latexi": "\\intent{\\lVert x\\rVert_2}{intent='l2-norm($x)'}",
     "MathML_texvc": "<math xmlns=\"http:\/\/www.w3.org\/1998\/Math\/MathML\">\n  <mrow intent=\"l2-norm($x)\">\n    <mo texClass=\"OPEN\">&#x2016;<\/mo>\n    <mi arg=\"x\">x<\/mi>\n    <msub>\n      <mo texClass=\"CLOSE\">&#x2016;<\/mo>\n      <mrow data-mjx-texclass=\"ORD\">\n        <mn>2<\/mn>\n      <\/mrow>\n    <\/msub>\n  <\/mrow>\n<\/math>\n",
     "MathML_default": "<math display='block'>\r\n <msub>\r\n  <mrow>\r\n   <mo>|<\/mo>\r\n   <mi>x<\/mi>\r\n   <mo>|<\/mo>\r\n  <\/mrow>\r\n  <mn>2<\/mn>\r\n <\/msub>\r\n<\/math>",
-    "MathML_explicit": "<math display='block'>\r\n <msub>\r\n  <mrow>\r\n   <mo>|<\/mo>\r\n   <mi>x<\/mi>\r\n   <mo>|<\/mo>\r\n  <\/mrow>\r\n  <mn>2<\/mn>\r\n <\/msub>\r\n<\/math>",
+    "MathML_explicit": "<math display='block'>\r\n <msub intent='l2-norm($x)'>\r\n  <mrow>\r\n   <mo>|<\/mo>\r\n   <mi arg='x'>x<\/mi>\r\n   <mo>|<\/mo>\r\n  <\/mrow>\r\n  <mn>2<\/mn>\r\n <\/msub>\r\n<\/math>",
     "Name": "l2 norm x"
 },{
     "id": "46be8bdf7945165451836ec6f9ae82ab",
@@ -269,7 +269,7 @@
     "latexi": "\\intent{\\lVert M\\rVert}{intent='determinant($M)'}",
     "MathML_texvc": "<math xmlns=\"http:\/\/www.w3.org\/1998\/Math\/MathML\">\n  <mrow intent=\"determinant($M)\">\n    <mo texClass=\"OPEN\">&#x2016;<\/mo>\n    <mi arg=\"M\">M<\/mi>\n    <mo texClass=\"CLOSE\">&#x2016;<\/mo>\n  <\/mrow>\n<\/math>\n",
     "MathML_default": "<math display='block'>\r\n <mrow>\r\n  <mo>|<\/mo>\r\n  <mi>M<\/mi>\r\n  <mo>|<\/mo>\r\n <\/mrow>\r\n<\/math>",
-    "MathML_explicit": "<math display='block'>\r\n <mrow>\r\n  <mo>|<\/mo>\r\n  <mi>M<\/mi>\r\n  <mo>|<\/mo>\r\n <\/mrow>\r\n<\/math>",
+    "MathML_explicit": "<math display='block'>\r\n <mrow intent='determinant($M)'>\r\n  <mo>|<\/mo>\r\n  <mi arg='M'>M<\/mi>\r\n  <mo>|<\/mo>\r\n <\/mrow>\r\n<\/math>",
     "Name": "vert M determinant"
 },{
     "id": "06dfe7acbde9b5efd540d5b311ece76f",
@@ -277,7 +277,7 @@
     "latexi": "\\intent{\\intent{\\begin{vmatrix}a&amp;b\\\\c&amp;d\\end{vmatrix}}{arg='M' intent=':matrix'}}{intent='determinant($M)'}",
     "MathML_texvc": "<math xmlns=\"http:\/\/www.w3.org\/1998\/Math\/MathML\">\n  <mrow data-mjx-texclass=\"ORD\" intent=\"determinant($M)\">\n    <mo data-mjx-texclass=\"OPEN\">|<\/mo>\n    <mtable columnspacing=\"1em\" rowspacing=\"4pt\" intent=\":matrix\" arg=\"M\">\n      <mtr>\n        <mtd>\n          <mi>a<\/mi>\n        <\/mtd>\n        <mtd>\n          <mi>a<\/mi>\n          <mi>m<\/mi>\n          <mi>p<\/mi>\n          <mo>;<\/mo>\n          <mi>b<\/mi>\n        <\/mtd>\n      <\/mtr>\n      <mtr>\n        <mtd>\n          <mi>c<\/mi>\n        <\/mtd>\n        <mtd>\n          <mi>a<\/mi>\n          <mi>m<\/mi>\n          <mi>p<\/mi>\n          <mo>;<\/mo>\n          <mi>d<\/mi>\n        <\/mtd>\n      <\/mtr>\n    <\/mtable>\n    <mo data-mjx-texclass=\"CLOSE\" fence=\"true\" stretchy=\"true\" symmetric=\"true\">|<\/mo>\n  <\/mrow>\n<\/math>\n",
     "MathML_default": "<math display='block'>\r\n <mrow>\r\n  <mo>|<\/mo>\r\n  <mtable>\r\n   <mtr>\r\n    <mtd><mi>a<\/mi><\/mtd>\r\n    <mtd><mi>b<\/mi><\/mtd>\r\n   <\/mtr>\r\n   <mtr>\r\n    <mtd><mi>c<\/mi><\/mtd>\r\n    <mtd><mi>d<\/mi><\/mtd>\r\n   <\/mtr>\r\n  <\/mtable>\r\n  <mo>|<\/mo>\r\n <\/mrow>\r\n<\/math>",
-    "MathML_explicit": "<math display='block'>\r\n <mrow>\r\n  <mo>|<\/mo>\r\n  <mtable>\r\n   <mtr>\r\n    <mtd><mi>a<\/mi><\/mtd>\r\n    <mtd><mi>b<\/mi><\/mtd>\r\n   <\/mtr>\r\n   <mtr>\r\n    <mtd><mi>c<\/mi><\/mtd>\r\n    <mtd><mi>d<\/mi><\/mtd>\r\n   <\/mtr>\r\n  <\/mtable>\r\n  <mo>|<\/mo>\r\n <\/mrow>\r\n<\/math>",
+    "MathML_explicit": "<math display='block'>\r\n <mrow intent='determinant($M)'>\r\n  <mo>|<\/mo>\r\n  <mtable arg='M' intent=':matrix'>\r\n   <mtr>\r\n    <mtd><mi>a<\/mi><\/mtd>\r\n    <mtd><mi>b<\/mi><\/mtd>\r\n   <\/mtr>\r\n   <mtr>\r\n    <mtd><mi>c<\/mi><\/mtd>\r\n    <mtd><mi>d<\/mi><\/mtd>\r\n   <\/mtr>\r\n  <\/mtable>\r\n  <mo>|<\/mo>\r\n <\/mrow>\r\n<\/math>",
     "Name": "vert abcd determinant"
 },{
     "id": "92513434f7bc7fe4c9ae0c82c88c96e1",
@@ -285,7 +285,7 @@
     "latexi": "\\intent{\\lVert x\\rVert}{intent='magnitude($x)'}",
     "MathML_texvc": "<math xmlns=\"http:\/\/www.w3.org\/1998\/Math\/MathML\">\n  <mrow intent=\"magnitude($x)\">\n    <mo texClass=\"OPEN\">&#x2016;<\/mo>\n    <mi arg=\"x\">x<\/mi>\n    <mo texClass=\"CLOSE\">&#x2016;<\/mo>\n  <\/mrow>\n<\/math>\n",
     "MathML_default": "<math display='block'>\r\n <mrow>\r\n  <mo>\u2016<\/mo>\r\n  <mi>x<\/mi>\r\n  <mo>\u2016<\/mo>\r\n <\/mrow>\r\n<\/math>",
-    "MathML_explicit": "<math display='block'>\r\n <mrow>\r\n  <mo>\u2016<\/mo>\r\n  <mi>x<\/mi>\r\n  <mo>\u2016<\/mo>\r\n <\/mrow>\r\n<\/math>",
+    "MathML_explicit": "<math display='block'>\r\n <mrow intent='magnitude($x)'>\r\n  <mo>\u2016<\/mo>\r\n  <mi arg='x'>x<\/mi>\r\n  <mo>\u2016<\/mo>\r\n <\/mrow>\r\n<\/math>",
     "Name": "Vert x magnitude"
 },{
     "id": "b14792603f091e1cf28e3dd132815f4a",
@@ -293,7 +293,7 @@
     "latexi": "\\intent{\\mathopen{]} x,y\\mathclose{[}\\rVert}{intent='open-interval($x,$y)'}",
     "MathML_texvc": "<math xmlns=\"http:\/\/www.w3.org\/1998\/Math\/MathML\">\n  <mrow intent=\"open-interval($x,$y)\">\n    <mrow data-mjx-texclass=\"ORD\">\n      <mrow data-mjx-texclass=\"OPEN\">\n        <mo stretchy=\"false\">]<\/mo>\n      <\/mrow>\n    <\/mrow>\n    <mi arg=\"x\">x<\/mi>\n    <mo>,<\/mo>\n    <mi arg=\"y\">y<\/mi>\n    <mrow data-mjx-texclass=\"ORD\">\n      <mrow data-mjx-texclass=\"CLOSE\">\n        <mo stretchy=\"false\">[<\/mo>\n      <\/mrow>\n    <\/mrow>\n    <mo texClass=\"CLOSE\">&#x2016;<\/mo>\n  <\/mrow>\n<\/math>\n",
     "MathML_default": "<math display='block'>\r\n <mrow>\r\n  <mo>]<\/mo>\r\n  <mi>x<\/mi>\r\n  <mo>,<\/mo>\r\n  <mi>y<\/mi>\r\n  <mo>[<\/mo>\r\n <\/mrow>\r\n<\/math>",
-    "MathML_explicit": "<math display='block'>\r\n <mrow>\r\n  <mo>]<\/mo>\r\n  <mi>x<\/mi>\r\n  <mo>,<\/mo>\r\n  <mi>y<\/mi>\r\n  <mo>[<\/mo>\r\n <\/mrow>\r\n<\/math>",
+    "MathML_explicit": "<math display='block'>\r\n <mrow intent='open-interval($x,$y)'>\r\n  <mo>]<\/mo>\r\n  <mi arg='x'>x<\/mi>\r\n  <mo>,<\/mo>\r\n  <mi arg='y'>y<\/mi>\r\n  <mo>[<\/mo>\r\n <\/mrow>\r\n<\/math>",
     "Name": "open-open inverted bracket"
 },{
     "id": "27bfe4359a3cb1b137874cb6f177f82d",
@@ -301,7 +301,7 @@
     "latexi": "\\intent{(x,y)}{intent='open-interval($x,$y)'}",
     "MathML_texvc": "<math xmlns=\"http:\/\/www.w3.org\/1998\/Math\/MathML\">\n  <mrow intent=\"open-interval($x,$y)\">\n    <mo stretchy=\"false\">(<\/mo>\n    <mi arg=\"x\">x<\/mi>\n    <mo>,<\/mo>\n    <mi arg=\"y\">y<\/mi>\n    <mo stretchy=\"false\">)<\/mo>\n  <\/mrow>\n<\/math>\n",
     "MathML_default": "<math display='block'>\r\n <mrow>\r\n  <mo>(<\/mo>\r\n  <mi>x<\/mi>\r\n  <mo>,<\/mo>\r\n  <mi>y<\/mi>\r\n  <mo>)<\/mo>\r\n <\/mrow>\r\n<\/math>",
-    "MathML_explicit": "<math display='block'>\r\n <mrow>\r\n  <mo>(<\/mo>\r\n  <mi>x<\/mi>\r\n  <mo>,<\/mo>\r\n  <mi>y<\/mi>\r\n  <mo>)<\/mo>\r\n <\/mrow>\r\n<\/math>",
+    "MathML_explicit": "<math display='block'>\r\n <mrow intent='open-interval($x,$y)'>\r\n  <mo>(<\/mo>\r\n  <mi arg='x'>x<\/mi>\r\n  <mo>,<\/mo>\r\n  <mi arg='y'>y<\/mi>\r\n  <mo>)<\/mo>\r\n <\/mrow>\r\n<\/math>",
     "Name": "open-open"
 },{
     "id": "c0f15cfea235dae42494b5a6136b03e3",
@@ -309,7 +309,7 @@
     "latexi": "\\intent{(x,y]}{intent='open-closed-interval($x,$y}",
     "MathML_texvc": "<math xmlns=\"http:\/\/www.w3.org\/1998\/Math\/MathML\">\n  <mrow intent=\"\">\n    <mo stretchy=\"false\">(<\/mo>\n    <mi>x<\/mi>\n    <mo>,<\/mo>\n    <mi>y<\/mi>\n    <mo stretchy=\"false\">]<\/mo>\n  <\/mrow>\n<\/math>\n",
     "MathML_default": "<math display='block'>\r\n <mrow>\r\n  <mo>(<\/mo>\r\n  <mi>x<\/mi>\r\n  <mo>,<\/mo>\r\n  <mi>y<\/mi>\r\n  <mo>]<\/mo>\r\n <\/mrow>\r\n<\/math>",
-    "MathML_explicit": "<math display='block'>\r\n <mrow>\r\n  <mo>(<\/mo>\r\n  <mi>x<\/mi>\r\n  <mo>,<\/mo>\r\n  <mi>y<\/mi>\r\n  <mo>]<\/mo>\r\n <\/mrow>\r\n<\/math>",
+    "MathML_explicit": "<math display='block'>\r\n <mrow intent='open-closed-interval($x,$y)'>\r\n  <mo>(<\/mo>\r\n  <mi arg='x'>x<\/mi>\r\n  <mo>,<\/mo>\r\n  <mi arg='y'>y<\/mi>\r\n  <mo>]<\/mo>\r\n <\/mrow>\r\n<\/math>",
     "Name": "open-closed"
 },{
     "id": "89c82842a6c245fbe4771146a19b0583",
@@ -317,7 +317,7 @@
     "latexi": "\\intent{[x,y)}{intent='closed-open-interval($x,$y)'}",
     "MathML_texvc": "<math xmlns=\"http:\/\/www.w3.org\/1998\/Math\/MathML\">\n  <mrow intent=\"closed-open-interval($x,$y)\">\n    <mo stretchy=\"false\">[<\/mo>\n    <mi arg=\"x\">x<\/mi>\n    <mo>,<\/mo>\n    <mi arg=\"y\">y<\/mi>\n    <mo stretchy=\"false\">)<\/mo>\n  <\/mrow>\n<\/math>\n",
     "MathML_default": "<math display='block'>\r\n <mrow>\r\n  <mo>[<\/mo>\r\n  <mi>x<\/mi>\r\n  <mo>,<\/mo>\r\n  <mi>y<\/mi>\r\n  <mo>)<\/mo>\r\n <\/mrow>\r\n<\/math>",
-    "MathML_explicit": "<math display='block'>\r\n <mrow>\r\n  <mo>[<\/mo>\r\n  <mi>x<\/mi>\r\n  <mo>,<\/mo>\r\n  <mi>y<\/mi>\r\n  <mo>)<\/mo>\r\n <\/mrow>\r\n<\/math>",
+    "MathML_explicit": "<math display='block'>\r\n <mrow intent='closed-open-interval($x,$y)'>\r\n  <mo>[<\/mo>\r\n  <mi arg='x'>x<\/mi>\r\n  <mo>,<\/mo>\r\n  <mi arg='y'>y<\/mi>\r\n  <mo>)<\/mo>\r\n <\/mrow>\r\n<\/math>",
     "Name": "closed-open"
 },{
     "id": "f857e87ac030876a5f7afe6d29adc52c",
@@ -325,7 +325,7 @@
     "latexi": "\\intent{[x,y]}{intent='closed-interval($x,$y)'}",
     "MathML_texvc": "<math xmlns=\"http:\/\/www.w3.org\/1998\/Math\/MathML\">\n  <mrow intent=\"closed-interval($x,$y)\">\n    <mo stretchy=\"false\">[<\/mo>\n    <mi arg=\"x\">x<\/mi>\n    <mo>,<\/mo>\n    <mi arg=\"y\">y<\/mi>\n    <mo stretchy=\"false\">]<\/mo>\n  <\/mrow>\n<\/math>\n",
     "MathML_default": "<math display='block'>\r\n <mrow>\r\n  <mo>[<\/mo>\r\n  <mi>x<\/mi>\r\n  <mo>,<\/mo>\r\n  <mi>y<\/mi>\r\n  <mo>]<\/mo>\r\n <\/mrow>\r\n<\/math>",
-    "MathML_explicit": "<math display='block'>\r\n <mrow>\r\n  <mo>[<\/mo>\r\n  <mi>x<\/mi>\r\n  <mo>,<\/mo>\r\n  <mi>y<\/mi>\r\n  <mo>]<\/mo>\r\n <\/mrow>\r\n<\/math>",
+    "MathML_explicit": "<math display='block'>\r\n <mrow intent='closed-interval($x,$y)'>\r\n  <mo>[<\/mo>\r\n  <mi arg='x'>x<\/mi>\r\n  <mo>,<\/mo>\r\n  <mi arg='y'>y<\/mi>\r\n  <mo>]<\/mo>\r\n <\/mrow>\r\n<\/math>",
     "Name": "closed-closed"
 },{
     "id": "d0a5d6a1ff64a1c04fe4646297736087",
@@ -333,7 +333,7 @@
     "latexi": "\\intent{(a\\,b\\,c\\,d)}{intent='vector($x,$y,$c,$d)'}",
     "MathML_texvc": "<math xmlns=\"http:\/\/www.w3.org\/1998\/Math\/MathML\">\n  <mrow intent=\"vector($x,$y,$c,$d)\">\n    <mo stretchy=\"false\">(<\/mo>\n    <mi>a<\/mi>\n    <mstyle scriptlevel=\"0\">\n      <mspace width=\"0.167em\"\/>\n    <\/mstyle>\n    <mi>b<\/mi>\n    <mstyle scriptlevel=\"0\">\n      <mspace width=\"0.167em\"\/>\n    <\/mstyle>\n    <mi arg=\"c\">c<\/mi>\n    <mstyle scriptlevel=\"0\">\n      <mspace width=\"0.167em\"\/>\n    <\/mstyle>\n    <mi arg=\"d\">d<\/mi>\n    <mo stretchy=\"false\">)<\/mo>\n  <\/mrow>\n<\/math>\n",
     "MathML_default": "<math display='block'>\r\n <mrow>\r\n  <mo>(<\/mo>\r\n  <mi>x<\/mi>\r\n  <mo>&#x2009;<\/mo>\r\n  <mi>y<\/mi>\r\n  <mo>&#x2009;<\/mo>\r\n  <mi>c<\/mi>\r\n  <mo>&#x2009;<\/mo>\r\n  <mi>d<\/mi>\r\n  <mo>)<\/mo>\r\n <\/mrow>\r\n<\/math>",
-    "MathML_explicit": "<math display='block'>\r\n <mrow>\r\n  <mo>(<\/mo>\r\n  <mi>x<\/mi>\r\n  <mo>&#x2009;<\/mo>\r\n  <mi>y<\/mi>\r\n  <mo>&#x2009;<\/mo>\r\n  <mi>c<\/mi>\r\n  <mo>&#x2009;<\/mo>\r\n  <mi>d<\/mi>\r\n  <mo>)<\/mo>\r\n <\/mrow>\r\n<\/math>",
+    "MathML_explicit": "<math display='block'>\r\n <mrow intent='vector($x,$y,$c,$d)'>\r\n  <mo>(<\/mo>\r\n  <mi arg='x'>x<\/mi>\r\n  <mo>&#x2009;<\/mo>\r\n  <mi arg='y'>y<\/mi>\r\n  <mo>&#x2009;<\/mo>\r\n  <mi arg='c'>c<\/mi>\r\n  <mo>&#x2009;<\/mo>\r\n  <mi arg='d'>d<\/mi>\r\n  <mo>)<\/mo>\r\n <\/mrow>\r\n<\/math>",
     "Name": "cycle thin space"
 },{
     "id": "40b8ecf2d091af0e003b076d2eed9a39",
@@ -341,7 +341,7 @@
     "latexi": "\\intent\\intent{{\\begin{bmatrix} a&amp;b\\\\ x&amp;y \\end{bmatrix}}}{arg='m' intent=':matrix}{intent='$m'}",
     "MathML_texvc": "<math xmlns=\"http:\/\/www.w3.org\/1998\/Math\/MathML\">\n  <mrow data-mjx-texclass=\"ORD\">\n    <mo data-mjx-texclass=\"OPEN\">[<\/mo>\n    <mtable columnspacing=\"1em\" rowspacing=\"4pt\">\n      <mtr>\n        <mtd>\n          <mi arg=\"m\">a<\/mi>\n        <\/mtd>\n        <mtd>\n          <mi arg=\"m\">a<\/mi>\n          <mi arg=\"m\">m<\/mi>\n          <mi arg=\"m\">p<\/mi>\n          <mo>;<\/mo>\n          <mi arg=\"m\">b<\/mi>\n        <\/mtd>\n      <\/mtr>\n      <mtr>\n        <mtd>\n          <mi arg=\"m\">x<\/mi>\n        <\/mtd>\n        <mtd>\n          <mi arg=\"m\">a<\/mi>\n          <mi arg=\"m\">m<\/mi>\n          <mi arg=\"m\">p<\/mi>\n          <mo>;<\/mo>\n          <mi arg=\"m\">y<\/mi>\n        <\/mtd>\n      <\/mtr>\n    <\/mtable>\n    <mo data-mjx-texclass=\"CLOSE\" fence=\"true\" stretchy=\"true\" symmetric=\"true\">]<\/mo>\n  <\/mrow>\n<\/math>\n",
     "MathML_default": "<math display='block'>\r\n <mrow>\r\n  <mo>[<\/mo>\r\n  <mtable>\r\n   <mtr>\r\n    <mtd><mi>a<\/mi><\/mtd>\r\n    <mtd><mi>b<\/mi><\/mtd>\r\n   <\/mtr>\r\n   <mtr>\r\n    <mtd><mi>x<\/mi><\/mtd>\r\n    <mtd><mi>y<\/mi><\/mtd>\r\n   <\/mtr>\r\n  <\/mtable>\r\n  <mo>]<\/mo>\r\n <\/mrow>\r\n<\/math>",
-    "MathML_explicit": "<math display='block'>\r\n <mrow>\r\n  <mo>[<\/mo>\r\n  <mtable>\r\n   <mtr>\r\n    <mtd><mi>a<\/mi><\/mtd>\r\n    <mtd><mi>b<\/mi><\/mtd>\r\n   <\/mtr>\r\n   <mtr>\r\n    <mtd><mi>x<\/mi><\/mtd>\r\n    <mtd><mi>y<\/mi><\/mtd>\r\n   <\/mtr>\r\n  <\/mtable>\r\n  <mo>]<\/mo>\r\n <\/mrow>\r\n<\/math>",
+    "MathML_explicit": "<math display='block'>\r\n <mrow intent='$m'>\r\n  <mo>[<\/mo>\r\n  <mtable arg='m' intent=':matrix'>\r\n   <mtr>\r\n    <mtd><mi>a<\/mi><\/mtd>\r\n    <mtd><mi>b<\/mi><\/mtd>\r\n   <\/mtr>\r\n   <mtr>\r\n    <mtd><mi>x<\/mi><\/mtd>\r\n    <mtd><mi>y<\/mi><\/mtd>\r\n   <\/mtr>\r\n  <\/mtable>\r\n  <mo>]<\/mo>\r\n <\/mrow>\r\n<\/math>",
     "Name": "bmatrix"
 },{
     "id": "b0326ed98970ae5b4d13976dda3bd0b5",
@@ -349,7 +349,7 @@
     "latexi": "\\intent{\\intent{\\begin{pmatrix} a&amp;b\\\\ x&amp;y \\end{pmatrix}}{arg='m' intent=':matrix'}}{intent='$m'}",
     "MathML_texvc": "<math xmlns=\"http:\/\/www.w3.org\/1998\/Math\/MathML\">\n  <mrow data-mjx-texclass=\"ORD\" intent=\"$m\">\n    <mo data-mjx-texclass=\"OPEN\">(<\/mo>\n    <mtable columnspacing=\"1em\" rowspacing=\"4pt\" intent=\":matrix\" arg=\"m\">\n      <mtr>\n        <mtd>\n          <mi>a<\/mi>\n        <\/mtd>\n        <mtd>\n          <mi>a<\/mi>\n          <mi>m<\/mi>\n          <mi>p<\/mi>\n          <mo>;<\/mo>\n          <mi>b<\/mi>\n        <\/mtd>\n      <\/mtr>\n      <mtr>\n        <mtd>\n          <mi>x<\/mi>\n        <\/mtd>\n        <mtd>\n          <mi>a<\/mi>\n          <mi>m<\/mi>\n          <mi>p<\/mi>\n          <mo>;<\/mo>\n          <mi>y<\/mi>\n        <\/mtd>\n      <\/mtr>\n    <\/mtable>\n    <mo data-mjx-texclass=\"CLOSE\" fence=\"true\" stretchy=\"true\" symmetric=\"true\">)<\/mo>\n  <\/mrow>\n<\/math>\n",
     "MathML_default": "<math display='block'>\r\n <mrow>\r\n  <mo>(<\/mo>\r\n  <mtable>\r\n   <mtr>\r\n    <mtd><mi>a<\/mi><\/mtd>\r\n    <mtd><mi>b<\/mi><\/mtd>\r\n   <\/mtr>\r\n   <mtr>\r\n    <mtd><mi>x<\/mi><\/mtd>\r\n    <mtd><mi>y<\/mi><\/mtd>\r\n   <\/mtr>\r\n  <\/mtable>\r\n  <mo>)<\/mo>\r\n <\/mrow>\r\n<\/math>",
-    "MathML_explicit": "<math display='block'>\r\n <mrow>\r\n  <mo>(<\/mo>\r\n  <mtable>\r\n   <mtr>\r\n    <mtd><mi>a<\/mi><\/mtd>\r\n    <mtd><mi>b<\/mi><\/mtd>\r\n   <\/mtr>\r\n   <mtr>\r\n    <mtd><mi>x<\/mi><\/mtd>\r\n    <mtd><mi>y<\/mi><\/mtd>\r\n   <\/mtr>\r\n  <\/mtable>\r\n  <mo>)<\/mo>\r\n <\/mrow>\r\n<\/math>",
+    "MathML_explicit": "<math display='block'>\r\n <mrow intent='$m'>\r\n  <mo>(<\/mo>\r\n  <mtable arg='m' intent=':matrix'>\r\n   <mtr>\r\n    <mtd><mi>a<\/mi><\/mtd>\r\n    <mtd><mi>b<\/mi><\/mtd>\r\n   <\/mtr>\r\n   <mtr>\r\n    <mtd><mi>x<\/mi><\/mtd>\r\n    <mtd><mi>y<\/mi><\/mtd>\r\n   <\/mtr>\r\n  <\/mtable>\r\n  <mo>)<\/mo>\r\n <\/mrow>\r\n<\/math>",
     "Name": "pmatrix"
 },{
     "id": "7aa03d6dec1bce2ead484a65161df1cd",
@@ -357,7 +357,7 @@
     "latexi": "\\intent{\\intent{\\left ( \\begin{aligned} x+y &amp;= 2 \\\\ x-y &amp;=0 \\end{aligned} \\right )}{arg='m' intent=':equations'}}{intent='$m'}",
     "MathML_texvc": "<math xmlns=\"http:\/\/www.w3.org\/1998\/Math\/MathML\">\n  <mrow data-mjx-texclass=\"INNER\" intent=\"$m\" arg=\"m\">\n    <mo data-mjx-texclass=\"OPEN\" stretchy=\"false\">(<\/mo>\n    <mrow data-mjx-texclass=\"ORD\">\n      <mtable columnalign=\"right\" columnspacing=\"\" displaystyle=\"true\" rowspacing=\"3pt\">\n        <mtr>\n          <mtd>\n            <mi>x<\/mi>\n            <mo>+<\/mo>\n            <mi>y<\/mi>\n          <\/mtd>\n          <mtd>\n            <mi>a<\/mi>\n            <mi>m<\/mi>\n            <mi>p<\/mi>\n            <mo>;<\/mo>\n            <mo>=<\/mo>\n            <mn>2<\/mn>\n          <\/mtd>\n        <\/mtr>\n        <mtr>\n          <mtd>\n            <mi>x<\/mi>\n            <mo>&#x2212;<\/mo>\n            <mi>y<\/mi>\n          <\/mtd>\n          <mtd>\n            <mi>a<\/mi>\n            <mi>m<\/mi>\n            <mi>p<\/mi>\n            <mo>;<\/mo>\n            <mo>=<\/mo>\n            <mn>0<\/mn>\n          <\/mtd>\n        <\/mtr>\n      <\/mtable>\n    <\/mrow>\n    <mo data-mjx-texclass=\"CLOSE\" stretchy=\"false\">)<\/mo>\n  <\/mrow>\n<\/math>\n",
     "MathML_default": "<math display='block'>\r\n <mrow>\r\n  <mo>{<\/mo>\r\n  <mtable>\r\n   <mtr>\r\n    <mtd>\r\n     <mi>x<\/mi>\r\n     <mo>+<\/mo>\r\n     <mi>y<\/mi>\r\n    <\/mtd>\r\n    <mtd><mo>=<\/mo><\/mtd>\r\n    <mtd><mn>2<\/mn><\/mtd>\r\n   <\/mtr>\r\n   <mtr>\r\n    <mtd>\r\n     <mi>x<\/mi>\r\n     <mo>&#x2212;<\/mo>\r\n     <mi>y<\/mi>\r\n    <\/mtd>\r\n    <mtd><mo>=<\/mo><\/mtd>\r\n    <mtd><mn>0<\/mn><\/mtd>\r\n   <\/mtr>\r\n  <\/mtable>\r\n <\/mrow>\r\n<\/math>",
-    "MathML_explicit": "<math display='block'>\r\n <mrow>\r\n  <mo>{<\/mo>\r\n  <mtable>\r\n   <mtr>\r\n    <mtd>\r\n     <mi>x<\/mi>\r\n     <mo>+<\/mo>\r\n     <mi>y<\/mi>\r\n    <\/mtd>\r\n    <mtd><mo>=<\/mo><\/mtd>\r\n    <mtd><mn>2<\/mn><\/mtd>\r\n   <\/mtr>\r\n   <mtr>\r\n    <mtd>\r\n     <mi>x<\/mi>\r\n     <mo>&#x2212;<\/mo>\r\n     <mi>y<\/mi>\r\n    <\/mtd>\r\n    <mtd><mo>=<\/mo><\/mtd>\r\n    <mtd><mn>0<\/mn><\/mtd>\r\n   <\/mtr>\r\n  <\/mtable>\r\n <\/mrow>\r\n<\/math>",
+    "MathML_explicit": "<math display='block'>\r\n <mrow intent='$m'>\r\n  <mo>{<\/mo>\r\n  <mtable arg='m' intent=':equations'>\r\n   <mtr>\r\n    <mtd>\r\n     <mi>x<\/mi>\r\n     <mo>+<\/mo>\r\n     <mi>y<\/mi>\r\n    <\/mtd>\r\n    <mtd><mo>=<\/mo><\/mtd>\r\n    <mtd><mn>2<\/mn><\/mtd>\r\n   <\/mtr>\r\n   <mtr>\r\n    <mtd>\r\n     <mi>x<\/mi>\r\n     <mo>&#x2212;<\/mo>\r\n     <mi>y<\/mi>\r\n    <\/mtd>\r\n    <mtd><mo>=<\/mo><\/mtd>\r\n    <mtd><mn>0<\/mn><\/mtd>\r\n   <\/mtr>\r\n  <\/mtable>\r\n <\/mrow>\r\n<\/math>",
     "Name": "braced system of equations"
 },{
     "id": "c25f1dbedb5de810c420d5fd07dcfd86",
@@ -365,7 +365,7 @@
     "latexi": "\\intent{\\dot{x}}{intent='derivative($x,1)'}",
     "MathML_texvc": "<math xmlns=\"http:\/\/www.w3.org\/1998\/Math\/MathML\">\n  <mrow data-mjx-texclass=\"ORD\" intent=\"derivative($x,1)\">\n    <mrow data-mjx-texclass=\"ORD\">\n      <mover>\n        <mi>x<\/mi>\n        <mo>&#x2D9;<\/mo>\n      <\/mover>\n    <\/mrow>\n  <\/mrow>\n<\/math>\n",
     "MathML_default": "<math display='block'>\r\n <mover>\r\n  <mi>x<\/mi>\r\n  <mo>&#x02D9;<\/mo>\r\n <\/mover>\r\n<\/math>",
-    "MathML_explicit": "<math display='block'>\r\n <mover>\r\n  <mi>x<\/mi>\r\n  <mo>&#x02D9;<\/mo>\r\n <\/mover>\r\n<\/math>",
+    "MathML_explicit": "<math display='block'>\r\n <mover intent='derivative($x,1)'>\r\n  <mi arg='x'>x<\/mi>\r\n  <mo>&#x02D9;<\/mo>\r\n <\/mover>\r\n<\/math>",
     "Name": "dot x"
 },{
     "id": "450e30edd13ef3fa12569bf48dfa30be",
@@ -373,7 +373,7 @@
     "latexi": "\\intent{\\ddot{x}}{intent='derivative($x,2)'}",
     "MathML_texvc": "<math xmlns=\"http:\/\/www.w3.org\/1998\/Math\/MathML\">\n  <mrow data-mjx-texclass=\"ORD\" intent=\"derivative($x,2)\">\n    <mrow data-mjx-texclass=\"ORD\">\n      <mover>\n        <mi>x<\/mi>\n        <mo>&#xA8;<\/mo>\n      <\/mover>\n    <\/mrow>\n  <\/mrow>\n<\/math>\n",
     "MathML_default": "<math display='block'>\r\n <mover>\r\n  <mi>x<\/mi>\r\n  <mo>&#x00A8;<\/mo>\r\n <\/mover>\r\n<\/math>",
-    "MathML_explicit": "<math display='block'>\r\n <mover>\r\n  <mi>x<\/mi>\r\n  <mo>&#x00A8;<\/mo>\r\n <\/mover>\r\n<\/math>",
+    "MathML_explicit": "<math display='block'>\r\n <mover intent='derivative($x,2)'>\r\n  <mi arg='x'>x<\/mi>\r\n  <mo>&#x00A8;<\/mo>\r\n <\/mover>\r\n<\/math>",
     "Name": "ddot x"
 },{
     "id": "54afe7628ceac40ee391f52e48b2bac8",
@@ -381,7 +381,7 @@
     "latexi": "\\intent{\\frac{dx}{dt}}{intent='derivative($x,1,$t)'}",
     "MathML_texvc": "<math xmlns=\"http:\/\/www.w3.org\/1998\/Math\/MathML\">\n  <mrow data-mjx-texclass=\"ORD\" intent=\"derivative($x,1,$t)\">\n    <mfrac>\n      <mrow data-mjx-texclass=\"ORD\">\n        <mi>d<\/mi>\n        <mi>x<\/mi>\n      <\/mrow>\n      <mrow data-mjx-texclass=\"ORD\">\n        <mi>d<\/mi>\n        <mi>t<\/mi>\n      <\/mrow>\n    <\/mfrac>\n  <\/mrow>\n<\/math>\n",
     "MathML_default": "<math display='block'>\r\n <mfrac>\r\n  <mrow><mi>d<\/mi><mi>x<\/mi><\/mrow>\r\n  <mrow><mi>d<\/mi><mi>t<\/mi><\/mrow>\r\n <\/mfrac>\r\n<\/math>",
-    "MathML_explicit": "<math display='block'>\r\n <mfrac>\r\n  <mrow><mi>d<\/mi><mi>x<\/mi><\/mrow>\r\n  <mrow><mi>d<\/mi><mi>t<\/mi><\/mrow>\r\n <\/mfrac>\r\n<\/math>",
+    "MathML_explicit": "<math display='block'>\r\n <mfrac intent='derivative($x,1,$t)'>\r\n  <mrow><mi>d<\/mi><mi arg='x'>x<\/mi><\/mrow>\r\n  <mrow><mi>d<\/mi><mi arg='t'>t<\/mi><\/mrow>\r\n <\/mfrac>\r\n<\/math>",
     "Name": "dx by dt"
 },{
     "id": "165432696535dbe9f054fd44b9bd6309",
@@ -389,7 +389,7 @@
     "latexi": "\\intent{\\frac{d}{dt}f(t)}{intent='derivative($ft,1,$t)'}",
     "MathML_texvc": "<math xmlns=\"http:\/\/www.w3.org\/1998\/Math\/MathML\">\n  <mrow intent=\"derivative($ft,1,$t)\">\n    <mrow data-mjx-texclass=\"ORD\">\n      <mfrac>\n        <mrow data-mjx-texclass=\"ORD\">\n          <mi>d<\/mi>\n        <\/mrow>\n        <mrow data-mjx-texclass=\"ORD\">\n          <mi>d<\/mi>\n          <mi>t<\/mi>\n        <\/mrow>\n      <\/mfrac>\n    <\/mrow>\n    <mi>f<\/mi>\n    <mo stretchy=\"false\">(<\/mo>\n    <mi arg=\"t\">t<\/mi>\n    <mo stretchy=\"false\">)<\/mo>\n  <\/mrow>\n<\/math>\n",
     "MathML_default": "<math display='block'>\r\n <mrow>\r\n  <mfrac>\r\n   <mrow><mi>d<\/mi><\/mrow>\r\n   <mrow><mi>d<\/mi><mi>t<\/mi><\/mrow>\r\n  <\/mfrac>\r\n  <mrow>\r\n   <mi>f<\/mi>\r\n   <mo>&#x2061;<\/mo>\r\n   <mo>(<\/mo>\r\n   <mi>t<\/mi>\r\n   <mo>)<\/mo>\r\n  <\/mrow>\r\n <\/mrow>\r\n<\/math>",
-    "MathML_explicit": "<math display='block'>\r\n <mrow>\r\n  <mfrac>\r\n   <mrow><mi>d<\/mi><\/mrow>\r\n   <mrow><mi>d<\/mi><mi>t<\/mi><\/mrow>\r\n  <\/mfrac>\r\n  <mrow>\r\n   <mi>f<\/mi>\r\n   <mo>&#x2061;<\/mo>\r\n   <mo>(<\/mo>\r\n   <mi>t<\/mi>\r\n   <mo>)<\/mo>\r\n  <\/mrow>\r\n <\/mrow>\r\n<\/math>",
+    "MathML_explicit": "<math display='block'>\r\n <mrow intent='derivative($ft,1,$t)'>\r\n  <mfrac>\r\n   <mrow><mi>d<\/mi><\/mrow>\r\n   <mrow><mi>d<\/mi><mi arg='t'>t<\/mi><\/mrow>\r\n  <\/mfrac>\r\n  <mrow arg='ft'>\r\n   <mi>f<\/mi>\r\n   <mo>&#x2061;<\/mo>\r\n   <mo>(<\/mo>\r\n   <mi>t<\/mi>\r\n   <mo>)<\/mo>\r\n  <\/mrow>\r\n <\/mrow>\r\n<\/math>",
     "Name": "d by dt f of t"
 },{
     "id": "c0bd9c7ca999bd5978e605557ce21b51",
@@ -397,7 +397,7 @@
     "latexi": "\\intent{\\frac{d^2x}{dt^2}}{intent='derivative($x,2,$t)'}",
     "MathML_texvc": "<math xmlns=\"http:\/\/www.w3.org\/1998\/Math\/MathML\">\n  <mrow data-mjx-texclass=\"ORD\" intent=\"derivative($x,2,$t)\">\n    <mfrac>\n      <mrow data-mjx-texclass=\"ORD\">\n        <msup>\n          <mi>d<\/mi>\n          <mrow data-mjx-texclass=\"ORD\">\n            <mn>2<\/mn>\n          <\/mrow>\n        <\/msup>\n        <mi>x<\/mi>\n      <\/mrow>\n      <mrow data-mjx-texclass=\"ORD\">\n        <mi>d<\/mi>\n        <msup>\n          <mi>t<\/mi>\n          <mrow data-mjx-texclass=\"ORD\">\n            <mn>2<\/mn>\n          <\/mrow>\n        <\/msup>\n      <\/mrow>\n    <\/mfrac>\n  <\/mrow>\n<\/math>\n",
     "MathML_default": "<math display='block'>\r\n <mfrac>\r\n  <mrow>\r\n   <msup>\r\n    <mi>d<\/mi><mn>2<\/mn>\r\n   <\/msup>\r\n   <mi>x<\/mi>\r\n  <\/mrow>\r\n  <mrow>\r\n   <mi>d<\/mi>\r\n   <msup>\r\n    <mi>t<\/mi>\r\n    <mn>2<\/mn>\r\n   <\/msup>\r\n  <\/mrow>\r\n <\/mfrac>\r\n<\/math>",
-    "MathML_explicit": "<math display='block'>\r\n <mfrac>\r\n  <mrow>\r\n   <msup>\r\n    <mi>d<\/mi><mn>2<\/mn>\r\n   <\/msup>\r\n   <mi>x<\/mi>\r\n  <\/mrow>\r\n  <mrow>\r\n   <mi>d<\/mi>\r\n   <msup>\r\n    <mi>t<\/mi>\r\n    <mn>2<\/mn>\r\n   <\/msup>\r\n  <\/mrow>\r\n <\/mfrac>\r\n<\/math>",
+    "MathML_explicit": "<math display='block'>\r\n <mfrac intent='derivative($x,2,$t)'>\r\n  <mrow>\r\n   <msup>\r\n    <mi>d<\/mi><mn>2<\/mn>\r\n   <\/msup>\r\n   <mi arg='x'>x<\/mi>\r\n  <\/mrow>\r\n  <mrow>\r\n   <mi>d<\/mi>\r\n   <msup>\r\n    <mi arg='t'>t<\/mi>\r\n    <mn>2<\/mn>\r\n   <\/msup>\r\n  <\/mrow>\r\n <\/mfrac>\r\n<\/math>",
     "Name": "dx2 by dt2"
 },{
     "id": "0aad0e564c4ec2de1122900012952f11",
@@ -405,7 +405,7 @@
     "latexi": "\\intent{\\frac{\\partial^2 f}{\\partial x \\partial y}}{intent='partial-second-derivative($f,$x,$y)'}",
     "MathML_texvc": "<math xmlns=\"http:\/\/www.w3.org\/1998\/Math\/MathML\">\n  <mrow data-mjx-texclass=\"ORD\" intent=\"partial-second-derivative($f,$x,$y)\">\n    <mfrac>\n      <mrow data-mjx-texclass=\"ORD\">\n        <msup>\n          <mi>&#x2202;<\/mi>\n          <mrow data-mjx-texclass=\"ORD\">\n            <mn>2<\/mn>\n          <\/mrow>\n        <\/msup>\n        <mi>f<\/mi>\n      <\/mrow>\n      <mrow data-mjx-texclass=\"ORD\">\n        <mi>&#x2202;<\/mi>\n        <mi>x<\/mi>\n        <mi>&#x2202;<\/mi>\n        <mi>y<\/mi>\n      <\/mrow>\n    <\/mfrac>\n  <\/mrow>\n<\/math>\n",
     "MathML_default": "<math display='block'>\r\n <mfrac>\r\n  <mrow>\r\n   <msup>\r\n    <mo>&#x2202;<\/mo><mn>2<\/mn>\r\n   <\/msup>\r\n   <mi>f<\/mi>\r\n  <\/mrow>\r\n  <mrow>\r\n   <mrow>\r\n    <mo>&#x2202;<\/mo>\r\n    <mi>x<\/mi>\r\n   <\/mrow>\r\n   <mrow>\r\n    <mo>&#x2202;<\/mo>\r\n    <mi>y<\/mi>\r\n   <\/mrow>\r\n  <\/mrow>\r\n <\/mfrac>\r\n<\/math>",
-    "MathML_explicit": "<math display='block'>\r\n <mfrac>\r\n  <mrow>\r\n   <msup>\r\n    <mo>&#x2202;<\/mo><mn>2<\/mn>\r\n   <\/msup>\r\n   <mi>f<\/mi>\r\n  <\/mrow>\r\n  <mrow>\r\n   <mrow>\r\n    <mo>&#x2202;<\/mo>\r\n    <mi>x<\/mi>\r\n   <\/mrow>\r\n   <mrow>\r\n    <mo>&#x2202;<\/mo>\r\n    <mi>y<\/mi>\r\n   <\/mrow>\r\n  <\/mrow>\r\n <\/mfrac>\r\n<\/math>",
+    "MathML_explicit": "<math display='block'>\r\n <mfrac intent='partial-second-derivative(\r\n                $f,$x,$y)'>\r\n  <mrow>\r\n   <msup>\r\n    <mo>&#x2202;<\/mo><mn>2<\/mn>\r\n   <\/msup>\r\n   <mi arg='f'>f<\/mi>\r\n  <\/mrow>\r\n  <mrow>\r\n   <mrow>\r\n    <mo>&#x2202;<\/mo>\r\n    <mi arg='x'>x<\/mi>\r\n   <\/mrow>\r\n   <mrow>\r\n    <mo>&#x2202;<\/mo>\r\n    <mi arg='y'>y<\/mi>\r\n   <\/mrow>\r\n  <\/mrow>\r\n <\/mfrac>\r\n<\/math>",
     "Name": "partial df by dx dy"
 },{
     "id": "8a1ff742386c9d95be2bfe85af9c98b3",
@@ -413,7 +413,7 @@
     "latexi": "\\intent{\\intent{\\dot{v}**\\intent{2}{arg='n'}}{arg='v' intent='first-deriv(v)'}+\\intent{\\dot{w}**\\intent{2}{arg='n'}}{intent='power($w, $n)'}}{intent='power($v, $n)'}",
     "MathML_texvc": "<math xmlns=\"http:\/\/www.w3.org\/1998\/Math\/MathML\">\n  <mrow intent=\"power($v,$n)\">\n    <mrow intent=\"first-deriv(v)\" arg=\"v\">\n      <mrow data-mjx-texclass=\"ORD\">\n        <mrow data-mjx-texclass=\"ORD\">\n          <mover>\n            <mi>v<\/mi>\n            <mo>&#x2D9;<\/mo>\n          <\/mover>\n        <\/mrow>\n      <\/mrow>\n      <mo>*<\/mo>\n      <mo>*<\/mo>\n      <mn arg=\"n\">2<\/mn>\n    <\/mrow>\n    <mo>+<\/mo>\n    <mrow intent=\"power($w,$n)\">\n      <mrow data-mjx-texclass=\"ORD\">\n        <mrow data-mjx-texclass=\"ORD\">\n          <mover>\n            <mi>w<\/mi>\n            <mo>&#x2D9;<\/mo>\n          <\/mover>\n        <\/mrow>\n      <\/mrow>\n      <mo>*<\/mo>\n      <mo>*<\/mo>\n      <mn arg=\"n\">2<\/mn>\n    <\/mrow>\n  <\/mrow>\n<\/math>\n",
     "MathML_default": "<math display='block'>\r\n <mrow>\r\n  <mrow>\r\n   <mover>\r\n    <mi>v<\/mi>\r\n    <mo>&#x02d9;<\/mo>\r\n   <\/mover>\r\n   <mo>**<\/mo>\r\n   <mn>2<\/mn>\r\n  <\/mrow>\r\n  <mo>+<\/mo>\r\n  <mrow>\r\n   <mover>\r\n    <mi>w<\/mi>\r\n    <mo>&#x02d9;<\/mo>\r\n   <\/mover>\r\n   <mo>**<\/mo>\r\n   <mn>2<\/mn>\r\n  <\/mrow>\r\n <\/mrow>\r\n<\/math>",
-    "MathML_explicit": "<math display='block'>\r\n <mrow>\r\n  <mrow>\r\n   <mover>\r\n    <mi>v<\/mi>\r\n    <mo>&#x02d9;<\/mo>\r\n   <\/mover>\r\n   <mo>**<\/mo>\r\n   <mn>2<\/mn>\r\n  <\/mrow>\r\n  <mo>+<\/mo>\r\n  <mrow>\r\n   <mover>\r\n    <mi>w<\/mi>\r\n    <mo>&#x02d9;<\/mo>\r\n   <\/mover>\r\n   <mo>**<\/mo>\r\n   <mn>2<\/mn>\r\n  <\/mrow>\r\n <\/mrow>\r\n<\/math>",
+    "MathML_explicit": "<math display='block'>\r\n <mrow>\r\n  <mrow intent='power($v\u0307, $n)'>\r\n   <mover arg='v\u0307' intent='first-deriv(v)'>\r\n    <mi>v<\/mi>\r\n    <mo>&#x02d9;<\/mo>\r\n   <\/mover>\r\n   <mo>**<\/mo>\r\n   <mn arg='n'>2<\/mn>\r\n  <\/mrow>\r\n  <mo>+<\/mo>\r\n  <mrow intent='power($\u1e87, $n)'>\r\n   <mover arg='\u1e87' intent='first-deriv(w)'>\r\n    <mi>w<\/mi>\r\n    <mo>&#x02d9;<\/mo>\r\n   <\/mover>\r\n   <mo>**<\/mo>\r\n   <mn arg='n'>2<\/mn>\r\n  <\/mrow>\r\n <\/mrow>\r\n<\/math>",
     "Name": " NFC v dot and w dot"
 },{
     "id": "c91d1449db85d1186fcce402dbfae26b",
@@ -421,7 +421,7 @@
     "latexi": "\\intent{x}{intent='the_variable_x'}",
     "MathML_texvc": "<math xmlns=\"http:\/\/www.w3.org\/1998\/Math\/MathML\">\n  <mi intent=\"the_variable_x\">x<\/mi>\n<\/math>\n",
     "MathML_default": "<math display='block'>\r\n <mi>x<\/mi>\r\n<\/math>",
-    "MathML_explicit": "<math display='block'>\r\n <mi>x<\/mi>\r\n<\/math>",
+    "MathML_explicit": "<math display='block'>\r\n <mi intent='the_variable_x'>x<\/mi>\r\n<\/math>",
     "Name": "x with string"
 },{
     "id": "6b99f97897a5b53ddce315859d526f45",
@@ -429,7 +429,7 @@
     "latexi": "\\intent{a\\intent{+}{arg='p' intent='plus'}b\\intent{!}{arg='f' intent='factorial'}}{intent='$p(_($a, $f($b)))'}",
     "MathML_texvc": "<math xmlns=\"http:\/\/www.w3.org\/1998\/Math\/MathML\">\n  <mrow intent=\"$p(_($a,$f($b)))\">\n    <mi arg=\"a\">a<\/mi>\n    <mo intent=\"plus\" arg=\"p\">+<\/mo>\n    <mi arg=\"b\">b<\/mi>\n    <mi intent=\"factorial\" arg=\"f\">!<\/mi>\n  <\/mrow>\n<\/math>\n",
     "MathML_default": "<math display='block'>\r\n <mrow>\r\n  <mi>a<\/mi>\r\n  <mo>+<\/mo>\r\n  <mi>b<\/mi>\r\n  <mo>!<\/mo>\r\n <\/mrow>\r\n<\/math>",
-    "MathML_explicit": "<math display='block'>\r\n <mrow>\r\n  <mi>a<\/mi>\r\n  <mo>+<\/mo>\r\n  <mi>b<\/mi>\r\n  <mo>!<\/mo>\r\n <\/mrow>\r\n<\/math>",
+    "MathML_explicit": "<math display='block'>\r\n <mrow intent='$p(_($a, $f($b)))'>\r\n  <mi arg='a'>a<\/mi>\r\n  <mo arg='p' intent='plus'>+<\/mo>\r\n  <mi arg='b'>b<\/mi>\r\n  <mo arg='f' intent='factorial'>!<\/mo>\r\n <\/mrow>\r\n<\/math>",
     "Name": "a plus b factorial unary plus intent"
 },{
     "id": "5b3972811b305dc6b5d742bd7e5e0288",
@@ -437,7 +437,7 @@
     "latexi": "\\intent{a\\intent{+}{arg='p' intent='plus'}\\intent{b}{arg='b' intent='b:negative-int-int'}}{intent='foo:int:silent(bar:positive-int-int, $a:foo-bar-foo-bar, $b:number)}",
     "MathML_texvc": "<math xmlns=\"http:\/\/www.w3.org\/1998\/Math\/MathML\">\n  <mrow intent=\"\">\n    <mi>a<\/mi>\n    <mo intent=\"plus\" arg=\"p\">+<\/mo>\n    <mi intent=\"b:negative-int-int\" arg=\"b\">b<\/mi>\n  <\/mrow>\n<\/math>\n",
     "MathML_default": "<math display='block'>\r\n <mrow>\r\n  <mi>a<\/mi>\r\n  <mo>+<\/mo>\r\n  <mi>b<\/mi>\r\n <\/mrow>\r\n<\/math>",
-    "MathML_explicit": "<math display='block'>\r\n <mrow>\r\n  <mi>a<\/mi>\r\n  <mo>+<\/mo>\r\n  <mi>b<\/mi>\r\n <\/mrow>\r\n<\/math>",
+    "MathML_explicit": "<math display='block'>\r\n <mrow intent='foo:int:silent(bar:positive-int-int, $a:foo-bar-foo-bar, $b:number)'>\r\n  <mi arg='a'>a<\/mi>\r\n  <mo arg='p' intent='plus'>+<\/mo>\r\n  <mi arg='b' intent='b:negative-int-int'>b<\/mi>\r\n <\/mrow>\r\n<\/math>",
     "Name": "Properties on argref"
 },{
     "id": "dc9d1a5f6cdc19647066e7237b22c2d2",
@@ -445,7 +445,7 @@
     "latexi": "\\intent{R\\langle X\\rangle}{intent='_(free, $r, _algebra_on, $x)'}",
     "MathML_texvc": "<math xmlns=\"http:\/\/www.w3.org\/1998\/Math\/MathML\">\n  <mrow intent=\"_(free,$r,_algebra_on,$x)\">\n    <mi>R<\/mi>\n    <mo>&#x27E8;<\/mo>\n    <mi>X<\/mi>\n    <mo>&#x27E9;<\/mo>\n  <\/mrow>\n<\/math>\n",
     "MathML_default": "<math display='block'>\r\n <mrow>\r\n  <mi>R<\/mi>\r\n  <mo>&#x27e8;<\/mo>\r\n  <mi>X<\/mi>\r\n  <mo>&#x27e9;<\/mo>\r\n <\/mrow>\r\n<\/math>",
-    "MathML_explicit": "<math display='block'>\r\n <mrow>\r\n  <mi>R<\/mi>\r\n  <mo>&#x27e8;<\/mo>\r\n  <mi>X<\/mi>\r\n  <mo>&#x27e9;<\/mo>\r\n <\/mrow>\r\n<\/math>",
+    "MathML_explicit": "<math display='block'>\r\n <mrow intent='_(free, $r, _algebra_on, $x)'>\r\n  <mi arg='r'>R<\/mi>\r\n  <mo>&#x27e8;<\/mo>\r\n  <mi arg='x'>X<\/mi>\r\n  <mo>&#x27e9;<\/mo>\r\n <\/mrow>\r\n<\/math>",
     "Name": "free r-algebra on x"
 },{
     "id": "8f3e17276b76efbac0ac1e647b220eb1",
@@ -453,7 +453,7 @@
     "latexi": "\\intent{x+2\\lVert y-z\\rVert}{intent='plus:infix($x,times:infix(2,absolute-value(minus:infix($y,$z))))'}",
     "MathML_texvc": "<math xmlns=\"http:\/\/www.w3.org\/1998\/Math\/MathML\">\n  <mrow intent=\"plus:infix($x,times:infix(2,absolute-value(minus:infix($y,$z))))\">\n    <mi arg=\"x\">x<\/mi>\n    <mo>+<\/mo>\n    <mn>2<\/mn>\n    <mo texClass=\"OPEN\">&#x2016;<\/mo>\n    <mi arg=\"y\">y<\/mi>\n    <mo>&#x2212;<\/mo>\n    <mi arg=\"z\">z<\/mi>\n    <mo texClass=\"CLOSE\">&#x2016;<\/mo>\n  <\/mrow>\n<\/math>\n",
     "MathML_default": "<math display='block'>\r\n <mrow>\r\n  <mi>x<\/mi>\r\n  <mo>+<\/mo>\r\n  <mn>2<\/mn>\r\n  <mo>|<\/mo>\r\n  <mi>y<\/mi>\r\n  <mo>-<\/mo>\r\n  <mi>z<\/mi>\r\n  <mo>|<\/mo>\r\n <\/mrow>\r\n<\/math>",
-    "MathML_explicit": "<math display='block'>\r\n <mrow>\r\n  <mi>x<\/mi>\r\n  <mo>+<\/mo>\r\n  <mn>2<\/mn>\r\n  <mo>|<\/mo>\r\n  <mi>y<\/mi>\r\n  <mo>-<\/mo>\r\n  <mi>z<\/mi>\r\n  <mo>|<\/mo>\r\n <\/mrow>\r\n<\/math>",
+    "MathML_explicit": "<math display='block'>\r\n <mrow intent='plus:infix($x,times:infix(2,absolute-value(minus:infix($y,$z))))'>\r\n  <mi arg='x'>x<\/mi>\r\n  <mo>+<\/mo>\r\n  <mn>2<\/mn>\r\n  <mo>|<\/mo>\r\n  <mi arg='y'>y<\/mi>\r\n  <mo>-<\/mo>\r\n  <mi arg='z'>z<\/mi>\r\n  <mo>|<\/mo>\r\n <\/mrow>\r\n<\/math>",
     "Name": "x plus 2 times the absolute-value of y minus z"
 },{
     "id": "b8b11e21469bd78e360b91de46fc7c4c",
@@ -461,7 +461,7 @@
     "latexi": "\\intent{\\log x}{intent='log(x)'}",
     "MathML_texvc": "<math xmlns=\"http:\/\/www.w3.org\/1998\/Math\/MathML\">\n  <mrow intent=\"log(x)\">\n    <mi>log<\/mi>\n    <mi>x<\/mi>\n  <\/mrow>\n<\/math>\n",
     "MathML_default": "<math display='block'>\r\n <mrow>\r\n  <mi>log<\/mi>\r\n  <mi>X<\/mi>\r\n <\/mrow>\r\n<\/math>",
-    "MathML_explicit": "<math display='block'>\r\n <mrow>\r\n  <mi>log<\/mi>\r\n  <mi>X<\/mi>\r\n <\/mrow>\r\n<\/math>",
+    "MathML_explicit": "<math display='block'>\r\n <mrow intent='log(x)'\/>\r\n<\/math>",
     "Name": "NCR x28 and x24"
 },{
     "id": "eafded0189cc86f7e73ddbb61fb80645",
@@ -469,7 +469,7 @@
     "latexi": "\\intent{\\ce{\\intent{H}{intent=':chemical-element'}2\\intent{0}{intent=':chemical-element'}}}{intent=':chemical-formula'}",
     "MathML_texvc": "<math xmlns=\"http:\/\/www.w3.org\/1998\/Math\/MathML\">\n  <merror intent=\":chemical-formula\">\n    <mtext>Not implemented MEDIAWIKI\\EXTENSION\\MATH\\TEXVC\\NODES\\TEXNODE for \\ce<\/mtext>\n  <\/merror>\n<\/math>\n",
     "MathML_default": "<math display='block'>\r\n <mrow>\r\n     <mmultiscripts>\r\n       <mi mathvariant='normal'>H<\/mi>\r\n       <mn>2<\/mn>\r\n       <mrow\/>\r\n     <\/mmultiscripts>\r\n     <mi mathvariant='normal'>O<\/mi>\r\n   <\/mrow>\r\n<\/math>",
-    "MathML_explicit": "<math display='block'>\r\n <mrow>\r\n     <mmultiscripts>\r\n       <mi mathvariant='normal'>H<\/mi>\r\n       <mn>2<\/mn>\r\n       <mrow\/>\r\n     <\/mmultiscripts>\r\n     <mi mathvariant='normal'>O<\/mi>\r\n   <\/mrow>\r\n<\/math>",
+    "MathML_explicit": "<math display='block'>\r\n <mrow intent=':chemical-formula'>\r\n     <mmultiscripts>\r\n       <mi mathvariant='normal' intent=':chemical-element'>H<\/mi>\r\n       <mn>2<\/mn>\r\n       <mrow\/>\r\n     <\/mmultiscripts>\r\n     <mi mathvariant='normal' intent=':chemical-element'>O<\/mi>\r\n   <\/mrow>\r\n<\/math>",
     "Name": "H20"
 },{
     "id": "aa6dda9e5698b378c6c6ae6e945f7d2d",
@@ -477,7 +477,7 @@
     "latexi": "\\intent{\\ce{\\intent{2 \\intent{H}{intent=':chemical-element'}2\\intent{O}{intent=':chemical-element'}}{intent=':chemical-formula'} -> \\intent{2 \\intent{H}{intent=':chemical-element'}2}{ intent=':chemical-formula'} + \\intent{\\intent{O}{intent=':chemical-element'}2}{ intent=':chemical-formula'}}}{intent=':chemical-equation'}",
     "MathML_texvc": "<math xmlns=\"http:\/\/www.w3.org\/1998\/Math\/MathML\">\n  <merror intent=\":chemical-equation\">\n    <mtext>Not implemented MEDIAWIKI\\EXTENSION\\MATH\\TEXVC\\NODES\\TEXNODE for \\ce<\/mtext>\n  <\/merror>\n<\/math>\n",
     "MathML_default": "<math display='block'>\r\n <mrow>\r\n  <mrow>\r\n   <mn>2<\/mn>\r\n   <mo>&#x2062;<\/mo>\r\n   <mrow>\r\n    <mmultiscripts>\r\n     <mi mathvariant='normal'>H<\/mi>\r\n     <mn>2<\/mn>\r\n     <mrow\/>\r\n    <\/mmultiscripts>\r\n    <mo>&#x2063;<\/mo>\r\n    <mi mathvariant='normal'>O<\/mi>\r\n   <\/mrow>\r\n  <\/mrow>\r\n  <mo>\u27f6<\/mo>\r\n  <mrow>\r\n   <mrow>\r\n    <mn>2<\/mn>\r\n    <mo>&#x2062;<\/mo>\r\n    <mmultiscripts>\r\n     <mi mathvariant='normal'>H<\/mi>\r\n     <mn>2<\/mn>\r\n     <mrow\/>\r\n    <\/mmultiscripts>\r\n   <\/mrow>\r\n   <mo>+<\/mo>\r\n   <mmultiscripts>\r\n    <mi mathvariant='normal'>O<\/mi>\r\n    <mn>2<\/mn>\r\n    <mrow\/>\r\n   <\/mmultiscripts>\r\n  <\/mrow>\r\n <\/mrow>\r\n<\/math>",
-    "MathML_explicit": "<math display='block'>\r\n <mrow>\r\n  <mrow>\r\n   <mn>2<\/mn>\r\n   <mo>&#x2062;<\/mo>\r\n   <mrow>\r\n    <mmultiscripts>\r\n     <mi mathvariant='normal'>H<\/mi>\r\n     <mn>2<\/mn>\r\n     <mrow\/>\r\n    <\/mmultiscripts>\r\n    <mo>&#x2063;<\/mo>\r\n    <mi mathvariant='normal'>O<\/mi>\r\n   <\/mrow>\r\n  <\/mrow>\r\n  <mo>\u27f6<\/mo>\r\n  <mrow>\r\n   <mrow>\r\n    <mn>2<\/mn>\r\n    <mo>&#x2062;<\/mo>\r\n    <mmultiscripts>\r\n     <mi mathvariant='normal'>H<\/mi>\r\n     <mn>2<\/mn>\r\n     <mrow\/>\r\n    <\/mmultiscripts>\r\n   <\/mrow>\r\n   <mo>+<\/mo>\r\n   <mmultiscripts>\r\n    <mi mathvariant='normal'>O<\/mi>\r\n    <mn>2<\/mn>\r\n    <mrow\/>\r\n   <\/mmultiscripts>\r\n  <\/mrow>\r\n <\/mrow>\r\n<\/math>",
+    "MathML_explicit": "<math display='block'>\r\n <mrow intent=':chemical-equation'>\r\n  <mrow intent=':chemical-equation'>\r\n   <mn>2<\/mn>\r\n   <mo>&#x2062;<\/mo>\r\n   <mrow intent=':chemical-equation'>\r\n    <mmultiscripts intent=':chemical-formula'>\r\n     <mi mathvariant='normal' intent=':chemical-element'>H<\/mi>\r\n     <mn>2<\/mn>\r\n     <mrow\/>\r\n    <\/mmultiscripts>\r\n    <mo>&#x2063;<\/mo>\r\n    <mi mathvariant='normal' intent=':chemical-element'>O<\/mi>\r\n   <\/mrow>\r\n  <\/mrow>\r\n  <mo>\u27f6<\/mo>\r\n  <mrow intent=':chemical-equation'>\r\n   <mrow intent=':chemical-equation'>\r\n    <mn>2<\/mn>\r\n    <mo>&#x2062;<\/mo>\r\n    <mmultiscripts intent=':chemical-formula'>\r\n     <mi mathvariant='normal' intent=':chemical-element'>H<\/mi>\r\n     <mn>2<\/mn>\r\n     <mrow\/>\r\n    <\/mmultiscripts>\r\n   <\/mrow>\r\n   <mo>+<\/mo>\r\n   <mmultiscripts intent=':chemical-formula'>\r\n    <mi mathvariant='normal' intent=':chemical-element'>O<\/mi>\r\n    <mn>2<\/mn>\r\n    <mrow\/>\r\n   <\/mmultiscripts>\r\n  <\/mrow>\r\n <\/mrow>\r\n<\/math>",
     "Name": "2 H2O \u2192 2 H2 + O"
 },{
     "id": "6d0253b60611a4d376e6ac673a58c157",
@@ -485,7 +485,7 @@
     "latexi": "\\intent{ - }{intent='divides'}",
     "MathML_texvc": "<math xmlns=\"http:\/\/www.w3.org\/1998\/Math\/MathML\">\n  <mo intent=\"divides\">&#x2212;<\/mo>\n<\/math>\n",
     "MathML_default": "<math display='block'>\r\n <mfrac>\r\n  <mi>x<\/mi>\r\n  <mi>y<\/mi>\r\n <\/mfrac>\r\n<\/math>",
-    "MathML_explicit": "<math display='block'>\r\n <mfrac>\r\n  <mi>x<\/mi>\r\n  <mi>y<\/mi>\r\n <\/mfrac>\r\n<\/math>",
+    "MathML_explicit": "<math display='block'>\r\n <mfrac intent='divides'>\r\n  <mi>x<\/mi>\r\n  <mi>y<\/mi>\r\n <\/mfrac>\r\n<\/math>",
     "Name": "0-ary divides"
 },{
     "id": "e3e958b5e0acaf9e6bf2269b03696d99",
@@ -493,7 +493,7 @@
     "latexi": "\\intent{ - }{intent='divides(w,x,y)'}",
     "MathML_texvc": "<math xmlns=\"http:\/\/www.w3.org\/1998\/Math\/MathML\">\n  <mo intent=\"divides(w,x,y)\">&#x2212;<\/mo>\n<\/math>\n",
     "MathML_default": "<math display='block'>\r\n <mfrac>\r\n  <mi>x<\/mi>\r\n  <mi>y<\/mi>\r\n <\/mfrac>\r\n<\/math>",
-    "MathML_explicit": "<math display='block'>\r\n <mfrac>\r\n  <mi>x<\/mi>\r\n  <mi>y<\/mi>\r\n <\/mfrac>\r\n<\/math>",
+    "MathML_explicit": "<math display='block'>\r\n <mfrac intent='divides(z)'>\r\n  <mi>x<\/mi>\r\n  <mi>y<\/mi>\r\n <\/mfrac>\r\n<\/math>",
     "Name": "1-ary divides"
 },{
     "id": "772c48cd62a4c9959232305fd0340551",
@@ -501,7 +501,7 @@
     "latexi": "\\intent{ - }{intent='divides(w,x,y)'}",
     "MathML_texvc": "<math xmlns=\"http:\/\/www.w3.org\/1998\/Math\/MathML\">\n  <mo intent=\"divides(w,x,y)\">&#x2212;<\/mo>\n<\/math>\n",
     "MathML_default": "<math display='block'>\r\n <mfrac>\r\n  <mi>x<\/mi>\r\n  <mi>y<\/mi>\r\n <\/mfrac>\r\n<\/math>",
-    "MathML_explicit": "<math display='block'>\r\n <mfrac>\r\n  <mi>x<\/mi>\r\n  <mi>y<\/mi>\r\n <\/mfrac>\r\n<\/math>",
+    "MathML_explicit": "<math display='block'>\r\n <mfrac intent='divides(w,x,y)'>\r\n  <mi>x<\/mi>\r\n  <mi>y<\/mi>\r\n <\/mfrac>\r\n<\/math>",
     "Name": "3-ary divides"
 },{
     "id": "c3d4d52ea59ec3b3cbece1627193d227",
@@ -509,7 +509,7 @@
     "latexi": "\\intent{ - }{intent='ray($X)'}",
     "MathML_texvc": "<math xmlns=\"http:\/\/www.w3.org\/1998\/Math\/MathML\">\n  <mo intent=\"ray($X)\">&#x2212;<\/mo>\n<\/math>\n",
     "MathML_default": "<math display='block'>\r\n <mover>\r\n  <mi>X<\/mi>\r\n  <mo>\u2192<\/mo>\r\n <\/mover>\r\n<\/math>",
-    "MathML_explicit": "<math display='block'>\r\n <mover>\r\n  <mi>X<\/mi>\r\n  <mo>\u2192<\/mo>\r\n <\/mover>\r\n<\/math>",
+    "MathML_explicit": "<math display='block' mathbackground='yellow'>\r\n <mover intent='ray($X)'>\r\n  <mi arg='X'>X<\/mi>\r\n  <mo>\u2192<\/mo>\r\n <\/mover>\r\n<\/math>",
     "Name": "1-ary ray"
 },{
     "id": "7414316c7cc37d6bc58aeb42eb638ca9",
@@ -517,7 +517,7 @@
     "latexi": "\\intent{\\sin x}{intent='sin(x)'}",
     "MathML_texvc": "<math xmlns=\"http:\/\/www.w3.org\/1998\/Math\/MathML\">\n  <mrow intent=\"sin(x)\">\n    <mi>sin<\/mi>\n    <mi>x<\/mi>\n  <\/mrow>\n<\/math>\n",
     "MathML_default": "<math display='block'>\r\n <apply>\r\n  <sin\/>\r\n  <ci>x<\/ci>\r\n <\/apply>\r\n<\/math>",
-    "MathML_explicit": "<math display='block'>\r\n <apply>\r\n  <sin\/>\r\n  <ci>x<\/ci>\r\n <\/apply>\r\n<\/math>",
+    "MathML_explicit": "<math display='block'>\r\n <apply intent='sin(x)'>\r\n  <sin\/>\r\n  <ci>x<\/ci>\r\n <\/apply>\r\n<\/math>",
     "Name": "content mathml sin x"
 },{
     "id": "6a2d39eea4ff1322559cc1afb8171bb1",
@@ -525,7 +525,7 @@
     "latexi": "\\intent{ 1.234 + x }{intent='sum($a,$b)'}",
     "MathML_texvc": "<math xmlns=\"http:\/\/www.w3.org\/1998\/Math\/MathML\">\n  <mrow intent=\"sum($a,$b)\">\n    <mn>1<\/mn>\n    <mo>.<\/mo>\n    <mn>2<\/mn>\n    <mn>3<\/mn>\n    <mn>4<\/mn>\n    <mo>+<\/mo>\n    <mi>x<\/mi>\n  <\/mrow>\n<\/math>\n",
     "MathML_default": "<math display='block'>\r\n <mrow>\r\n  <mn>1.234<\/mn>\r\n  <mo>+<\/mo>\r\n  <mi>x<\/mi>\r\n <\/mrow>\r\n<\/math>",
-    "MathML_explicit": "<math display='block'>\r\n <mrow>\r\n  <mn>1.234<\/mn>\r\n  <mo>+<\/mo>\r\n  <mi>x<\/mi>\r\n <\/mrow>\r\n<\/math>",
+    "MathML_explicit": "<math display='block' mathbackground='yellow'>\r\n <mrow intent='sum($a,$b)'>\r\n  <mn>1.234<\/mn>\r\n  <mo>+<\/mo>\r\n  <mi>x<\/mi>\r\n <\/mrow>\r\n<\/math>",
     "Name": "bad intent argref"
 },{
     "id": "2cd5988f19d5c8b2a81e6430f07706c5",
@@ -533,7 +533,7 @@
     "latexi": "\\intent{ 1.234 + \\intent{x}{arg=':x:'} }{ intent='sum($1.234,$:x:)}",
     "MathML_texvc": "<math xmlns=\"http:\/\/www.w3.org\/1998\/Math\/MathML\">\n  <mrow intent=\"\">\n    <mn>1<\/mn>\n    <mo>.<\/mo>\n    <mn>2<\/mn>\n    <mn>3<\/mn>\n    <mn>4<\/mn>\n    <mo>+<\/mo>\n    <mi arg=\":x:\">x<\/mi>\n  <\/mrow>\n<\/math>\n",
     "MathML_default": "<math display='block'>\r\n <mrow>\r\n  <mn>1.234<\/mn>\r\n  <mo>+<\/mo>\r\n  <mi>x<\/mi>\r\n <\/mrow>\r\n<\/math>",
-    "MathML_explicit": "<math display='block'>\r\n <mrow>\r\n  <mn>1.234<\/mn>\r\n  <mo>+<\/mo>\r\n  <mi>x<\/mi>\r\n <\/mrow>\r\n<\/math>",
+    "MathML_explicit": "<math display='block'>\r\n <mrow intent='sum($1.234,$:x:)'>\r\n  <mn arg='1.234'>1.234<\/mn>\r\n  <mo>+<\/mo>\r\n  <mi arg=':x:'>x<\/mi>\r\n <\/mrow>\r\n<\/math>",
     "Name": "bad intent arg names"
 },{
     "id": "1e0c633b76e9a128d2b6f36f9daa4a97",
@@ -541,7 +541,7 @@
     "latexi": "\\intent{x}{intent='one two'}",
     "MathML_texvc": "<math xmlns=\"http:\/\/www.w3.org\/1998\/Math\/MathML\">\n  <mi intent=\"onetwo\">x<\/mi>\n<\/math>\n",
     "MathML_default": "<math display='block'>\r\n <mi>x<\/mi>\r\n<\/math>",
-    "MathML_explicit": "<math display='block'>\r\n <mi>x<\/mi>\r\n<\/math>",
+    "MathML_explicit": "<math display='block'>\r\n <mi intent='one two'>x<\/mi>\r\n<\/math>",
     "Name": "multiple identifiers"
 },{
     "id": "a5c7258818eeb3d4b1a0894eaae79731",
@@ -549,7 +549,7 @@
     "latexi": "\\intent{x}{intent='just say this'}",
     "MathML_texvc": "<math xmlns=\"http:\/\/www.w3.org\/1998\/Math\/MathML\">\n  <mi intent=\"justsaythis\">x<\/mi>\n<\/math>\n",
     "MathML_default": "<math display='block'>\r\n <mi>x<\/mi>\r\n<\/math>",
-    "MathML_explicit": "<math display='block'>\r\n <mi>x<\/mi>\r\n<\/math>",
+    "MathML_explicit": "<math display='block'>\r\n <mi intent='just say this'>x<\/mi>\r\n<\/math>",
     "Name": "Free text just say this"
 }
 ]
